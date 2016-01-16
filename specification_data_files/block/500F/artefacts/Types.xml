@@ -1,0 +1,500 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TypesRegister xmlns="http://www.smpte-ra.org/schemas/2003/2012">
+  <Entries>
+    <Entry>
+      <Register>Types</Register>
+      <NamespaceName>http://www.smpte-ra.org/reg/2003/2012</NamespaceName>
+      <Symbol>UInt8</Symbol>
+      <UL>urn:smpte:ul:060e2b34.01040101.01010100.00000000</UL>
+      <Kind>LEAF</Kind>
+      <Name>UInt8</Name>
+      <Applications>AAF</Applications>
+      <IsDeprecated>false</IsDeprecated>
+      <ContextScope>UnknownContext</ContextScope>
+      <TypeKind>Integer</TypeKind>
+      <TypeSize>1</TypeSize>
+      <TypeQualifiers>isNumeric</TypeQualifiers>
+    </Entry>
+    <Entry>
+      <Register>Types</Register>
+      <NamespaceName>http://www.smpte-ra.org/reg/2003/2012</NamespaceName>
+      <Symbol>Int8</Symbol>
+      <UL>urn:smpte:ul:060e2b34.01040101.01010500.00000000</UL>
+      <Kind>LEAF</Kind>
+      <Name>Int8</Name>
+      <Applications>AAF</Applications>
+      <IsDeprecated>false</IsDeprecated>
+      <ContextScope>UnknownContext</ContextScope>
+      <TypeKind>Integer</TypeKind>
+      <TypeSize>1</TypeSize>
+      <TypeQualifiers>isNumeric isSigned</TypeQualifiers>
+    </Entry>
+    <Entry>
+      <Register>Types</Register>
+      <NamespaceName>http://www.smpte-ra.org/reg/2003/2012</NamespaceName>
+      <Symbol>Boolean</Symbol>
+      <UL>urn:smpte:ul:060e2b34.01040101.01040100.00000000</UL>
+      <Kind>LEAF</Kind>
+      <Name>Boolean</Name>
+      <Applications>AAF</Applications>
+      <IsDeprecated>false</IsDeprecated>
+      <ContextScope>UnknownContext</ContextScope>
+      <TypeKind>Enumeration</TypeKind>
+      <BaseType>urn:smpte:ul:060e2b34.01040101.01010100.00000000</BaseType>
+      <Facets>
+        <Facet>
+          <Symbol>False</Symbol>
+          <Name>False</Name>
+          <Value>0</Value>
+          <Applications>AAF</Applications>
+          <IsDeprecated>false</IsDeprecated>
+        </Facet>
+        <Facet>
+          <Symbol>True</Symbol>
+          <Name>True</Name>
+          <Value>1</Value>
+          <Applications>AAF</Applications>
+          <IsDeprecated>false</IsDeprecated>
+        </Facet>
+      </Facets>
+    </Entry>
+    <Entry>
+      <Register>Types</Register>
+      <NamespaceName>http://www.smpte-ra.org/reg/2003/2012</NamespaceName>
+      <Symbol>Character</Symbol>
+      <UL>urn:smpte:ul:060e2b34.01040101.01100100.00000000</UL>
+      <Kind>LEAF</Kind>
+      <Name>Character</Name>
+      <Definition>A single "UTF-16" code unit</Definition>
+      <Applications>AAF</Applications>
+      <IsDeprecated>false</IsDeprecated>
+      <ContextScope>UnknownContext</ContextScope>
+      <TypeKind>Character</TypeKind>
+    </Entry>
+    <Entry>
+      <Register>Types</Register>
+      <NamespaceName>http://www.smpte-ra.org/reg/2003/2012</NamespaceName>
+      <Symbol>UTF16String</Symbol>
+      <UL>urn:smpte:ul:060e2b34.01040101.01100200.00000000</UL>
+      <Kind>LEAF</Kind>
+      <Name>UTF16String</Name>
+      <Applications>AAF~String</Applications>
+      <Notes>MXF was UTF16  AAF was String  harmonized to UTF16String</Notes>
+      <IsDeprecated>false</IsDeprecated>
+      <ContextScope>UnknownContext</ContextScope>
+      <TypeKind>String</TypeKind>
+      <TypeSize>0</TypeSize>
+      <BaseType>urn:smpte:ul:060e2b34.01040101.01100100.00000000</BaseType>
+      <TypeQualifiers>isOrdered isCountImplicit isSizeImplicit</TypeQualifiers>
+    </Entry>
+    <Entry>
+      <Register>Types</Register>
+      <NamespaceName>http://www.smpte-ra.org/reg/2003/2012</NamespaceName>
+      <Symbol>VersionType</Symbol>
+      <UL>urn:smpte:ul:060e2b34.01040101.03010300.00000000</UL>
+      <Kind>LEAF</Kind>
+      <Name>VersionType</Name>
+      <Applications>AAF</Applications>
+      <IsDeprecated>false</IsDeprecated>
+      <ContextScope>UnknownContext</ContextScope>
+      <TypeKind>Record</TypeKind>
+      <Facets>
+        <Facet>
+          <Symbol>VersionMajor</Symbol>
+          <Name>VersionMajor</Name>
+          <Type>urn:smpte:ul:060e2b34.01040101.01010500.00000000</Type>
+          <Applications>AAF~major</Applications>
+          <IsDeprecated>false</IsDeprecated>
+        </Facet>
+        <Facet>
+          <Symbol>VersionMinor</Symbol>
+          <Name>VersionMinor</Name>
+          <Type>urn:smpte:ul:060e2b34.01040101.01010500.00000000</Type>
+          <Applications>AAF~minor</Applications>
+          <IsDeprecated>false</IsDeprecated>
+        </Facet>
+      </Facets>
+    </Entry>
+    <Entry>
+      <Register>Types</Register>
+      <NamespaceName>http://www.smpte-ra.org/reg/2003/2012/13/1/amwa/as11</NamespaceName>
+      <Symbol>AS_11_Captions_Type_Enum</Symbol>
+      <UL>urn:smpte:ul:060e2b34.01040101.0d010701.0b010100</UL>
+      <Kind>LEAF</Kind>
+      <Name>Captions Type Enum</Name>
+      <DefiningDocument>AMWA Application Specification AS-11 MXF Program Contribution</DefiningDocument>
+      <IsDeprecated>false</IsDeprecated>
+      <ContextScope>UnknownContext</ContextScope>
+      <TypeKind>Enumeration</TypeKind>
+      <BaseType>urn:smpte:ul:060e2b34.01040101.01010100.00000000</BaseType>
+      <Facets>
+        <Facet>
+          <Symbol>Captions_Hard_of_Hearing</Symbol>
+          <Name>Hard of Hearing</Name>
+          <Value>0</Value>
+          <IsDeprecated>false</IsDeprecated>
+        </Facet>
+        <Facet>
+          <Symbol>Captions_Translation</Symbol>
+          <Name>Translation</Name>
+          <Value>1</Value>
+          <IsDeprecated>false</IsDeprecated>
+        </Facet>
+      </Facets>
+    </Entry>
+    <Entry>
+      <Register>Types</Register>
+      <NamespaceName>http://www.smpte-ra.org/reg/2003/2012/13/1/amwa/as11</NamespaceName>
+      <Symbol>AS_11_Audio_Track_Layout_Enum</Symbol>
+      <UL>urn:smpte:ul:060e2b34.01040101.0d010701.0b010200</UL>
+      <Kind>LEAF</Kind>
+      <Name>Audio Track Layout Enum</Name>
+      <DefiningDocument>AMWA Application Specification AS-11 MXF Program Contribution</DefiningDocument>
+      <IsDeprecated>false</IsDeprecated>
+      <ContextScope>UnknownContext</ContextScope>
+      <TypeKind>Enumeration</TypeKind>
+      <BaseType>urn:smpte:ul:060e2b34.01040101.01010100.00000000</BaseType>
+      <Facets>
+        <Facet>
+          <Symbol>Layout_EBU_R_48_1a</Symbol>
+          <Name>EBU R 48: 1a</Name>
+          <Value>0</Value>
+          <IsDeprecated>false</IsDeprecated>
+        </Facet>
+        <Facet>
+          <Symbol>Layout_EBU_R_48_1b</Symbol>
+          <Name>EBU R 48: 1b</Name>
+          <Value>1</Value>
+          <IsDeprecated>false</IsDeprecated>
+        </Facet>
+        <Facet>
+          <Symbol>Layout_EBU_R_48_1c</Symbol>
+          <Name>EBU R 48: 1c</Name>
+          <Value>2</Value>
+          <IsDeprecated>false</IsDeprecated>
+        </Facet>
+        <Facet>
+          <Symbol>Layout_EBU_R_48_2a</Symbol>
+          <Name>EBU R 48: 2a</Name>
+          <Value>3</Value>
+          <IsDeprecated>false</IsDeprecated>
+        </Facet>
+        <Facet>
+          <Symbol>Layout_EBU_R_48_2b</Symbol>
+          <Name>EBU R 48: 2b</Name>
+          <Value>4</Value>
+          <IsDeprecated>false</IsDeprecated>
+        </Facet>
+        <Facet>
+          <Symbol>Layout_EBU_R_48_2c</Symbol>
+          <Name>EBU R 48: 2c</Name>
+          <Value>5</Value>
+          <IsDeprecated>false</IsDeprecated>
+        </Facet>
+        <Facet>
+          <Symbol>Layout_EBU_R_48_3a</Symbol>
+          <Name>EBU R 48: 3a</Name>
+          <Value>6</Value>
+          <IsDeprecated>false</IsDeprecated>
+        </Facet>
+        <Facet>
+          <Symbol>Layout_EBU_R_48_3b</Symbol>
+          <Name>EBU R 48: 3b</Name>
+          <Value>7</Value>
+          <IsDeprecated>false</IsDeprecated>
+        </Facet>
+        <Facet>
+          <Symbol>Layout_EBU_R_48_4a</Symbol>
+          <Name>EBU R 48: 4a</Name>
+          <Value>8</Value>
+          <IsDeprecated>false</IsDeprecated>
+        </Facet>
+        <Facet>
+          <Symbol>Layout_EBU_R_48_4b</Symbol>
+          <Name>EBU R 48: 4b</Name>
+          <Value>9</Value>
+          <IsDeprecated>false</IsDeprecated>
+        </Facet>
+        <Facet>
+          <Symbol>Layout_EBU_R_48_4c</Symbol>
+          <Name>EBU R 48: 4c</Name>
+          <Value>10</Value>
+          <IsDeprecated>false</IsDeprecated>
+        </Facet>
+        <Facet>
+          <Symbol>Layout_EBU_R_48_5a</Symbol>
+          <Name>EBU R 48: 5a</Name>
+          <Value>11</Value>
+          <IsDeprecated>false</IsDeprecated>
+        </Facet>
+        <Facet>
+          <Symbol>Layout_EBU_R_48_5b</Symbol>
+          <Name>EBU R 48: 5b</Name>
+          <Value>12</Value>
+          <IsDeprecated>false</IsDeprecated>
+        </Facet>
+        <Facet>
+          <Symbol>Layout_EBU_R_48_6a</Symbol>
+          <Name>EBU R 48: 6a</Name>
+          <Value>13</Value>
+          <IsDeprecated>false</IsDeprecated>
+        </Facet>
+        <Facet>
+          <Symbol>Layout_EBU_R_48_6b</Symbol>
+          <Name>EBU R 48: 6b</Name>
+          <Value>14</Value>
+          <IsDeprecated>false</IsDeprecated>
+        </Facet>
+        <Facet>
+          <Symbol>Layout_EBU_R_48_7a</Symbol>
+          <Name>EBU R 48: 7a</Name>
+          <Value>15</Value>
+          <IsDeprecated>false</IsDeprecated>
+        </Facet>
+        <Facet>
+          <Symbol>Layout_EBU_R_48_7b</Symbol>
+          <Name>EBU R 48: 7b</Name>
+          <Value>16</Value>
+          <IsDeprecated>false</IsDeprecated>
+        </Facet>
+        <Facet>
+          <Symbol>Layout_EBU_R_48_8a</Symbol>
+          <Name>EBU R 48: 8a</Name>
+          <Value>17</Value>
+          <IsDeprecated>false</IsDeprecated>
+        </Facet>
+        <Facet>
+          <Symbol>Layout_EBU_R_48_8b</Symbol>
+          <Name>EBU R 48: 8b</Name>
+          <Value>18</Value>
+          <IsDeprecated>false</IsDeprecated>
+        </Facet>
+        <Facet>
+          <Symbol>Layout_EBU_R_48_8c</Symbol>
+          <Name>EBU R 48: 8c</Name>
+          <Value>19</Value>
+          <IsDeprecated>false</IsDeprecated>
+        </Facet>
+        <Facet>
+          <Symbol>Layout_EBU_R_48_9a</Symbol>
+          <Name>EBU R 48: 9a</Name>
+          <Value>20</Value>
+          <IsDeprecated>false</IsDeprecated>
+        </Facet>
+        <Facet>
+          <Symbol>Layout_EBU_R_48_9b</Symbol>
+          <Name>EBU R 48: 9b</Name>
+          <Value>21</Value>
+          <IsDeprecated>false</IsDeprecated>
+        </Facet>
+        <Facet>
+          <Symbol>Layout_EBU_R_48_10a</Symbol>
+          <Name>EBU R 48: 10a</Name>
+          <Value>22</Value>
+          <IsDeprecated>false</IsDeprecated>
+        </Facet>
+        <Facet>
+          <Symbol>Layout_EBU_R_48_11a</Symbol>
+          <Name>EBU R 48: 11a</Name>
+          <Value>23</Value>
+          <IsDeprecated>false</IsDeprecated>
+        </Facet>
+        <Facet>
+          <Symbol>Layout_EBU_R_48_11b</Symbol>
+          <Name>EBU R 48: 11b</Name>
+          <Value>24</Value>
+          <IsDeprecated>false</IsDeprecated>
+        </Facet>
+        <Facet>
+          <Symbol>Layout_EBU_R_48_11c</Symbol>
+          <Name>EBU R 48: 11c</Name>
+          <Value>25</Value>
+          <IsDeprecated>false</IsDeprecated>
+        </Facet>
+        <Facet>
+          <Symbol>Layout_EBU_R_123_2a</Symbol>
+          <Name>EBU R 123: 2a</Name>
+          <Value>26</Value>
+          <IsDeprecated>false</IsDeprecated>
+        </Facet>
+        <Facet>
+          <Symbol>Layout_EBU_R_123_4a</Symbol>
+          <Name>EBU R 123: 4a</Name>
+          <Value>27</Value>
+          <IsDeprecated>false</IsDeprecated>
+        </Facet>
+        <Facet>
+          <Symbol>Layout_EBU_R_123_4b</Symbol>
+          <Name>EBU R 123: 4b</Name>
+          <Value>28</Value>
+          <IsDeprecated>false</IsDeprecated>
+        </Facet>
+        <Facet>
+          <Symbol>Layout_EBU_R_123_4c</Symbol>
+          <Name>EBU R 123: 4c</Name>
+          <Value>29</Value>
+          <IsDeprecated>false</IsDeprecated>
+        </Facet>
+        <Facet>
+          <Symbol>Layout_EBU_R_123_8a</Symbol>
+          <Name>EBU R 123: 8a</Name>
+          <Value>30</Value>
+          <IsDeprecated>false</IsDeprecated>
+        </Facet>
+        <Facet>
+          <Symbol>Layout_EBU_R_123_8b</Symbol>
+          <Name>EBU R 123: 8b</Name>
+          <Value>31</Value>
+          <IsDeprecated>false</IsDeprecated>
+        </Facet>
+        <Facet>
+          <Symbol>Layout_EBU_R_123_8c</Symbol>
+          <Name>EBU R 123: 8c</Name>
+          <Value>32</Value>
+          <IsDeprecated>false</IsDeprecated>
+        </Facet>
+        <Facet>
+          <Symbol>Layout_EBU_R_123_8d</Symbol>
+          <Name>EBU R 123: 8d</Name>
+          <Value>33</Value>
+          <IsDeprecated>false</IsDeprecated>
+        </Facet>
+        <Facet>
+          <Symbol>Layout_EBU_R_123_8e</Symbol>
+          <Name>EBU R 123: 8e</Name>
+          <Value>34</Value>
+          <IsDeprecated>false</IsDeprecated>
+        </Facet>
+        <Facet>
+          <Symbol>Layout_EBU_R_123_8f</Symbol>
+          <Name>EBU R 123: 8f</Name>
+          <Value>35</Value>
+          <IsDeprecated>false</IsDeprecated>
+        </Facet>
+        <Facet>
+          <Symbol>Layout_EBU_R_123_8g</Symbol>
+          <Name>EBU R 123: 8g</Name>
+          <Value>36</Value>
+          <IsDeprecated>false</IsDeprecated>
+        </Facet>
+        <Facet>
+          <Symbol>Layout_EBU_R_123_8h</Symbol>
+          <Name>EBU R 123: 8h</Name>
+          <Value>37</Value>
+          <IsDeprecated>false</IsDeprecated>
+        </Facet>
+        <Facet>
+          <Symbol>Layout_EBU_R_123_8i</Symbol>
+          <Name>EBU R 123: 8i</Name>
+          <Value>38</Value>
+          <IsDeprecated>false</IsDeprecated>
+        </Facet>
+        <Facet>
+          <Symbol>Layout_EBU_R_123_12a</Symbol>
+          <Name>EBU R 123: 12a</Name>
+          <Value>39</Value>
+          <IsDeprecated>false</IsDeprecated>
+        </Facet>
+        <Facet>
+          <Symbol>Layout_EBU_R_123_12b</Symbol>
+          <Name>EBU R 123: 12b</Name>
+          <Value>40</Value>
+          <IsDeprecated>false</IsDeprecated>
+        </Facet>
+        <Facet>
+          <Symbol>Layout_EBU_R_123_12c</Symbol>
+          <Name>EBU R 123: 12c</Name>
+          <Value>41</Value>
+          <IsDeprecated>false</IsDeprecated>
+        </Facet>
+        <Facet>
+          <Symbol>Layout_EBU_R_123_12d</Symbol>
+          <Name>EBU R 123: 12d</Name>
+          <Value>42</Value>
+          <IsDeprecated>false</IsDeprecated>
+        </Facet>
+        <Facet>
+          <Symbol>Layout_EBU_R_123_12e</Symbol>
+          <Name>EBU R 123: 12e</Name>
+          <Value>43</Value>
+          <IsDeprecated>false</IsDeprecated>
+        </Facet>
+        <Facet>
+          <Symbol>Layout_EBU_R_123_12f</Symbol>
+          <Name>EBU R 123: 12f</Name>
+          <Value>44</Value>
+          <IsDeprecated>false</IsDeprecated>
+        </Facet>
+        <Facet>
+          <Symbol>Layout_EBU_R_123_12g</Symbol>
+          <Name>EBU R 123: 12g</Name>
+          <Value>45</Value>
+          <IsDeprecated>false</IsDeprecated>
+        </Facet>
+        <Facet>
+          <Symbol>Layout_EBU_R_123_12h</Symbol>
+          <Name>EBU R 123: 12h</Name>
+          <Value>46</Value>
+          <IsDeprecated>false</IsDeprecated>
+        </Facet>
+        <Facet>
+          <Symbol>Layout_EBU_R_123_16a</Symbol>
+          <Name>EBU R 123: 16a</Name>
+          <Value>47</Value>
+          <IsDeprecated>false</IsDeprecated>
+        </Facet>
+        <Facet>
+          <Symbol>Layout_EBU_R_123_16b</Symbol>
+          <Name>EBU R 123: 16b</Name>
+          <Value>48</Value>
+          <IsDeprecated>false</IsDeprecated>
+        </Facet>
+        <Facet>
+          <Symbol>Layout_EBU_R_123_16c</Symbol>
+          <Name>EBU R 123: 16c</Name>
+          <Value>49</Value>
+          <IsDeprecated>false</IsDeprecated>
+        </Facet>
+        <Facet>
+          <Symbol>Layout_EBU_R_123_16d</Symbol>
+          <Name>EBU R 123: 16d</Name>
+          <Value>50</Value>
+          <IsDeprecated>false</IsDeprecated>
+        </Facet>
+        <Facet>
+          <Symbol>Layout_EBU_R_123_16e</Symbol>
+          <Name>EBU R 123: 16e</Name>
+          <Value>51</Value>
+          <IsDeprecated>false</IsDeprecated>
+        </Facet>
+        <Facet>
+          <Symbol>Layout_EBU_R_123_16f</Symbol>
+          <Name>EBU R 123: 16f</Name>
+          <Value>52</Value>
+          <IsDeprecated>false</IsDeprecated>
+        </Facet>
+        <Facet>
+          <Symbol>Layout_Undefined</Symbol>
+          <Name>Undefined</Name>
+          <Value>255</Value>
+          <IsDeprecated>false</IsDeprecated>
+        </Facet>
+      </Facets>
+    </Entry>
+    <Entry>
+      <Register>Types</Register>
+      <NamespaceName>http://www.smpte-ra.org/reg/2003/2012/13/1/amwa/as11</NamespaceName>
+      <Symbol>ISO_639_2_Language_Code</Symbol>
+      <UL>urn:smpte:ul:060e2b34.01040101.0d010701.0b010300</UL>
+      <Kind>LEAF</Kind>
+      <Name>ISO-639-2 Language Code</Name>
+      <Definition>A three-letter (alpha-3) ISO 639-2 code to represent a language</Definition>
+      <Notes>Be aware that ISO 639-2 defines: both bibliographic and terminologic language codes; that language codes are case insensitive</Notes>
+      <DefiningDocument>AMWA Application Specification AS-11 MXF Program Contribution</DefiningDocument>
+      <IsDeprecated>false</IsDeprecated>
+      <ContextScope>UnknownContext</ContextScope>
+      <TypeKind>Rename</TypeKind>
+      <BaseType>urn:smpte:ul:060e2b34.01040101.01100200.00000000</BaseType>
+    </Entry>
+  </Entries>
+</TypesRegister>

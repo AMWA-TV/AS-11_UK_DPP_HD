@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ElementsRegister xmlns="http://www.smpte-ra.org/schemas/335/2012">
+  <Entries>
+    <Entry>
+      <Register>Elements</Register>
+      <NamespaceName>http://www.smpte-ra.org/reg/335/2012/13/1/amwa/as11</NamespaceName>
+      <Symbol>AS_11_Series_Title</Symbol>
+      <UL>urn:smpte:ul:060e2b34.01010101.0d010701.0b010101</UL>
+      <Kind>LEAF</Kind>
+      <Name>Series Title</Name>
+      <Definition>The final name of a "group" of episodes to which the programme belongs. These episodes have a shared identification and branding and are linked by common characters, subject matter, style or story.</Definition>
+      <DefiningDocument>AMWA Application Specification AS-11 MXF Program Contribution</DefiningDocument>
+      <IsDeprecated>false</IsDeprecated>
+      <ContextScope>UnknownContext</ContextScope>
+      <Type>urn:smpte:ul:060e2b34.01040101.01100200.00000000</Type>
+      <ValueLength>127 Unicode "code points" maximum</ValueLength>
+    </Entry>
+    <Entry>
+      <Register>Elements</Register>
+      <NamespaceName>http://www.smpte-ra.org/reg/335/2012/13/1/amwa/as11</NamespaceName>
+      <Symbol>AS_11_Programme_Title</Symbol>
+      <UL>urn:smpte:ul:060e2b34.01010101.0d010701.0b010102</UL>
+      <Kind>LEAF</Kind>
+      <Name>Programme Title</Name>
+      <Definition>The final name of the programme used to identify it as a version of an episode. This name indicates the specific purpose for which the version was created.</Definition>
+      <DefiningDocument>AMWA Application Specification AS-11 MXF Program Contribution</DefiningDocument>
+      <IsDeprecated>false</IsDeprecated>
+      <ContextScope>UnknownContext</ContextScope>
+      <Type>urn:smpte:ul:060e2b34.01040101.01100200.00000000</Type>
+      <ValueLength>127 Unicode "code points" maximum</ValueLength>
+    </Entry>
+    <Entry>
+      <Register>Elements</Register>
+      <NamespaceName>http://www.smpte-ra.org/reg/335/2012/13/1/amwa/as11</NamespaceName>
+      <Symbol>AS_11_Episode_Title_Number</Symbol>
+      <UL>urn:smpte:ul:060e2b34.01010101.0d010701.0b010103</UL>
+      <Kind>LEAF</Kind>
+      <Name>Episode Title/Episode No.</Name>
+      <Definition>The final name of the programme used to identify it as an editorially distinct member of a series i.e. an episode. This name may include a number (or consist only of a number) indicating the position of the episode within the series.</Definition>
+      <DefiningDocument>AMWA Application Specification AS-11 MXF Program Contribution</DefiningDocument>
+      <IsDeprecated>false</IsDeprecated>
+      <ContextScope>UnknownContext</ContextScope>
+      <Type>urn:smpte:ul:060e2b34.01040101.01100200.00000000</Type>
+      <ValueLength>127 Unicode "code points" maximum</ValueLength>
+    </Entry>
+    <Entry>
+      <Register>Elements</Register>
+      <NamespaceName>http://www.smpte-ra.org/reg/335/2012/13/1/amwa/as11</NamespaceName>
+      <Symbol>AS_11_Shim_Name</Symbol>
+      <UL>urn:smpte:ul:060e2b34.01010101.0d010701.0b010104</UL>
+      <Kind>LEAF</Kind>
+      <Name>Shim Name</Name>
+      <Definition>The name of the AS-11 shim specification to which the MXF file conforms.</Definition>
+      <DefiningDocument>AMWA Application Specification AS-11 MXF Program Contribution</DefiningDocument>
+      <IsDeprecated>false</IsDeprecated>
+      <ContextScope>UnknownContext</ContextScope>
+      <Type>urn:smpte:ul:060e2b34.01040101.01100200.00000000</Type>
+      <ValueLength>127 Unicode "code points" maximum</ValueLength>
+    </Entry>
+    <Entry>
+      <Register>Elements</Register>
+      <NamespaceName>http://www.smpte-ra.org/reg/335/2012/13/1/amwa/as11</NamespaceName>
+      <Symbol>AS_11_Shim_Version</Symbol>
+      <UL>urn:smpte:ul:060e2b34.01010101.0d010701.0b01010a</UL>
+      <Kind>LEAF</Kind>
+      <Name>Shim Version</Name>
+      <Definition>The version of the AS-11 shim specification to which the MXF file conforms.</Definition>
+      <DefiningDocument>AMWA Application Specification AS-11 MXF Program Contribution</DefiningDocument>
+      <IsDeprecated>false</IsDeprecated>
+      <ContextScope>UnknownContext</ContextScope>
+      <Type>urn:smpte:ul:060e2b34.01040101.03010300.00000000</Type>
+    </Entry>
+    <Entry>
+      <Register>Elements</Register>
+      <NamespaceName>http://www.smpte-ra.org/reg/335/2012/13/1/amwa/as11</NamespaceName>
+      <Symbol>AS_11_Audio_Track_Layout</Symbol>
+      <UL>urn:smpte:ul:060e2b34.01010101.0d010701.0b010105</UL>
+      <Kind>LEAF</Kind>
+      <Name>Audio Track Layout</Name>
+      <Definition>A code to identify the scheme that describes the usage of the audio channels encoded in the file.</Definition>
+      <DefiningDocument>AMWA Application Specification AS-11 MXF Program Contribution</DefiningDocument>
+      <IsDeprecated>false</IsDeprecated>
+      <ContextScope>UnknownContext</ContextScope>
+      <Type>urn:smpte:ul:060e2b34.01040101.0d010701.0b010200</Type>
+    </Entry>
+    <Entry>
+      <Register>Elements</Register>
+      <NamespaceName>http://www.smpte-ra.org/reg/335/2012/13/1/amwa/as11</NamespaceName>
+      <Symbol>AS_11_Primary_Audio_Language</Symbol>
+      <UL>urn:smpte:ul:060e2b34.01010101.0d010701.0b010106</UL>
+      <Kind>LEAF</Kind>
+      <Name>Primary Audio Language</Name>
+      <Definition>A code to identify the main language used on primary audio channels.</Definition>
+      <DefiningDocument>AMWA Application Specification AS-11 MXF Program Contribution</DefiningDocument>
+      <IsDeprecated>false</IsDeprecated>
+      <ContextScope>UnknownContext</ContextScope>
+      <Type>urn:smpte:ul:060e2b34.01040101.0d010701.0b010300</Type>
+    </Entry>
+    <Entry>
+      <Register>Elements</Register>
+      <NamespaceName>http://www.smpte-ra.org/reg/335/2012/13/1/amwa/as11</NamespaceName>
+      <Symbol>AS_11_Closed_Captions_Present</Symbol>
+      <UL>urn:smpte:ul:060e2b34.01010101.0d010701.0b010107</UL>
+      <Kind>LEAF</Kind>
+      <Name>Closed Captions Present</Name>
+      <Definition>A flag to indicate whether the programme contains embedded (out of vision) subtitling information.</Definition>
+      <DefiningDocument>AMWA Application Specification AS-11 MXF Program Contribution</DefiningDocument>
+      <IsDeprecated>false</IsDeprecated>
+      <ContextScope>UnknownContext</ContextScope>
+      <Type>urn:smpte:ul:060e2b34.01040101.01040100.00000000</Type>
+    </Entry>
+    <Entry>
+      <Register>Elements</Register>
+      <NamespaceName>http://www.smpte-ra.org/reg/335/2012/13/1/amwa/as11</NamespaceName>
+      <Symbol>AS_11_Closed_Captions_Type</Symbol>
+      <UL>urn:smpte:ul:060e2b34.01010101.0d010701.0b010108</UL>
+      <Kind>LEAF</Kind>
+      <Name>Closed Captions Type</Name>
+      <Definition>A code to identify the editorial description of the closed captions.</Definition>
+      <DefiningDocument>AMWA Application Specification AS-11 MXF Program Contribution</DefiningDocument>
+      <IsDeprecated>false</IsDeprecated>
+      <ContextScope>UnknownContext</ContextScope>
+      <Type>urn:smpte:ul:060e2b34.01040101.0d010701.0b010100</Type>
+    </Entry>
+    <Entry>
+      <Register>Elements</Register>
+      <NamespaceName>http://www.smpte-ra.org/reg/335/2012/13/1/amwa/as11</NamespaceName>
+      <Symbol>AS_11_Caption_Language</Symbol>
+      <UL>urn:smpte:ul:060e2b34.01010101.0d010701.0b010109</UL>
+      <Kind>LEAF</Kind>
+      <Name>Closed Captions Language</Name>
+      <Definition>A code to identify the main language used in the closed captions.</Definition>
+      <DefiningDocument>AMWA Application Specification AS-11 MXF Program Contribution</DefiningDocument>
+      <IsDeprecated>false</IsDeprecated>
+      <ContextScope>UnknownContext</ContextScope>
+      <Type>urn:smpte:ul:060e2b34.01040101.0d010701.0b010300</Type>
+    </Entry>
+  </Entries>
+</ElementsRegister>

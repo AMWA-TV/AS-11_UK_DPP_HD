@@ -133,7 +133,6 @@ There are two special types of Block which allow the value of one Block to be se
         Conformance: mandatory
         [A] The file includes <RP 2027 Class 100 Picture Essence at 1080i25 with 10 bit samples> and it is mapped to the file as specified in <SMPTE RP 2008:2008>.
             [B] RP 2027 Class 100 Picture Essence at 1080i25 with 10 bit samples
-                [A] The decoded <Picture Essence> conforms to <ITU-R Recommendation ITU-R BT.709> where: "Transport" is "Interlace"; "Field frequency (Hz)" is "50"; "Coding format" is "10 bits/component";
                 [A] The <Picture Essence> conforms to <SMPTE RP 2027:2012> where: "Class" is "100"; "Television system" is "1080 line system"; "Frame Frequency" is "50i"; "The sequence parameter set and the picture parameter set shall be placed after the access unit delimiter at the beginning of every coded frame".
                 [A] <bit_depth_luma_minus8> is "2".
                 [A] <bit_depth_chroma_minus8> is "2".

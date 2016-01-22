@@ -356,16 +356,6 @@ There are two special types of Block which allow the value of one Block to be se
             <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/P001/artefacts/1.xml>
             [B] RP 2027 Class 100 Picture Essence at 1080i25 with 10 bit samples
                 <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/PE1/>
-                [A] The decoded <Picture Essence> conforms to <ITU-R Recommendation ITU-R BT.709> where: "Transport" is "Interlace"; "Field frequency (Hz)" is "50"; "Coding format" is "10 bits/component";
-                    <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/PE1/artefacts/2.xml>
-                    [T] Picture Essence
-                        A type of <Essence> containing predominantly picture data.
-                        <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/reference/SMPTE/ST0377-1/term/Picture%20Essence/>
-                        [T] Essence
-                            A bitstream comprising picture, sound or data.
-                            <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/reference/SMPTE/ST0377-1/term/Essence/>
-                    [R] ITU-R Recommendation ITU-R BT.709
-                        <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/reference/ITU/R-Rec-BT.709/document/6/>
                 [A] The <Picture Essence> conforms to <SMPTE RP 2027:2012> where: "Class" is "100"; "Television system" is "1080 line system"; "Frame Frequency" is "50i"; "The sequence parameter set and the picture parameter set shall be placed after the access unit delimiter at the beginning of every coded frame".
                     <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/PE1/artefacts/190.xml>
                     [T] Picture Essence

@@ -315,7 +315,7 @@ There are two special types of Block which allow the value of one Block to be se
                 [A] The authority of the Timecode Track in the Material Package needs to be respected by all components of a system that handles the file.
     [B] Miscellaneous Content Constraints
         Conformance: mandatory
-        AS-11 v1.1 and its shims included some content constraints, which perhaps don't belong in the file format specification. They are included here. 
+        AS-11 v1.1 and its shims included some content constraints, which perhaps don't belong in the file format Specification. They are included here. 
         [B] AFD present
             Conformance: mandatory
             [A] The "Active Format Descriptor" property of the <Picture Essence Descriptor> is present in the file.

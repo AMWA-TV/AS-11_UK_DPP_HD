@@ -356,7 +356,7 @@ There are two special types of Block which allow the value of one Block to be se
             <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/P001/artefacts/1.xml>
             [B] RP 2027 Class 100 Picture Essence at 1080i25 with 10 bit samples
                 <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/PE1/>
-                [A] The <Picture Essence> conforms to <SMPTE RP 2027:2011> where: "Class" is "100"; "Television system" is "1080 line system"; "Frame Frequency" is "50i"; "The sequence parameter set and the picture parameter set shall be placed after the access unit delimiter at the beginning of every coded frame".
+                [A] The <Picture Essence> conforms to <SMPTE RP 2027:2012> where: "Class" is "100"; "Television system" is "1080 line system"; "Frame Frequency" is "50i"; "The sequence parameter set and the picture parameter set shall be placed after the access unit delimiter at the beginning of every coded frame".
                     <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/PE1/artefacts/190.xml>
                     [T] Picture Essence
                         A type of <Essence> containing predominantly picture data.
@@ -364,8 +364,8 @@ There are two special types of Block which allow the value of one Block to be se
                         [T] Essence
                             A bitstream comprising picture, sound or data.
                             <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/reference/SMPTE/ST0377-1/term/Essence/>
-                    [R] SMPTE RP 2027:2011
-                        <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/reference/SMPTE/RP2027/document/2011/>
+                    [R] SMPTE RP 2027:2012
+                        <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/reference/SMPTE/RP2027/document/2012/>
                 [A] <bit_depth_luma_minus8> is "2".
                     <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/PE1/artefacts/191.xml>
                     [T] bit_depth_luma_minus8

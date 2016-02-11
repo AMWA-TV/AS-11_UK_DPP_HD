@@ -121,25 +121,21 @@ There are two special types of Block which allow the value of one Block to be se
                     * the mapping of audio channels from single-channel Sound Tracks in a Source Package to multi-channel Sound Tracks in the Material Package
                     
                     which is specified in Annex E of SMPTE ST 382:2007.
-    [B] MXF constraints for intra-frame coded Picture Essence
+    [B] MXF Indexing and Partitioning strategy for CBE Essence
         Conformance: mandatory
         [B] Index precedes Essence
             Conformance: mandatory
             [A] The file contains a complete <Index Table> before the <Essence>.
-            [N] N007
-                [A] It's generally considered good MXF practice to have one 'thing' per Partition, so you'd have separate Partitions for Header Metadata, Essence, and Index Tables. This isn't a requirement but following best practice is encouraged.
-            [N] N020
-                [A] The Index Table could be placed in the Header Partition, its own Body Partition or in a Body Partition with the Essence. Indeed it could be distributed across all three of these locations. Decoders need to be able to cope with all of these posibilities.
         [B] Index all Essence
             Conformance: mandatory
             [A] The <Index Table> indexes every <Edit Unit> of every <Essence Element> in the file.
         [B] Single Essence Partition
             Conformance: mandatory
             [A] The <Generic Container> is entirely contained in exactly one <Partition>.
-            [N] N007
-                [A] It's generally considered good MXF practice to have one 'thing' per Partition, so you'd have separate Partitions for Header Metadata, Essence, and Index Tables. This isn't a requirement but following best practice is encouraged.
-            [N] N020
-                [A] The Index Table could be placed in the Header Partition, its own Body Partition or in a Body Partition with the Essence. Indeed it could be distributed across all three of these locations. Decoders need to be able to cope with all of these posibilities.
+        [N] Indexing and Partitions
+            [A] It's generally considered good MXF practice to have one 'thing' per Partition, so you'd have separate Partitions for Header Metadata, Essence, and Index Tables. This isn't a requirement but following best practice is encouraged.
+                
+                The Index Table could be placed in the Header Partition, its own Body Partition or in a Body Partition with the Essence. Indeed it could be distributed across all three of these locations. Decoders need to be able to cope with all of these posibilities.
     [B] 1080i25 Class 100 AVC mapped with RP 2008
         Conformance: mandatory
         [A] The file includes <RP 2027 Class 100 Picture Essence at 1080i25 with 10 bit samples> and it is mapped to the file as specified in <SMPTE RP 2008:2008>.

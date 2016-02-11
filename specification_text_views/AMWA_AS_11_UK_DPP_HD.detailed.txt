@@ -292,7 +292,7 @@ There are two special types of Block which allow the value of one Block to be se
                     
                     which is specified in Annex E of SMPTE ST 382:2007.
                     <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/note/E19/artefacts/1.md>
-    [B] MXF constraints for intra-frame coded Picture Essence
+    [B] MXF Indexing and Partitioning strategy for CBE Essence
         Conformance: mandatory
         <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/MXF_Intra/>
         [B] Index precedes Essence
@@ -309,14 +309,6 @@ There are two special types of Block which allow the value of one Block to be se
                 [T] Essence
                     A bitstream comprising picture, sound or data.
                     <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/reference/SMPTE/ST0377-1/term/Essence/>
-            [N] N007
-                <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/note/007/>
-                [A] It's generally considered good MXF practice to have one 'thing' per Partition, so you'd have separate Partitions for Header Metadata, Essence, and Index Tables. This isn't a requirement but following best practice is encouraged.
-                    <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/note/007/artefacts/1.xml>
-            [N] N020
-                <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/note/020/>
-                [A] The Index Table could be placed in the Header Partition, its own Body Partition or in a Body Partition with the Essence. Indeed it could be distributed across all three of these locations. Decoders need to be able to cope with all of these posibilities.
-                    <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/note/020/artefacts/1.xml>
         [B] Index all Essence
             Conformance: mandatory
             <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/070/>
@@ -354,14 +346,12 @@ There are two special types of Block which allow the value of one Block to be se
                 [T] Partition
                     A portion of the MXF file. An MXF file consists of a sequence of Partitions.
                     <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/reference/SMPTE/ST0377-1/term/Partition/>
-            [N] N007
-                <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/note/007/>
-                [A] It's generally considered good MXF practice to have one 'thing' per Partition, so you'd have separate Partitions for Header Metadata, Essence, and Index Tables. This isn't a requirement but following best practice is encouraged.
-                    <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/note/007/artefacts/1.xml>
-            [N] N020
-                <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/note/020/>
-                [A] The Index Table could be placed in the Header Partition, its own Body Partition or in a Body Partition with the Essence. Indeed it could be distributed across all three of these locations. Decoders need to be able to cope with all of these posibilities.
-                    <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/note/020/artefacts/1.xml>
+        [N] Indexing and Partitions
+            <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/note/007/>
+            [A] It's generally considered good MXF practice to have one 'thing' per Partition, so you'd have separate Partitions for Header Metadata, Essence, and Index Tables. This isn't a requirement but following best practice is encouraged.
+                
+                The Index Table could be placed in the Header Partition, its own Body Partition or in a Body Partition with the Essence. Indeed it could be distributed across all three of these locations. Decoders need to be able to cope with all of these posibilities.
+                <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/note/007/artefacts/1.md>
     [B] 1080i25 Class 100 AVC mapped with RP 2008
         Conformance: mandatory
         <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/P001/>

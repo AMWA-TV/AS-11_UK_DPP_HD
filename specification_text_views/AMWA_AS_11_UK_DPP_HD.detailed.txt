@@ -77,7 +77,7 @@ There are two special types of Block which allow the value of one Block to be se
                 <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/000/artefacts/1.xml>
                 [R] SMPTE ST 377-1:2011
                     <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/reference/SMPTE/ST0377-1/document/2011/>
-            [N] N001
+            [N] Implementation Notes
                 <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/note/001/>
                 [A] Section 5.2.1 of <SMPTE ST 377-1:2011> sets out a non-exhaustive list of changes from <SMPTE ST 377:2004>.
                     <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/note/001/artefacts/1.xml>
@@ -92,7 +92,7 @@ There are two special types of Block which allow the value of one Block to be se
                 <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/010/artefacts/1.xml>
                 [R] SMPTE ST 378:2004
                     <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/reference/SMPTE/ST0378/document/2004/>
-            [N] N011
+            [N] Implementation Notes
                 <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/note/011/>
                 [A] The file must be labelled as OP1a in the Operational Pattern property of all Partition Packs and the Preface Set, as required by <SMPTE ST 377-1:2011> in Section 7.1 and Annex A, respectively.
                     <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/note/011/artefacts/1.xml>
@@ -115,16 +115,12 @@ There are two special types of Block which allow the value of one Block to be se
                         [T] Essence
                             A bitstream comprising picture, sound or data.
                             <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/reference/SMPTE/ST0377-1/term/Essence/>
-            [N] N014
+            [N] Implementation Notes
                 <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/note/014/>
-                [A] Byte 15 of the Header Partition Pack Key must be set to 04h and all Header Metadata must have correct values. Hence 'Distinguished Values' cannot be used for 'Best Effort' properties. See Section 6.2.3 of <SMPTE ST 377-1:2011> for a full explanation.
-                    <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/note/014/artefacts/1.xml>
-                    [R] SMPTE ST 377-1:2011
-                        <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/reference/SMPTE/ST0377-1/document/2011/>
-            [N] N045
-                <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/note/045/>
-                [A] Late delivery of a file is the term used to describe a workflow where playout (broadcast) of a file starts before the file transfer from supplier to broadcaster has completed. To support late delivery a broadcaster must be able to trust the metadata that is contained at the beginning of the file.
-                    <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/note/045/artefacts/1.xml>
+                [A] Byte 15 of the Header Partition Pack Key must be set to 04h and all Header Metadata must have correct values. Hence 'Distinguished Values' cannot be used for 'Best Effort' properties. See Section 6.2.3 of SMPTE ST 377-1:2011 for a full explanation.
+                    
+                    Late delivery of a file is the term used to describe a workflow where playout (broadcast) of a file starts before the file transfer from supplier to broadcaster has completed. To support late delivery a broadcaster must be able to trust the metadata that is contained at the beginning of the file.
+                    <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/note/014/artefacts/1.md>
         [B] Header Metadata KLV Fill
             Conformance: recommended
             <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/030/>
@@ -139,14 +135,12 @@ There are two special types of Block which allow the value of one Block to be se
                     [T] Essence
                         A bitstream comprising picture, sound or data.
                         <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/reference/SMPTE/ST0377-1/term/Essence/>
-            [N] N002
+            [N] Implementation Notes
                 <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/note/002/>
                 [A] The "total length" is of the entire item and includes the length of the Key and Length fields.
-                    <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/note/002/artefacts/1.xml>
-            [N] N025
-                <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/note/025/>
-                [A] The extra space afforded by the KLV Fill allows Header Metadata to be edited and added to without rewriting the entire file.
-                    <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/note/025/artefacts/1.xml>
+                    
+                    The extra space afforded by the KLV Fill allows Header Metadata to be edited and added to without rewriting the entire file.
+                    <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/note/002/artefacts/1.md>
         [B] RIP present
             Conformance: mandatory
             <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/040/>
@@ -237,7 +231,7 @@ There are two special types of Block which allow the value of one Block to be se
                     [T] Track
                         MXF data structure used to describe the content structure.
                         <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/reference/SMPTE/ST0377-1/term/Track/>
-            [N] E8
+            [N] Implementation Notes
                 <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/note/E8/>
                 [A] For example, this means that if the <Picture Essence> is field-encoded then each <Edit Unit> contains the data assosiated with both of the video fields for a video frame.
                     <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/note/E8/artefacts/1.xml>
@@ -376,22 +370,16 @@ There are two special types of Block which allow the value of one Block to be se
                         [T] Essence
                             A bitstream comprising picture, sound or data.
                             <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/reference/SMPTE/ST0377-1/term/Essence/>
-                [N] N003
+                [N] Implementation Notes
                     <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/note/003/>
                     [A] Decoders must be able to play files that omit private SEI messages from the H.264 bitstream.
-                        <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/note/003/artefacts/1.xml>
-                [N] N004
-                    <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/note/004/>
-                    [A] Decoders must apply the parameters in the sequence parameter set and picture parameter set.
-                        <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/note/004/artefacts/1.xml>
-                [N] N012
-                    <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/note/012/>
-                    [A] With these encoding parameters the coded frame size will be 568832 bytes, including the coded frame, sequence parameter set, picture parameter set, SEI messages and/or padding for SEI messages.
-                        <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/note/012/artefacts/1.xml>
-                [N] N016
-                    <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/note/016/>
-                    [A] The decoded video always has 1080 lines, regardless of any MXF Descriptor property values.
-                        <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/note/016/artefacts/1.xml>
+                        
+                        Decoders must apply the parameters in the sequence parameter set and picture parameter set.
+                        
+                        With these encoding parameters the coded frame size will be 568832 bytes, including the coded frame, sequence parameter set, picture parameter set, SEI messages and/or padding for SEI messages.
+                        
+                        The decoded video always has 1080 lines, regardless of any MXF Descriptor property values.
+                        <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/note/003/artefacts/1.md>
             [R] SMPTE RP 2008:2008
                 <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/reference/SMPTE/RP2008/document/2008/>
         [A] The <Material Package> contains exactly one <Picture Track>.
@@ -417,14 +405,12 @@ There are two special types of Block which allow the value of one Block to be se
                     [T] Essence
                         A bitstream comprising picture, sound or data.
                         <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/reference/SMPTE/ST0377-1/term/Essence/>
-        [N] N017
+        [N] Stored Height
             <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/note/017/>
             [A] Values of 540 and 544 have been observed in real files for 'Stored Height' in the 'MPEG Video Descriptor'.
-                <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/note/017/artefacts/1.xml>
-        [N] N018
-            <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/note/018/>
-            [A] If the value for 'Display Height' in the 'MPEG Video Descriptor' is not set, the default value is that of 'Sampled Height', which in turn defaults to the value of 'Stored Height'. 'Display Height' needs to either be set to, or default to 540.
-                <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/note/018/artefacts/1.xml>
+                
+                If the value for 'Display Height' in the 'MPEG Video Descriptor' is not set, the default value is that of 'Sampled Height', which in turn defaults to the value of 'Stored Height'. 'Display Height' needs to either be set to, or default to 540.
+                <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/note/017/artefacts/1.md>
     [B] 24-bit, 48 kHz, uncompressed PCM, mapped with ST 382
         Conformance: mandatory
         <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/S001/>
@@ -454,10 +440,15 @@ There are two special types of Block which allow the value of one Block to be se
                 [T] Audio Channel
                     A distinct collection of sequenced audio samples that are intended for delivery to a single loudspeaker or other reproduction device.
                     <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/reference/SMPTE/ST0377-4/term/Audio%20Channel/>
-            [N] N005
+            [N] Implementation Notes
                 <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/note/005/>
-                [A] Stereo audio data must be split between two MXF Sound Tracks.
-                    <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/note/005/artefacts/1.xml>
+                [A] This really does matter because of the separation of the physical from the logical in MXF files. Without this, decoders can only identify tracks by their track ID or the physical order in the file, which is not otherwise constrained in MXF.
+                    
+                    This applies to Material Package Sound Tracks, not those in the Source Package.
+                    
+                    Stereo audio data must be split between two MXF Sound Tracks.
+                    
+                    <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/note/005/artefacts/1.md>
         [B] Uncompressed 24-bit PCM audio at 48 kHz
             Conformance: mandatory
             <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/230/>
@@ -474,7 +465,7 @@ There are two special types of Block which allow the value of one Block to be se
                         <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/reference/SMPTE/ST0377-1/term/Essence/>
                 [R] SMPTE ST 382:2007
                     <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/reference/SMPTE/ST0382/document/2007/>
-            [N] N029
+            [N] Implementation Notes
                 <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/note/029/>
                 [A] As per Section 6 of <SMPTE ST 382:2007> samples are stored as little-endian integers.
                     <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/note/029/artefacts/1.xml>
@@ -493,7 +484,7 @@ There are two special types of Block which allow the value of one Block to be se
                         <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/reference/SMPTE/ST0377-1/term/Essence/>
                 [R] SMPTE ST 382:2007
                     <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/reference/SMPTE/ST0382/document/2007/>
-            [N] N006
+            [N] Implementation Notes
                 <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/note/006/>
                 [A] <SMPTE ST 382:2007> describes mapping for AES3 and BWF. In the case of uncompressed PCM, as used here, the mapping for the audio sample data is the same for the AES3 and BWF mappings.
                     <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/note/006/artefacts/1.xml>
@@ -552,20 +543,10 @@ There are two special types of Block which allow the value of one Block to be se
                 <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/reference/EBU/R048/document/2005/>
             [R] EBU R 123
                 <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/reference/EBU/R123/document/2009/>
-        [N] N010
+        [N] Implementation Notes
             <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/note/010/>
-            [A] This differs from the suggestion in Annex B of <SMPTE ST 377-1:2011> that the Track Number be set to zero for all Material Package Tracks.
-                <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/note/010/artefacts/1.xml>
-                [R] SMPTE ST 377-1:2011
-                    <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/reference/SMPTE/ST0377-1/document/2011/>
-        [N] N015
-            <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/note/015/>
-            [A] This really does matter because of the separation of the physical from the logical in MXF files. Without this, decoders can only identify tracks by their track ID or the physical order in the file, which is not otherwise constrained in MXF.
-                <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/note/015/artefacts/1.xml>
-        [N] N028
-            <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/note/028/>
-            [A] This applies to Material Package Sound Tracks, not those in the Source Package.
-                <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/note/028/artefacts/1.xml>
+            [A] This differs from the suggestion in Annex B of SMPTE ST 377-1:2011 that the Track Number be set to zero for all Material Package Tracks.
+                <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/note/010/artefacts/1.md>
     [B] AS-11 Core DM
         Conformance: mandatory
         <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/550/>
@@ -665,7 +646,7 @@ There are two special types of Block which allow the value of one Block to be se
                             [T] Essence
                                 A bitstream comprising picture, sound or data.
                                 <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/reference/SMPTE/ST0377-1/term/Essence/>
-                [N] N039
+                [N] Track Name
                     <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/note/039/>
                     [A] The "Track Name" property of an <Constrained Static DM Track> does not identify the <DM Scheme> whose <DM Framework> it references. In the absence of other requirements for "Track Name", it is suggested that files use a value corresponding to the <DM Scheme> used in the track, e.g. "AS_11_Core", "AS_11_UKDPP".
                         <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/note/039/artefacts/1.xml>
@@ -687,10 +668,10 @@ There are two special types of Block which allow the value of one Block to be se
                                 [T] Essence
                                     A bitstream comprising picture, sound or data.
                                     <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/reference/SMPTE/ST0377-1/term/Essence/>
-        [N] N051
+        [N] Repetition of Header Metadata
             <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/note/051/>
             [A] Repetition of Header Metadata in the Footer Partition is not considered to be another instance of any of the components of that Header Metadata.
-                <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/note/051/artefacts/1.xml>
+                <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/note/051/artefacts/1.md>
     [B] AS-11 UKDPP DM
         Conformance: mandatory
         <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/555/>
@@ -790,7 +771,7 @@ There are two special types of Block which allow the value of one Block to be se
                             [T] Essence
                                 A bitstream comprising picture, sound or data.
                                 <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/reference/SMPTE/ST0377-1/term/Essence/>
-                [N] N039
+                [N] Track Name
                     <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/note/039/>
                     [A] The "Track Name" property of an <Constrained Static DM Track> does not identify the <DM Scheme> whose <DM Framework> it references. In the absence of other requirements for "Track Name", it is suggested that files use a value corresponding to the <DM Scheme> used in the track, e.g. "AS_11_Core", "AS_11_UKDPP".
                         <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/note/039/artefacts/1.xml>
@@ -812,10 +793,10 @@ There are two special types of Block which allow the value of one Block to be se
                                 [T] Essence
                                     A bitstream comprising picture, sound or data.
                                     <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/reference/SMPTE/ST0377-1/term/Essence/>
-        [N] N051
+        [N] Repetition of Header Metadata
             <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/note/051/>
             [A] Repetition of Header Metadata in the Footer Partition is not considered to be another instance of any of the components of that Header Metadata.
-                <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/note/051/artefacts/1.xml>
+                <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/note/051/artefacts/1.md>
     [B] AS-11 Segmentation DM
         Conformance: mandatory
         <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/530/>
@@ -892,7 +873,7 @@ There are two special types of Block which allow the value of one Block to be se
                         [T] Source Package
                             MXF data structure that describes source <Essence>.
                             <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/reference/SMPTE/ST0377-1/term/Source%20Package/>
-                [N] N038
+                [N] Track Name
                     <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/note/038/>
                     [A] The "Track Name" property of the <Program Segmentation Track> does not identify the segmentation metadata scheme. In the absence of other requirements for "Track Name", it is suggested that files use a value corresponding to the <DM Scheme> used in the track, e.g.  "AS_11_Segmentation".
                         <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/note/038/artefacts/1.xml>
@@ -905,7 +886,7 @@ There are two special types of Block which allow the value of one Block to be se
                                 [T] Essence
                                     A bitstream comprising picture, sound or data.
                                     <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/reference/SMPTE/ST0377-1/term/Essence/>
-                [N] N040
+                [N] Determining SOM and EOM
                     <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/note/040/>
                     [A] The start and end timecodes for program regions, commonly referred to as "start of material" (som) and "end of material" (eom), can be determined based on the location of <DM Segment> objects on the <Program Segmentation Track> relative to the adjacent <Timecode Track> in the <Material Package> that contains the <Program Segmentation Track>.
                         <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/note/040/artefacts/1.xml>
@@ -936,10 +917,10 @@ There are two special types of Block which allow the value of one Block to be se
                         [T] Material Package
                             An MXF data structure that describe an output timeline of the file.
                             <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/reference/SMPTE/ST0377-1/term/Material%20Package/>
-                [N] N048
+                [N] Non-Programme Content
                     <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/note/048/>
                     [A] Examples of non-programme content include: black, ident, clock.
-                        <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/note/048/artefacts/1.xml>
+                        <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/note/048/artefacts/1.md>
         [A] This <Track> is in the <Material Package>.
             <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/530/artefacts/531.xml>
             [T] Track
@@ -1002,7 +983,7 @@ There are two special types of Block which allow the value of one Block to be se
                             [T] Essence
                                 A bitstream comprising picture, sound or data.
                                 <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/reference/SMPTE/ST0377-1/term/Essence/>
-        [N] N049
+        [N] Implementation Notes
             <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/note/049/>
             [A] The <Track> can be identified by an MXF reader by the presence of <DM Segment> objects that each strongly reference an instance of the "DM_AS_11_Segmentation_Framework" <DM Framework>.
                 <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/note/049/artefacts/1.xml>
@@ -1027,10 +1008,10 @@ There are two special types of Block which allow the value of one Block to be se
                         [T] Essence
                             A bitstream comprising picture, sound or data.
                             <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/reference/SMPTE/ST0377-1/term/Essence/>
-        [N] N051
+        [N] Repetition of Header Metadata
             <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/note/051/>
             [A] Repetition of Header Metadata in the Footer Partition is not considered to be another instance of any of the components of that Header Metadata.
-                <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/note/051/artefacts/1.xml>
+                <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/note/051/artefacts/1.md>
     [B] Dolby Audio Metadata
         Conformance: optional
         <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/DAM/>
@@ -1152,14 +1133,12 @@ There are two special types of Block which allow the value of one Block to be se
                         [T] Timecode
                             An annotation of elapsed time along a <Track>.
                             <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/reference/SMPTE/ST0377-1/term/Timecode/>
-            [N] N021
+            [N] Implementation Notes
                 <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/note/021/>
                 [A] The Timecode properties must always properly match the content of the MXF file. This means that "Rounded Timecode Base" and "Drop Frame" need to be set appropriately.
-                    <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/note/021/artefacts/1.xml>
-            [N] N024
-                <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/note/024/>
-                [A] This Timecode Track provides "Synthetic Timecode" because its Timecode is "generated" from a single "Start Timecode" value that is associated with the beginning of the Material Package. This means that the Timecode is necessarily continuous throughout the entire playback of the MXF file.
-                    <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/note/024/artefacts/1.xml>
+                    
+                    This Timecode Track provides "Synthetic Timecode" because its Timecode is "generated" from a single "Start Timecode" value that is associated with the beginning of the Material Package. This means that the Timecode is necessarily continuous throughout the entire playback of the MXF file.
+                    <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/note/021/artefacts/1.md>
         [B] Timecode Track Precedence
             Conformance: mandatory
             <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/290/>
@@ -1180,10 +1159,10 @@ There are two special types of Block which allow the value of one Block to be se
                 [T] Material Package
                     An MXF data structure that describe an output timeline of the file.
                     <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/reference/SMPTE/ST0377-1/term/Material%20Package/>
-            [N] N022
+            [N] Implementation Notes
                 <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/note/022/>
                 [A] The authority of the Timecode Track in the Material Package needs to be respected by all components of a system that handles the file.
-                    <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/note/022/artefacts/1.xml>
+                    <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/note/022/artefacts/1.md>
     [B] Miscellaneous Content Constraints
         Conformance: mandatory
         <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/999/>
@@ -1201,38 +1180,10 @@ There are two special types of Block which allow the value of one Block to be se
                         [T] Essence
                             A bitstream comprising picture, sound or data.
                             <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/reference/SMPTE/ST0377-1/term/Essence/>
-            [N] N036
+            [N] Implementation Notes
                 <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/note/036/>
-                [A] Section G.2.5 of <SMPTE ST 377-1:2011> describes compliant encoder and decoder behavior with respect to <SMPTE ST 2016-1:2009>.
-                    <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/note/036/artefacts/1.xml>
-                    [R] SMPTE ST 377-1:2011
-                        <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/reference/SMPTE/ST0377-1/document/2011/>
-                    [R] SMPTE ST 2016-1:2009
-                        <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/reference/SMPTE/ST2016-1/document/2009/>
-            [N] N037
-                <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/note/037/>
-                [A] Section G.2.5 of <SMPTE ST 377-1:2011> requires that the value of the "Active Format Descriptor" property be constant for the duration of the associated <Picture Track>.
-                    <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/note/037/artefacts/1.xml>
-                    [R] SMPTE ST 377-1:2011
-                        <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/reference/SMPTE/ST0377-1/document/2011/>
-                    [T] Picture Track
-                        A type of <Essence Track> that references <Picture Essence>.
-                        <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/reference/SMPTE/ST0377-1/term/Picture%20Track/>
-                        [T] Essence Track
-                            A type of <Track> that references <Essence>.
-                            <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/reference/SMPTE/ST0377-1/term/Essence%20Track/>
-                            [T] Track
-                                MXF data structure used to describe the content structure.
-                                <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/reference/SMPTE/ST0377-1/term/Track/>
-                            [T] Essence
-                                A bitstream comprising picture, sound or data.
-                                <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/reference/SMPTE/ST0377-1/term/Essence/>
-                        [T] Picture Essence
-                            A type of <Essence> containing predominantly picture data.
-                            <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/reference/SMPTE/ST0377-1/term/Picture%20Essence/>
-                            [T] Essence
-                                A bitstream comprising picture, sound or data.
-                                <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/reference/SMPTE/ST0377-1/term/Essence/>
+                [A] Section G.2.5 of SMPTE ST 377-1:2011 describes compliant encoder and decoder behavior with respect to SMPTE ST 2016-1:2009.
+                    <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/note/036/artefacts/1.md>
         [B] AFD 9 10 14
             Conformance: mandatory
             <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/351/>
@@ -1247,45 +1198,12 @@ There are two special types of Block which allow the value of one Block to be se
                         [T] Essence
                             A bitstream comprising picture, sound or data.
                             <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/reference/SMPTE/ST0377-1/term/Essence/>
-            [N] N036
-                <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/note/036/>
-                [A] Section G.2.5 of <SMPTE ST 377-1:2011> describes compliant encoder and decoder behavior with respect to <SMPTE ST 2016-1:2009>.
-                    <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/note/036/artefacts/1.xml>
-                    [R] SMPTE ST 377-1:2011
-                        <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/reference/SMPTE/ST0377-1/document/2011/>
-                    [R] SMPTE ST 2016-1:2009
-                        <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/reference/SMPTE/ST2016-1/document/2009/>
-            [N] N037
+            [N] Implementation Notes
                 <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/note/037/>
-                [A] Section G.2.5 of <SMPTE ST 377-1:2011> requires that the value of the "Active Format Descriptor" property be constant for the duration of the associated <Picture Track>.
-                    <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/note/037/artefacts/1.xml>
-                    [R] SMPTE ST 377-1:2011
-                        <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/reference/SMPTE/ST0377-1/document/2011/>
-                    [T] Picture Track
-                        A type of <Essence Track> that references <Picture Essence>.
-                        <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/reference/SMPTE/ST0377-1/term/Picture%20Track/>
-                        [T] Essence Track
-                            A type of <Track> that references <Essence>.
-                            <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/reference/SMPTE/ST0377-1/term/Essence%20Track/>
-                            [T] Track
-                                MXF data structure used to describe the content structure.
-                                <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/reference/SMPTE/ST0377-1/term/Track/>
-                            [T] Essence
-                                A bitstream comprising picture, sound or data.
-                                <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/reference/SMPTE/ST0377-1/term/Essence/>
-                        [T] Picture Essence
-                            A type of <Essence> containing predominantly picture data.
-                            <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/reference/SMPTE/ST0377-1/term/Picture%20Essence/>
-                            [T] Essence
-                                A bitstream comprising picture, sound or data.
-                                <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/reference/SMPTE/ST0377-1/term/Essence/>
-            [N] N047
-                <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/note/047/>
-                [A] The <AFD> (as it is used here, where only a very restricted set of values are permitted) can be considered as telling the decoder what video transformations it can reasonably make when displaying the video. For example when displaying the video on a "problematic" screen the decoder could wish to "zoom and crop" or "pillarbox" or "letterbox" the video as appropriate (where a "problematic" screen could be one where the dimensions of the screen mean that if the video is displayed full-screen it does not have the stated "aspect ratio").
-                    <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/note/047/artefacts/1.xml>
-                    [T] AFD
-                        Active Format Descriptor code.
-                        <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/reference/SMPTE/ST2016-1/term/AFD/>
+                [A] Section G.2.5 of SMPTE ST 377-1:2011 requires that the value of the "Active Format Descriptor" property be constant for the duration of the associated Picture Track.
+                    
+                    The AFD (as it is used here, where only a very restricted set of values are permitted) can be considered as telling the decoder what video transformations it can reasonably make when displaying the video. For example when displaying the video on a "problematic" screen the decoder could wish to "zoom and crop" or "pillarbox" or "letterbox" the video as appropriate (where a "problematic" screen could be one where the dimensions of the screen mean that if the video is displayed full-screen it does not have the stated "aspect ratio").
+                    <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/note/037/artefacts/1.md>
         [B] 4 or 16 audio channels
             Conformance: mandatory
             <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/210/>
@@ -1326,10 +1244,10 @@ There are two special types of Block which allow the value of one Block to be se
                     [T] Essence
                         A bitstream comprising picture, sound or data.
                         <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/reference/SMPTE/ST0377-1/term/Essence/>
-            [N] N019
+            [N] Implementation Notes
                 <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/note/019/>
                 [A] MXF Filler cannot be used here to represent silence.
-                    <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/note/019/artefacts/1.xml>
+                    <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/note/019/artefacts/1.md>
         [B] No Closed Captions
             Conformance: mandatory
             <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/300/>

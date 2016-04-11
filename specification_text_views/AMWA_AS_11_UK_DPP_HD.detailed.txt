@@ -442,11 +442,7 @@ There are two special types of Block which allow the value of one Block to be se
                     <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/reference/SMPTE/ST0377-4/term/Audio%20Channel/>
             [N] Implementation Notes
                 <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/note/005/>
-                [A] This really does matter because of the separation of the physical from the logical in MXF files. Without this, decoders can only identify tracks by their track ID or the physical order in the file, which is not otherwise constrained in MXF.
-                    
-                    This applies to Material Package Sound Tracks, not those in the Source Package.
-                    
-                    Stereo audio data must be split between two MXF Sound Tracks.
+                [A] Stereo audio data must be split between two MXF Sound Tracks.
                     
                     <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/note/005/artefacts/1.md>
         [B] Uncompressed 24-bit PCM audio at 48 kHz
@@ -545,7 +541,12 @@ There are two special types of Block which allow the value of one Block to be se
                 <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/reference/EBU/R123/document/2009/>
         [N] Implementation Notes
             <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/note/010/>
-            [A] This differs from the suggestion in Annex B of SMPTE ST 377-1:2011 that the Track Number be set to zero for all Material Package Tracks.
+            [A] This really does matter because of the separation of the physical from the logical in MXF files. Without this, decoders can only identify tracks by their track ID or the physical order in the file, which is not otherwise constrained in MXF.
+                
+                This applies to Material Package Sound Tracks, not those in the Source Package.
+                
+                This differs from the suggestion in Annex B of SMPTE ST 377-1:2011 that the Track Number be set to zero for all Material Package Tracks.
+                
                 <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/note/010/artefacts/1.md>
     [B] AS-11 Core DM
         Conformance: mandatory

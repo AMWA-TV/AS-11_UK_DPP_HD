@@ -342,7 +342,7 @@ There are two special types of Block which allow the value of one Block to be se
             [A] There are either exactly 4 or exactly 16 <Audio Channel>s in the file.
         [B] R48 2a customisation
             Conformance: mandatory
-            [A] If the value of <AS_11_Audio_Track_Layout> is Layout_EBU_R_48_2a then for each <Sound Track> in the <Material Package> with a "Track Number" of 3 or 4 the <Sound Essence> contains digital silence.
+            [A] If the value of AS_11_Audio_Track_Layout is Layout_EBU_R_48_2a then for each <Sound Track> in the <Material Package> with a "Track Number" of 3 or 4 the <Sound Essence> contains digital silence.
             [N] Implementation Notes
                 [A] MXF Filler cannot be used here to represent silence.
         [B] No Closed Captions

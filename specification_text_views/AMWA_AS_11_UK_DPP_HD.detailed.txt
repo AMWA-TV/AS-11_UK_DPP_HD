@@ -1036,10 +1036,8 @@ There are two special types of Block which allow the value of one Block to be se
         [A] The <Dolby E Audio Metadata Serial Bitstream> that describes an <Audio Program> is included in the file using <Dolby E Audio Metadata Serial Bitstream Carriage>.
             <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/DAM/artefacts/1.md>
             [T] Dolby E Audio Metadata Serial Bitstream
-                A serial communication protocol that is used to transfer audio metadata between various products manufactured by Dolby, as defined in <SMPTE RDD 6:2008>.
+                A serial communication protocol that is used to transfer audio metadata between various products manufactured by Dolby.
                 <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Dolby%20E%20Audio%20Metadata%20Serial%20Bitstream/>
-                [R] SMPTE RDD 6:2008
-                    <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/external_reference_revision/SMPTE%20RDD%206-2008/>
             [T] Audio Program
                 A collection of one or more audio channels.
                 <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Audio%20Program/>
@@ -1051,10 +1049,8 @@ There are two special types of Block which allow the value of one Block to be se
                         An ancillary data packet in the vertical ancillary data space (VANC).
                         <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/VANC%20Data%20Packet/>
                     [T] SMPTE 2020-B
-                        "Method B" for mapping audio metadata into vertical ancillary data as defined in <SMPTE ST 2020-1:2008>.
+                        A method (sometimes known as "Method B") for mapping audio metadata into vertical ancillary data.
                         <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/SMPTE%202020-B/>
-                        [R] SMPTE ST 2020-1:2008
-                            <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/external_reference_revision/SMPTE%20ST%202020-1-2008/>
                 [A] The mapping of <VANC Data Packet>s into <ANC Frame Element>s is as specified in <Constrained Ancillary Data Mapping>.
                     <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/400/artefacts/402.md>
                     [T] VANC Data Packet

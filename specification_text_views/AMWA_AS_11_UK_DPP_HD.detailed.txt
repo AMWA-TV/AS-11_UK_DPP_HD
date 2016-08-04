@@ -69,200 +69,200 @@ There are two special types of Block which allow the value of one Block to be se
     <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/FF_3/>
     [B] Core MXF constraints
         Conformance: mandatory
-        <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/MXF_Core/>
+        <URL: http://www.amwa.tv/projects/rules/01/block/MXF_Core/>
         [B] MXF File Format
             Conformance: mandatory
-            <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/000/>
+            <URL: http://www.amwa.tv/projects/rules/01/block/000/>
             [A] The file conforms to <SMPTE ST 377-1:2011>.
-                <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/000/artefacts/1.md>
+                <URL: http://www.amwa.tv/projects/rules/01/block/000/artefacts/1.md>
                 [R] SMPTE ST 377-1:2011
-                    <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/external_reference_revision/SMPTE%20ST%20377-1-2011/>
+                    <URL: http://www.amwa.tv/projects/rules/01/external_reference_revision/SMPTE%20ST%20377-1-2011/>
             [N] Implementation Notes
-                <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/note/001/>
+                <URL: http://www.amwa.tv/projects/rules/01/note/001/>
                 [A] Section 5.2.1 of <SMPTE ST 377-1:2011> sets out a non-exhaustive list of changes from <SMPTE ST 377:2004>.
-                    <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/note/001/artefacts/1.md>
+                    <URL: http://www.amwa.tv/projects/rules/01/note/001/artefacts/1.md>
                     [R] SMPTE ST 377-1:2011
-                        <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/external_reference_revision/SMPTE%20ST%20377-1-2011/>
+                        <URL: http://www.amwa.tv/projects/rules/01/external_reference_revision/SMPTE%20ST%20377-1-2011/>
                     [R] SMPTE ST 377:2004
-                        <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/external_reference_revision/SMPTE%20ST%20377-1-2004/>
+                        <URL: http://www.amwa.tv/projects/rules/01/external_reference_revision/SMPTE%20ST%20377-1-2004/>
         [B] Operational pattern 1a
             Conformance: mandatory
-            <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/010/>
+            <URL: http://www.amwa.tv/projects/rules/01/block/010/>
             [A] The file conforms to <SMPTE ST 378:2004>.
-                <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/010/artefacts/1.md>
+                <URL: http://www.amwa.tv/projects/rules/01/block/010/artefacts/1.md>
                 [R] SMPTE ST 378:2004
-                    <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/external_reference_revision/SMPTE%20ST%20378-2004/>
+                    <URL: http://www.amwa.tv/projects/rules/01/external_reference_revision/SMPTE%20ST%20378-2004/>
             [N] Implementation Notes
-                <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/note/011/>
+                <URL: http://www.amwa.tv/projects/rules/01/note/011/>
                 [A] The file must be labelled as OP1a in the Operational Pattern property of all Partition Packs and the Preface Set, as required by <SMPTE ST 377-1:2011> in Section 7.1 and Annex A, respectively.
-                    <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/note/011/artefacts/1.md>
+                    <URL: http://www.amwa.tv/projects/rules/01/note/011/artefacts/1.md>
                     [R] SMPTE ST 377-1:2011
-                        <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/external_reference_revision/SMPTE%20ST%20377-1-2011/>
+                        <URL: http://www.amwa.tv/projects/rules/01/external_reference_revision/SMPTE%20ST%20377-1-2011/>
         [B] Closed Complete Header
             Conformance: mandatory
-            <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/020/>
+            <URL: http://www.amwa.tv/projects/rules/01/block/020/>
             [A] The <Header Partition> is "Closed" and "Complete".
-                <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/020/artefacts/1.md>
+                <URL: http://www.amwa.tv/projects/rules/01/block/020/artefacts/1.md>
                 [T] Header Partition
                     The first <Partition> in the MXF file. This <Partition> always contains a copy of the <Header Metadata>.
-                    <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Header%20Partition/>
+                    <URL: http://www.amwa.tv/projects/rules/01/term/Header%20Partition/>
                     [T] Partition
                         A portion of the MXF file. An MXF file consists of a sequence of Partitions.
-                        <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Partition/>
+                        <URL: http://www.amwa.tv/projects/rules/01/term/Partition/>
                     [T] Header Metadata
                         MXF data structures that collectively describe the data in the <Essence> data in an MXF file.
-                        <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Header%20Metadata/>
+                        <URL: http://www.amwa.tv/projects/rules/01/term/Header%20Metadata/>
                         [T] Essence
                             A bitstream comprising picture, sound or data.
-                            <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Essence/>
+                            <URL: http://www.amwa.tv/projects/rules/01/term/Essence/>
             [N] Implementation Notes
-                <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/note/014/>
+                <URL: http://www.amwa.tv/projects/rules/01/note/014/>
                 [A] Byte 15 of the Header Partition Pack Key must be set to 04h and all Header Metadata must have correct values. Hence 'Distinguished Values' cannot be used for 'Best Effort' properties. See Section 6.2.3 of SMPTE ST 377-1:2011 for a full explanation.
-                    <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/note/014/artefacts/1.md>
+                    <URL: http://www.amwa.tv/projects/rules/01/note/014/artefacts/1.md>
         [B] RIP present
             Conformance: mandatory
-            <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/040/>
+            <URL: http://www.amwa.tv/projects/rules/01/block/040/>
             [A] The file has a <Random Index Pack>.
-                <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/040/artefacts/1.md>
+                <URL: http://www.amwa.tv/projects/rules/01/block/040/artefacts/1.md>
                 [T] Random Index Pack
                     A table that contains the byte offsets of all <Partition>s.
-                    <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Random%20Index%20Pack/>
+                    <URL: http://www.amwa.tv/projects/rules/01/term/Random%20Index%20Pack/>
                     [T] Partition
                         A portion of the MXF file. An MXF file consists of a sequence of Partitions.
-                        <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Partition/>
+                        <URL: http://www.amwa.tv/projects/rules/01/term/Partition/>
         [B] KAG size of 1
             Conformance: mandatory
-            <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/050/>
+            <URL: http://www.amwa.tv/projects/rules/01/block/050/>
             [A] Every <Partition> in the file uses a <KLV Alignment Grid> of 1.
-                <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/050/artefacts/1.md>
+                <URL: http://www.amwa.tv/projects/rules/01/block/050/artefacts/1.md>
                 [T] Partition
                     A portion of the MXF file. An MXF file consists of a sequence of Partitions.
-                    <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Partition/>
+                    <URL: http://www.amwa.tv/projects/rules/01/term/Partition/>
                 [T] KLV Alignment Grid
                     A notional byte spacing which may be used to align KLV items within a <Partition>.
-                    <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/KLV%20Alignment%20Grid/>
+                    <URL: http://www.amwa.tv/projects/rules/01/term/KLV%20Alignment%20Grid/>
         [B] Generic Container
             Conformance: mandatory
-            <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/090/>
+            <URL: http://www.amwa.tv/projects/rules/01/block/090/>
             [A] The file uses the <Generic Container>.
-                <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/090/artefacts/1.md>
+                <URL: http://www.amwa.tv/projects/rules/01/block/090/artefacts/1.md>
                 [T] Generic Container
                     MXF data structure used to store <Essence> data in an MXF file.
-                    <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Generic%20Container/>
+                    <URL: http://www.amwa.tv/projects/rules/01/term/Generic%20Container/>
                     [T] Essence
                         A bitstream comprising picture, sound or data.
-                        <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Essence/>
+                        <URL: http://www.amwa.tv/projects/rules/01/term/Essence/>
         [B] Internal Essence
             Conformance: mandatory
-            <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/100/>
+            <URL: http://www.amwa.tv/projects/rules/01/block/100/>
             [A] The <Generic Container> is internal to the file.
-                <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/100/artefacts/1.md>
+                <URL: http://www.amwa.tv/projects/rules/01/block/100/artefacts/1.md>
                 [T] Generic Container
                     MXF data structure used to store <Essence> data in an MXF file.
-                    <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Generic%20Container/>
+                    <URL: http://www.amwa.tv/projects/rules/01/term/Generic%20Container/>
                     [T] Essence
                         A bitstream comprising picture, sound or data.
-                        <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Essence/>
+                        <URL: http://www.amwa.tv/projects/rules/01/term/Essence/>
         [B] Strict Frame Wrapping
             Conformance: mandatory
-            <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/110/>
+            <URL: http://www.amwa.tv/projects/rules/01/block/110/>
             [A] The <Generic Container> uses <Frame Wrapping>.
-                <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/110/artefacts/1.md>
+                <URL: http://www.amwa.tv/projects/rules/01/block/110/artefacts/1.md>
                 [T] Generic Container
                     MXF data structure used to store <Essence> data in an MXF file.
-                    <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Generic%20Container/>
+                    <URL: http://www.amwa.tv/projects/rules/01/term/Generic%20Container/>
                     [T] Essence
                         A bitstream comprising picture, sound or data.
-                        <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Essence/>
+                        <URL: http://www.amwa.tv/projects/rules/01/term/Essence/>
                 [T] Frame Wrapping
                     A method for dividing and interleaving <Essence Element>s for each frame of <Picture Essence>.
-                    <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Frame%20Wrapping/>
+                    <URL: http://www.amwa.tv/projects/rules/01/term/Frame%20Wrapping/>
                     [T] Essence Element
                         The entire essence stream of a single <Track>.
-                        <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Essence%20Element/>
+                        <URL: http://www.amwa.tv/projects/rules/01/term/Essence%20Element/>
                         [T] Track
                             MXF data structure used to describe the content structure.
-                            <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Track/>
+                            <URL: http://www.amwa.tv/projects/rules/01/term/Track/>
                     [T] Picture Essence
                         A type of <Essence> containing predominantly picture data.
-                        <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Picture%20Essence/>
+                        <URL: http://www.amwa.tv/projects/rules/01/term/Picture%20Essence/>
                         [T] Essence
                             A bitstream comprising picture, sound or data.
-                            <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Essence/>
+                            <URL: http://www.amwa.tv/projects/rules/01/term/Essence/>
             [A] If the <Generic Container> contains <Picture Essence> then the related <Edit Unit> duration is equal to the duration of a video frame of the <Picture Essence>.
-                <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/110/artefacts/2.md>
+                <URL: http://www.amwa.tv/projects/rules/01/block/110/artefacts/2.md>
                 [T] Generic Container
                     MXF data structure used to store <Essence> data in an MXF file.
-                    <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Generic%20Container/>
+                    <URL: http://www.amwa.tv/projects/rules/01/term/Generic%20Container/>
                     [T] Essence
                         A bitstream comprising picture, sound or data.
-                        <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Essence/>
+                        <URL: http://www.amwa.tv/projects/rules/01/term/Essence/>
                 [T] Picture Essence
                     A type of <Essence> containing predominantly picture data.
-                    <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Picture%20Essence/>
+                    <URL: http://www.amwa.tv/projects/rules/01/term/Picture%20Essence/>
                     [T] Essence
                         A bitstream comprising picture, sound or data.
-                        <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Essence/>
+                        <URL: http://www.amwa.tv/projects/rules/01/term/Essence/>
                 [T] Edit Unit
                     A temporal division of a <Track>.
-                    <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Edit%20Unit/>
+                    <URL: http://www.amwa.tv/projects/rules/01/term/Edit%20Unit/>
                     [T] Track
                         MXF data structure used to describe the content structure.
-                        <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Track/>
+                        <URL: http://www.amwa.tv/projects/rules/01/term/Track/>
             [N] Implementation Notes
-                <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/note/E8/>
+                <URL: http://www.amwa.tv/projects/rules/01/note/E8/>
                 [A] For example, this means that if the <Picture Essence> is field-encoded then each <Edit Unit> contains the data assosiated with both of the video fields for a video frame.
-                    <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/note/E8/artefacts/1.md>
+                    <URL: http://www.amwa.tv/projects/rules/01/note/E8/artefacts/1.md>
                     [T] Picture Essence
                         A type of <Essence> containing predominantly picture data.
-                        <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Picture%20Essence/>
+                        <URL: http://www.amwa.tv/projects/rules/01/term/Picture%20Essence/>
                         [T] Essence
                             A bitstream comprising picture, sound or data.
-                            <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Essence/>
+                            <URL: http://www.amwa.tv/projects/rules/01/term/Essence/>
                     [T] Edit Unit
                         A temporal division of a <Track>.
-                        <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Edit%20Unit/>
+                        <URL: http://www.amwa.tv/projects/rules/01/term/Edit%20Unit/>
                         [T] Track
                             MXF data structure used to describe the content structure.
-                            <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Track/>
+                            <URL: http://www.amwa.tv/projects/rules/01/term/Track/>
         [B] One-to-one Track mapping
             Conformance: mandatory
-            <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/120/>
+            <URL: http://www.amwa.tv/projects/rules/01/block/120/>
             [A] Each <Essence Track> in the <Top-Level File Package> is referenced by exactly one <Essence Track> in the <Material Package>.
-                <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/120/artefacts/1.md>
+                <URL: http://www.amwa.tv/projects/rules/01/block/120/artefacts/1.md>
                 [T] Essence Track
                     A type of <Track> that references <Essence>.
-                    <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Essence%20Track/>
+                    <URL: http://www.amwa.tv/projects/rules/01/term/Essence%20Track/>
                     [T] Track
                         MXF data structure used to describe the content structure.
-                        <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Track/>
+                        <URL: http://www.amwa.tv/projects/rules/01/term/Track/>
                     [T] Essence
                         A bitstream comprising picture, sound or data.
-                        <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Essence/>
+                        <URL: http://www.amwa.tv/projects/rules/01/term/Essence/>
                 [T] Top-Level File Package
                     A <Source Package> that is internal to the file and which is directly referenced by a <Material Package> of the file.
-                    <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Top-Level%20File%20Package/>
+                    <URL: http://www.amwa.tv/projects/rules/01/term/Top-Level%20File%20Package/>
                     [T] Source Package
                         MXF data structure that describes source <Essence>.
-                        <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Source%20Package/>
+                        <URL: http://www.amwa.tv/projects/rules/01/term/Source%20Package/>
                         [T] Essence
                             A bitstream comprising picture, sound or data.
-                            <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Essence/>
+                            <URL: http://www.amwa.tv/projects/rules/01/term/Essence/>
                     [T] Material Package
                         An MXF data structure that describe an output timeline of the file.
-                        <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Material%20Package/>
+                        <URL: http://www.amwa.tv/projects/rules/01/term/Material%20Package/>
                 [T] Material Package
                     An MXF data structure that describe an output timeline of the file.
-                    <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Material%20Package/>
+                    <URL: http://www.amwa.tv/projects/rules/01/term/Material%20Package/>
             [N] No division/combination of Audio Channels between Sound Tracks
-                <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/note/E19/>
+                <URL: http://www.amwa.tv/projects/rules/01/note/E19/>
                 [A] This prohibits:
                     
                     * the mapping of audio channels from a multi-channel Sound Track in a Source Package to single-channel Sound Tracks in the Material Package
                     * the mapping of audio channels from single-channel Sound Tracks in a Source Package to multi-channel Sound Tracks in the Material Package
                     
                     which is specified in Annex E of SMPTE ST 382:2007.
-                    <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/note/E19/artefacts/1.md>
+                    <URL: http://www.amwa.tv/projects/rules/01/note/E19/artefacts/1.md>
     [B] Header Metadata KLV Fill
         Conformance: recommended
         <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/030/>
@@ -270,106 +270,106 @@ There are two special types of Block which allow the value of one Block to be se
             <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/030/artefacts/1.md>
             [T] KLV Fill
                 Refers to the well-defined means of inserting empty, "fill", data in an MXF file.
-                <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/KLV%20Fill/>
+                <URL: http://www.amwa.tv/projects/rules/01/term/KLV%20Fill/>
             [T] Header Metadata
                 MXF data structures that collectively describe the data in the <Essence> data in an MXF file.
-                <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Header%20Metadata/>
+                <URL: http://www.amwa.tv/projects/rules/01/term/Header%20Metadata/>
                 [T] Essence
                     A bitstream comprising picture, sound or data.
-                    <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Essence/>
+                    <URL: http://www.amwa.tv/projects/rules/01/term/Essence/>
         [N] Implementation Notes
-            <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/note/002/>
+            <URL: http://www.amwa.tv/projects/rules/01/note/002/>
             [A] The "total length" is of the entire item and includes the length of the Key and Length fields.
                 
                 The extra space afforded by the KLV Fill allows Header Metadata to be edited and added to without rewriting the entire file.
-                <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/note/002/artefacts/1.md>
+                <URL: http://www.amwa.tv/projects/rules/01/note/002/artefacts/1.md>
     [B] MXF Indexing and Partitioning strategy for CBE Essence
         Conformance: mandatory
-        <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/MXF_Intra/>
+        <URL: http://www.amwa.tv/projects/rules/01/block/MXF_Intra/>
         [B] Index precedes Essence
             Conformance: mandatory
-            <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/060/>
+            <URL: http://www.amwa.tv/projects/rules/01/block/060/>
             [A] The file contains a complete <Index Table> before the <Essence>.
-                <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/060/artefacts/1.md>
+                <URL: http://www.amwa.tv/projects/rules/01/block/060/artefacts/1.md>
                 [T] Index Table
                     A structure in an MXF file used to efficiently access <Essence> data.
-                    <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Index%20Table/>
+                    <URL: http://www.amwa.tv/projects/rules/01/term/Index%20Table/>
                     [T] Essence
                         A bitstream comprising picture, sound or data.
-                        <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Essence/>
+                        <URL: http://www.amwa.tv/projects/rules/01/term/Essence/>
                 [T] Essence
                     A bitstream comprising picture, sound or data.
-                    <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Essence/>
+                    <URL: http://www.amwa.tv/projects/rules/01/term/Essence/>
         [B] Index all Essence
             Conformance: mandatory
-            <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/070/>
+            <URL: http://www.amwa.tv/projects/rules/01/block/070/>
             [A] The <Index Table> indexes every <Edit Unit> of every <Essence Element> in the file.
-                <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/070/artefacts/1.md>
+                <URL: http://www.amwa.tv/projects/rules/01/block/070/artefacts/1.md>
                 [T] Index Table
                     A structure in an MXF file used to efficiently access <Essence> data.
-                    <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Index%20Table/>
+                    <URL: http://www.amwa.tv/projects/rules/01/term/Index%20Table/>
                     [T] Essence
                         A bitstream comprising picture, sound or data.
-                        <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Essence/>
+                        <URL: http://www.amwa.tv/projects/rules/01/term/Essence/>
                 [T] Edit Unit
                     A temporal division of a <Track>.
-                    <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Edit%20Unit/>
+                    <URL: http://www.amwa.tv/projects/rules/01/term/Edit%20Unit/>
                     [T] Track
                         MXF data structure used to describe the content structure.
-                        <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Track/>
+                        <URL: http://www.amwa.tv/projects/rules/01/term/Track/>
                 [T] Essence Element
                     The entire essence stream of a single <Track>.
-                    <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Essence%20Element/>
+                    <URL: http://www.amwa.tv/projects/rules/01/term/Essence%20Element/>
                     [T] Track
                         MXF data structure used to describe the content structure.
-                        <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Track/>
+                        <URL: http://www.amwa.tv/projects/rules/01/term/Track/>
         [B] Single Essence Partition
             Conformance: mandatory
-            <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/101/>
+            <URL: http://www.amwa.tv/projects/rules/01/block/101/>
             [A] The <Generic Container> is entirely contained in exactly one <Partition>.
-                <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/101/artefacts/1.md>
+                <URL: http://www.amwa.tv/projects/rules/01/block/101/artefacts/1.md>
                 [T] Generic Container
                     MXF data structure used to store <Essence> data in an MXF file.
-                    <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Generic%20Container/>
+                    <URL: http://www.amwa.tv/projects/rules/01/term/Generic%20Container/>
                     [T] Essence
                         A bitstream comprising picture, sound or data.
-                        <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Essence/>
+                        <URL: http://www.amwa.tv/projects/rules/01/term/Essence/>
                 [T] Partition
                     A portion of the MXF file. An MXF file consists of a sequence of Partitions.
-                    <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Partition/>
+                    <URL: http://www.amwa.tv/projects/rules/01/term/Partition/>
         [N] Indexing and Partitions
-            <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/note/007/>
+            <URL: http://www.amwa.tv/projects/rules/01/note/007/>
             [A] It's generally considered good MXF practice to have one 'thing' per Partition, so you'd have separate Partitions for Header Metadata, Essence, and Index Tables. This isn't a requirement but following best practice is encouraged.
                 
                 The Index Table could be placed in the Header Partition, its own Body Partition or in a Body Partition with the Essence. Indeed it could be distributed across all three of these locations. Decoders need to be able to cope with all of these posibilities.
-                <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/note/007/artefacts/1.md>
+                <URL: http://www.amwa.tv/projects/rules/01/note/007/artefacts/1.md>
     [B] 1080i25 Class 100 AVC mapped with RP 2008
         Conformance: mandatory
         <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/P001/>
         [A] The file includes <RP 2027 Class 100 Picture Essence at 1080i25 with 10 bit samples> and it is mapped to the file as specified in <SMPTE RP 2008:2008>.
             <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/P001/artefacts/1.md>
             [B] RP 2027 Class 100 Picture Essence at 1080i25 with 10 bit samples
-                <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/PE1/>
+                <URL: http://www.amwa.tv/projects/rules/01/block/PE1/>
                 [A] The <Picture Essence> conforms to <SMPTE RP 2027:2012> where: "Class" is "100"; "Television system" is "1080 line system"; "Frame Frequency" is "50i"; "The sequence parameter set and the picture parameter set shall be placed after the access unit delimiter at the beginning of every coded frame".
-                    <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/PE1/artefacts/190.md>
+                    <URL: http://www.amwa.tv/projects/rules/01/block/PE1/artefacts/190.md>
                     [T] Picture Essence
                         A type of <Essence> containing predominantly picture data.
-                        <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Picture%20Essence/>
+                        <URL: http://www.amwa.tv/projects/rules/01/term/Picture%20Essence/>
                         [T] Essence
                             A bitstream comprising picture, sound or data.
-                            <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Essence/>
+                            <URL: http://www.amwa.tv/projects/rules/01/term/Essence/>
                     [R] SMPTE RP 2027:2012
-                        <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/external_reference_revision/SMPTE%20RP%202027-2012/>
+                        <URL: http://www.amwa.tv/projects/rules/01/external_reference_revision/SMPTE%20RP%202027-2012/>
                 [A] Each sample in each plane (chroma and luma) in the decoded <Picture Essence> has 10 bits.
-                    <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/PE1/artefacts/3.md>
+                    <URL: http://www.amwa.tv/projects/rules/01/block/PE1/artefacts/3.md>
                     [T] Picture Essence
                         A type of <Essence> containing predominantly picture data.
-                        <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Picture%20Essence/>
+                        <URL: http://www.amwa.tv/projects/rules/01/term/Picture%20Essence/>
                         [T] Essence
                             A bitstream comprising picture, sound or data.
-                            <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Essence/>
+                            <URL: http://www.amwa.tv/projects/rules/01/term/Essence/>
                 [N] Implementation Notes
-                    <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/note/003/>
+                    <URL: http://www.amwa.tv/projects/rules/01/note/003/>
                     [A] Decoders must be able to play files that omit private SEI messages from the H.264 bitstream.
                         
                         Decoders must apply the parameters in the sequence parameter set and picture parameter set.
@@ -377,32 +377,32 @@ There are two special types of Block which allow the value of one Block to be se
                         With these encoding parameters the coded frame size will be 568832 bytes, including the coded frame, sequence parameter set, picture parameter set, SEI messages and/or padding for SEI messages.
                         
                         The decoded video always has 1080 lines, regardless of any MXF Descriptor property values.
-                        <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/note/003/artefacts/1.md>
+                        <URL: http://www.amwa.tv/projects/rules/01/note/003/artefacts/1.md>
             [R] SMPTE RP 2008:2008
                 <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/external_reference_revision/SMPTE%20RP%202008-2008/>
         [A] The <Material Package> contains exactly one <Picture Track>.
             <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/P001/artefacts/2.md>
             [T] Material Package
                 An MXF data structure that describe an output timeline of the file.
-                <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Material%20Package/>
+                <URL: http://www.amwa.tv/projects/rules/01/term/Material%20Package/>
             [T] Picture Track
                 A type of <Essence Track> that references <Picture Essence>.
-                <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Picture%20Track/>
+                <URL: http://www.amwa.tv/projects/rules/01/term/Picture%20Track/>
                 [T] Essence Track
                     A type of <Track> that references <Essence>.
-                    <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Essence%20Track/>
+                    <URL: http://www.amwa.tv/projects/rules/01/term/Essence%20Track/>
                     [T] Track
                         MXF data structure used to describe the content structure.
-                        <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Track/>
+                        <URL: http://www.amwa.tv/projects/rules/01/term/Track/>
                     [T] Essence
                         A bitstream comprising picture, sound or data.
-                        <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Essence/>
+                        <URL: http://www.amwa.tv/projects/rules/01/term/Essence/>
                 [T] Picture Essence
                     A type of <Essence> containing predominantly picture data.
-                    <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Picture%20Essence/>
+                    <URL: http://www.amwa.tv/projects/rules/01/term/Picture%20Essence/>
                     [T] Essence
                         A bitstream comprising picture, sound or data.
-                        <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Essence/>
+                        <URL: http://www.amwa.tv/projects/rules/01/term/Essence/>
         [N] Stored Height
             <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/note/017/>
             [A] Values of 540 and 544 have been observed in real files for 'Stored Height' in the 'MPEG Video Descriptor'.
@@ -419,25 +419,25 @@ There are two special types of Block which allow the value of one Block to be se
                 <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/220/artefacts/1.md>
                 [T] Sound Track
                     A type of <Essence Track> that references <Sound Essence>.
-                    <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Sound%20Track/>
+                    <URL: http://www.amwa.tv/projects/rules/01/term/Sound%20Track/>
                     [T] Essence Track
                         A type of <Track> that references <Essence>.
-                        <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Essence%20Track/>
+                        <URL: http://www.amwa.tv/projects/rules/01/term/Essence%20Track/>
                         [T] Track
                             MXF data structure used to describe the content structure.
-                            <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Track/>
+                            <URL: http://www.amwa.tv/projects/rules/01/term/Track/>
                         [T] Essence
                             A bitstream comprising picture, sound or data.
-                            <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Essence/>
+                            <URL: http://www.amwa.tv/projects/rules/01/term/Essence/>
                     [T] Sound Essence
                         A type of <Essence> containing sound data.
-                        <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Sound%20Essence/>
+                        <URL: http://www.amwa.tv/projects/rules/01/term/Sound%20Essence/>
                         [T] Essence
                             A bitstream comprising picture, sound or data.
-                            <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Essence/>
+                            <URL: http://www.amwa.tv/projects/rules/01/term/Essence/>
                 [T] Audio Channel
                     A distinct collection of sequenced audio samples that are intended for delivery to a single loudspeaker or other reproduction device.
-                    <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Audio%20Channel/>
+                    <URL: http://www.amwa.tv/projects/rules/01/term/Audio%20Channel/>
             [N] Implementation Notes
                 <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/note/005/>
                 [A] Stereo audio data must be split between two MXF Sound Tracks.
@@ -445,26 +445,26 @@ There are two special types of Block which allow the value of one Block to be se
                     <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/note/005/artefacts/1.md>
         [B] Uncompressed 24-bit PCM audio at 48 kHz
             Conformance: mandatory
-            <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/230/>
+            <URL: http://www.amwa.tv/projects/rules/01/block/230/>
             [A] For each <Audio Channel> the <Sound Essence> is "uncompressed PCM audio data" per <SMPTE ST 382:2007>, sampled at 48 kHz with 24 bits per sample.
-                <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/230/artefacts/1.md>
+                <URL: http://www.amwa.tv/projects/rules/01/block/230/artefacts/1.md>
                 [T] Audio Channel
                     A distinct collection of sequenced audio samples that are intended for delivery to a single loudspeaker or other reproduction device.
-                    <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Audio%20Channel/>
+                    <URL: http://www.amwa.tv/projects/rules/01/term/Audio%20Channel/>
                 [T] Sound Essence
                     A type of <Essence> containing sound data.
-                    <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Sound%20Essence/>
+                    <URL: http://www.amwa.tv/projects/rules/01/term/Sound%20Essence/>
                     [T] Essence
                         A bitstream comprising picture, sound or data.
-                        <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Essence/>
+                        <URL: http://www.amwa.tv/projects/rules/01/term/Essence/>
                 [R] SMPTE ST 382:2007
-                    <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/external_reference_revision/SMPTE%20ST%20382-2007/>
+                    <URL: http://www.amwa.tv/projects/rules/01/external_reference_revision/SMPTE%20ST%20382-2007/>
             [N] Implementation Notes
-                <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/note/029/>
+                <URL: http://www.amwa.tv/projects/rules/01/note/029/>
                 [A] As per Section 6 of <SMPTE ST 382:2007> samples are stored as little-endian integers.
-                    <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/note/029/artefacts/1.md>
+                    <URL: http://www.amwa.tv/projects/rules/01/note/029/artefacts/1.md>
                     [R] SMPTE ST 382:2007
-                        <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/external_reference_revision/SMPTE%20ST%20382-2007/>
+                        <URL: http://www.amwa.tv/projects/rules/01/external_reference_revision/SMPTE%20ST%20382-2007/>
         [B] ST 382 mapping
             Conformance: mandatory
             <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/240/>
@@ -472,18 +472,18 @@ There are two special types of Block which allow the value of one Block to be se
                 <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/240/artefacts/1.md>
                 [T] Sound Essence
                     A type of <Essence> containing sound data.
-                    <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Sound%20Essence/>
+                    <URL: http://www.amwa.tv/projects/rules/01/term/Sound%20Essence/>
                     [T] Essence
                         A bitstream comprising picture, sound or data.
-                        <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Essence/>
+                        <URL: http://www.amwa.tv/projects/rules/01/term/Essence/>
                 [R] SMPTE ST 382:2007
-                    <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/external_reference_revision/SMPTE%20ST%20382-2007/>
+                    <URL: http://www.amwa.tv/projects/rules/01/external_reference_revision/SMPTE%20ST%20382-2007/>
             [N] Implementation Notes
                 <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/note/006/>
                 [A] <SMPTE ST 382:2007> describes mapping for AES3 and BWF. In the case of uncompressed PCM, as used here, the mapping for the audio sample data is the same for the AES3 and BWF mappings.
                     <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/note/006/artefacts/1.md>
                     [R] SMPTE ST 382:2007
-                        <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/external_reference_revision/SMPTE%20ST%20382-2007/>
+                        <URL: http://www.amwa.tv/projects/rules/01/external_reference_revision/SMPTE%20ST%20382-2007/>
     [B] Simple sound track numbering
         Conformance: mandatory
         <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/SM1/>
@@ -491,48 +491,48 @@ There are two special types of Block which allow the value of one Block to be se
             <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/SM1/artefacts/250.md>
             [T] Sound Track
                 A type of <Essence Track> that references <Sound Essence>.
-                <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Sound%20Track/>
+                <URL: http://www.amwa.tv/projects/rules/01/term/Sound%20Track/>
                 [T] Essence Track
                     A type of <Track> that references <Essence>.
-                    <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Essence%20Track/>
+                    <URL: http://www.amwa.tv/projects/rules/01/term/Essence%20Track/>
                     [T] Track
                         MXF data structure used to describe the content structure.
-                        <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Track/>
+                        <URL: http://www.amwa.tv/projects/rules/01/term/Track/>
                     [T] Essence
                         A bitstream comprising picture, sound or data.
-                        <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Essence/>
+                        <URL: http://www.amwa.tv/projects/rules/01/term/Essence/>
                 [T] Sound Essence
                     A type of <Essence> containing sound data.
-                    <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Sound%20Essence/>
+                    <URL: http://www.amwa.tv/projects/rules/01/term/Sound%20Essence/>
                     [T] Essence
                         A bitstream comprising picture, sound or data.
-                        <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Essence/>
+                        <URL: http://www.amwa.tv/projects/rules/01/term/Essence/>
             [T] Material Package
                 An MXF data structure that describe an output timeline of the file.
-                <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Material%20Package/>
+                <URL: http://www.amwa.tv/projects/rules/01/term/Material%20Package/>
         [A] The "Track Number" of each <Sound Track> in the <Material Package> is the "Audio Track Number" defined in <EBU R 48> and <EBU R 123>.
             <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/SM1/artefacts/260.md>
             [T] Sound Track
                 A type of <Essence Track> that references <Sound Essence>.
-                <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Sound%20Track/>
+                <URL: http://www.amwa.tv/projects/rules/01/term/Sound%20Track/>
                 [T] Essence Track
                     A type of <Track> that references <Essence>.
-                    <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Essence%20Track/>
+                    <URL: http://www.amwa.tv/projects/rules/01/term/Essence%20Track/>
                     [T] Track
                         MXF data structure used to describe the content structure.
-                        <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Track/>
+                        <URL: http://www.amwa.tv/projects/rules/01/term/Track/>
                     [T] Essence
                         A bitstream comprising picture, sound or data.
-                        <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Essence/>
+                        <URL: http://www.amwa.tv/projects/rules/01/term/Essence/>
                 [T] Sound Essence
                     A type of <Essence> containing sound data.
-                    <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Sound%20Essence/>
+                    <URL: http://www.amwa.tv/projects/rules/01/term/Sound%20Essence/>
                     [T] Essence
                         A bitstream comprising picture, sound or data.
-                        <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Essence/>
+                        <URL: http://www.amwa.tv/projects/rules/01/term/Essence/>
             [T] Material Package
                 An MXF data structure that describe an output timeline of the file.
-                <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Material%20Package/>
+                <URL: http://www.amwa.tv/projects/rules/01/term/Material%20Package/>
             [R] EBU R 48
                 <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/external_reference_revision/EBU%20R%2048-2005/>
             [R] EBU R 123
@@ -557,20 +557,20 @@ There are two special types of Block which allow the value of one Block to be se
                     <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/500S/artefacts/1.md>
                     [T] DM Scheme
                         A mechanism for defining collections of <Descriptive Metadata>.
-                        <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/DM%20Scheme/>
+                        <URL: http://www.amwa.tv/projects/rules/01/term/DM%20Scheme/>
                         [T] Descriptive Metadata
                             Generic term used for descriptive data whose purpose is to describe <Essence> data.
-                            <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Descriptive%20Metadata/>
+                            <URL: http://www.amwa.tv/projects/rules/01/term/Descriptive%20Metadata/>
                             [T] Essence
                                 A bitstream comprising picture, sound or data.
-                                <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Essence/>
+                                <URL: http://www.amwa.tv/projects/rules/01/term/Essence/>
                     [B] DM_AS_11_Core
                         <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/500L/>
                         [A] http://vm-1274-user.virt.ch.bbc.co.uk/as/block/500L/artefacts/Labels.xml
                             <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/500L/artefacts/Labels.xml>
                     [T] DM Scheme Label
                         An identifier for a <DM Scheme>. It is stored in an MXF file's Preface::DMSchemes property to signify the use of that <DM Scheme> in the file.
-                        <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/DM%20Scheme%20Label/>
+                        <URL: http://www.amwa.tv/projects/rules/01/term/DM%20Scheme%20Label/>
                     [B] DM_AS_11_Core_Framework
                         <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/500F/>
                         [A] http://vm-1274-user.virt.ch.bbc.co.uk/as/block/500F/artefacts/Groups.xml
@@ -583,13 +583,13 @@ There are two special types of Block which allow the value of one Block to be se
                             <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/500F/artefacts/dm_extras.py>
                     [T] DM Framework
                         A <Descriptive Metadata> Class that is a Subclass of Descriptive Framework.
-                        <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/DM%20Framework/>
+                        <URL: http://www.amwa.tv/projects/rules/01/term/DM%20Framework/>
                         [T] Descriptive Metadata
                             Generic term used for descriptive data whose purpose is to describe <Essence> data.
-                            <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Descriptive%20Metadata/>
+                            <URL: http://www.amwa.tv/projects/rules/01/term/Descriptive%20Metadata/>
                             [T] Essence
                                 A bitstream comprising picture, sound or data.
-                                <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Essence/>
+                                <URL: http://www.amwa.tv/projects/rules/01/term/Essence/>
         [A] The instance of <DM_AS_11_Core_Framework> is strongly referenced from a <Constrained Static DM Track>.
             <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/550/artefacts/2.md>
             [B] DM_AS_11_Core_Framework
@@ -603,74 +603,74 @@ There are two special types of Block which allow the value of one Block to be se
                 [A] http://vm-1274-user.virt.ch.bbc.co.uk/as/block/500F/artefacts/dm_extras.py
                     <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/500F/artefacts/dm_extras.py>
             [B] Constrained Static DM Track
-                <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/056/>
+                <URL: http://www.amwa.tv/projects/rules/01/block/056/>
                 [A] A <Constrained Static DM Track> is a <Static Track (DM)> in the <Material Package> that contains a <Sequence>, which contains exactly one <DM Segment>, which strongly references an instance of a <DM Framework>.
-                    <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/056/artefacts/1.md>
+                    <URL: http://www.amwa.tv/projects/rules/01/block/056/artefacts/1.md>
                     [T] Static Track (DM)
                         A <Track> carrying unchanging <Descriptive Metadata>.
-                        <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Static%20Track%20(DM)/>
+                        <URL: http://www.amwa.tv/projects/rules/01/term/Static%20Track%20(DM)/>
                         [T] Track
                             MXF data structure used to describe the content structure.
-                            <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Track/>
+                            <URL: http://www.amwa.tv/projects/rules/01/term/Track/>
                         [T] Descriptive Metadata
                             Generic term used for descriptive data whose purpose is to describe <Essence> data.
-                            <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Descriptive%20Metadata/>
+                            <URL: http://www.amwa.tv/projects/rules/01/term/Descriptive%20Metadata/>
                             [T] Essence
                                 A bitstream comprising picture, sound or data.
-                                <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Essence/>
+                                <URL: http://www.amwa.tv/projects/rules/01/term/Essence/>
                     [T] Material Package
                         An MXF data structure that describe an output timeline of the file.
-                        <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Material%20Package/>
+                        <URL: http://www.amwa.tv/projects/rules/01/term/Material%20Package/>
                     [T] Sequence
                         A Structural Metadata Class that is a Subclass of Structural Component.
-                        <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Sequence/>
+                        <URL: http://www.amwa.tv/projects/rules/01/term/Sequence/>
                     [T] DM Segment
                         An MXF structure used to generically contain <Descriptive Metadata> on a <Track>.
-                        <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/DM%20Segment/>
+                        <URL: http://www.amwa.tv/projects/rules/01/term/DM%20Segment/>
                         [T] Descriptive Metadata
                             Generic term used for descriptive data whose purpose is to describe <Essence> data.
-                            <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Descriptive%20Metadata/>
+                            <URL: http://www.amwa.tv/projects/rules/01/term/Descriptive%20Metadata/>
                             [T] Essence
                                 A bitstream comprising picture, sound or data.
-                                <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Essence/>
+                                <URL: http://www.amwa.tv/projects/rules/01/term/Essence/>
                         [T] Track
                             MXF data structure used to describe the content structure.
-                            <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Track/>
+                            <URL: http://www.amwa.tv/projects/rules/01/term/Track/>
                     [T] DM Framework
                         A <Descriptive Metadata> Class that is a Subclass of Descriptive Framework.
-                        <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/DM%20Framework/>
+                        <URL: http://www.amwa.tv/projects/rules/01/term/DM%20Framework/>
                         [T] Descriptive Metadata
                             Generic term used for descriptive data whose purpose is to describe <Essence> data.
-                            <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Descriptive%20Metadata/>
+                            <URL: http://www.amwa.tv/projects/rules/01/term/Descriptive%20Metadata/>
                             [T] Essence
                                 A bitstream comprising picture, sound or data.
-                                <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Essence/>
+                                <URL: http://www.amwa.tv/projects/rules/01/term/Essence/>
                 [N] Track Name
-                    <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/note/039/>
+                    <URL: http://www.amwa.tv/projects/rules/01/note/039/>
                     [A] The "Track Name" property of an <Constrained Static DM Track> does not identify the <DM Scheme> whose <DM Framework> it references. In the absence of other requirements for "Track Name", it is suggested that files use a value corresponding to the <DM Scheme> used in the track, e.g. "AS_11_Core", "AS_11_UKDPP".
-                        <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/note/039/artefacts/1.md>
+                        <URL: http://www.amwa.tv/projects/rules/01/note/039/artefacts/1.md>
                         [T] DM Scheme
                             A mechanism for defining collections of <Descriptive Metadata>.
-                            <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/DM%20Scheme/>
+                            <URL: http://www.amwa.tv/projects/rules/01/term/DM%20Scheme/>
                             [T] Descriptive Metadata
                                 Generic term used for descriptive data whose purpose is to describe <Essence> data.
-                                <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Descriptive%20Metadata/>
+                                <URL: http://www.amwa.tv/projects/rules/01/term/Descriptive%20Metadata/>
                                 [T] Essence
                                     A bitstream comprising picture, sound or data.
-                                    <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Essence/>
+                                    <URL: http://www.amwa.tv/projects/rules/01/term/Essence/>
                         [T] DM Framework
                             A <Descriptive Metadata> Class that is a Subclass of Descriptive Framework.
-                            <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/DM%20Framework/>
+                            <URL: http://www.amwa.tv/projects/rules/01/term/DM%20Framework/>
                             [T] Descriptive Metadata
                                 Generic term used for descriptive data whose purpose is to describe <Essence> data.
-                                <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Descriptive%20Metadata/>
+                                <URL: http://www.amwa.tv/projects/rules/01/term/Descriptive%20Metadata/>
                                 [T] Essence
                                     A bitstream comprising picture, sound or data.
-                                    <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Essence/>
+                                    <URL: http://www.amwa.tv/projects/rules/01/term/Essence/>
         [N] Repetition of Header Metadata
-            <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/note/051/>
+            <URL: http://www.amwa.tv/projects/rules/01/note/051/>
             [A] Repetition of Header Metadata in the Footer Partition is not considered to be another instance of any of the components of that Header Metadata.
-                <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/note/051/artefacts/1.md>
+                <URL: http://www.amwa.tv/projects/rules/01/note/051/artefacts/1.md>
     [B] AS-11 UKDPP DM
         Conformance: mandatory
         <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/555/>
@@ -682,20 +682,20 @@ There are two special types of Block which allow the value of one Block to be se
                     <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/510S/artefacts/1.md>
                     [T] DM Scheme
                         A mechanism for defining collections of <Descriptive Metadata>.
-                        <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/DM%20Scheme/>
+                        <URL: http://www.amwa.tv/projects/rules/01/term/DM%20Scheme/>
                         [T] Descriptive Metadata
                             Generic term used for descriptive data whose purpose is to describe <Essence> data.
-                            <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Descriptive%20Metadata/>
+                            <URL: http://www.amwa.tv/projects/rules/01/term/Descriptive%20Metadata/>
                             [T] Essence
                                 A bitstream comprising picture, sound or data.
-                                <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Essence/>
+                                <URL: http://www.amwa.tv/projects/rules/01/term/Essence/>
                     [B] DM_AS_11_UKDPP
                         <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/510L/>
                         [A] http://vm-1274-user.virt.ch.bbc.co.uk/as/block/510L/artefacts/Labels.xml
                             <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/510L/artefacts/Labels.xml>
                     [T] DM Scheme Label
                         An identifier for a <DM Scheme>. It is stored in an MXF file's Preface::DMSchemes property to signify the use of that <DM Scheme> in the file.
-                        <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/DM%20Scheme%20Label/>
+                        <URL: http://www.amwa.tv/projects/rules/01/term/DM%20Scheme%20Label/>
                     [B] DM_AS_11_UKDPP Framework
                         <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/510F/>
                         [A] http://vm-1274-user.virt.ch.bbc.co.uk/as/block/510F/artefacts/Groups.xml
@@ -708,13 +708,13 @@ There are two special types of Block which allow the value of one Block to be se
                             <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/510F/artefacts/dm_extras.py>
                     [T] DM Framework
                         A <Descriptive Metadata> Class that is a Subclass of Descriptive Framework.
-                        <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/DM%20Framework/>
+                        <URL: http://www.amwa.tv/projects/rules/01/term/DM%20Framework/>
                         [T] Descriptive Metadata
                             Generic term used for descriptive data whose purpose is to describe <Essence> data.
-                            <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Descriptive%20Metadata/>
+                            <URL: http://www.amwa.tv/projects/rules/01/term/Descriptive%20Metadata/>
                             [T] Essence
                                 A bitstream comprising picture, sound or data.
-                                <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Essence/>
+                                <URL: http://www.amwa.tv/projects/rules/01/term/Essence/>
         [A] The instance of <DM_AS_11_UKDPP Framework> is strongly referenced from a <Constrained Static DM Track>.
             <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/555/artefacts/2.md>
             [B] DM_AS_11_UKDPP Framework
@@ -728,369 +728,369 @@ There are two special types of Block which allow the value of one Block to be se
                 [A] http://vm-1274-user.virt.ch.bbc.co.uk/as/block/510F/artefacts/dm_extras.py
                     <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/510F/artefacts/dm_extras.py>
             [B] Constrained Static DM Track
-                <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/056/>
+                <URL: http://www.amwa.tv/projects/rules/01/block/056/>
                 [A] A <Constrained Static DM Track> is a <Static Track (DM)> in the <Material Package> that contains a <Sequence>, which contains exactly one <DM Segment>, which strongly references an instance of a <DM Framework>.
-                    <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/056/artefacts/1.md>
+                    <URL: http://www.amwa.tv/projects/rules/01/block/056/artefacts/1.md>
                     [T] Static Track (DM)
                         A <Track> carrying unchanging <Descriptive Metadata>.
-                        <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Static%20Track%20(DM)/>
+                        <URL: http://www.amwa.tv/projects/rules/01/term/Static%20Track%20(DM)/>
                         [T] Track
                             MXF data structure used to describe the content structure.
-                            <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Track/>
+                            <URL: http://www.amwa.tv/projects/rules/01/term/Track/>
                         [T] Descriptive Metadata
                             Generic term used for descriptive data whose purpose is to describe <Essence> data.
-                            <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Descriptive%20Metadata/>
+                            <URL: http://www.amwa.tv/projects/rules/01/term/Descriptive%20Metadata/>
                             [T] Essence
                                 A bitstream comprising picture, sound or data.
-                                <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Essence/>
+                                <URL: http://www.amwa.tv/projects/rules/01/term/Essence/>
                     [T] Material Package
                         An MXF data structure that describe an output timeline of the file.
-                        <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Material%20Package/>
+                        <URL: http://www.amwa.tv/projects/rules/01/term/Material%20Package/>
                     [T] Sequence
                         A Structural Metadata Class that is a Subclass of Structural Component.
-                        <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Sequence/>
+                        <URL: http://www.amwa.tv/projects/rules/01/term/Sequence/>
                     [T] DM Segment
                         An MXF structure used to generically contain <Descriptive Metadata> on a <Track>.
-                        <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/DM%20Segment/>
+                        <URL: http://www.amwa.tv/projects/rules/01/term/DM%20Segment/>
                         [T] Descriptive Metadata
                             Generic term used for descriptive data whose purpose is to describe <Essence> data.
-                            <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Descriptive%20Metadata/>
+                            <URL: http://www.amwa.tv/projects/rules/01/term/Descriptive%20Metadata/>
                             [T] Essence
                                 A bitstream comprising picture, sound or data.
-                                <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Essence/>
+                                <URL: http://www.amwa.tv/projects/rules/01/term/Essence/>
                         [T] Track
                             MXF data structure used to describe the content structure.
-                            <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Track/>
+                            <URL: http://www.amwa.tv/projects/rules/01/term/Track/>
                     [T] DM Framework
                         A <Descriptive Metadata> Class that is a Subclass of Descriptive Framework.
-                        <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/DM%20Framework/>
+                        <URL: http://www.amwa.tv/projects/rules/01/term/DM%20Framework/>
                         [T] Descriptive Metadata
                             Generic term used for descriptive data whose purpose is to describe <Essence> data.
-                            <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Descriptive%20Metadata/>
+                            <URL: http://www.amwa.tv/projects/rules/01/term/Descriptive%20Metadata/>
                             [T] Essence
                                 A bitstream comprising picture, sound or data.
-                                <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Essence/>
+                                <URL: http://www.amwa.tv/projects/rules/01/term/Essence/>
                 [N] Track Name
-                    <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/note/039/>
+                    <URL: http://www.amwa.tv/projects/rules/01/note/039/>
                     [A] The "Track Name" property of an <Constrained Static DM Track> does not identify the <DM Scheme> whose <DM Framework> it references. In the absence of other requirements for "Track Name", it is suggested that files use a value corresponding to the <DM Scheme> used in the track, e.g. "AS_11_Core", "AS_11_UKDPP".
-                        <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/note/039/artefacts/1.md>
+                        <URL: http://www.amwa.tv/projects/rules/01/note/039/artefacts/1.md>
                         [T] DM Scheme
                             A mechanism for defining collections of <Descriptive Metadata>.
-                            <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/DM%20Scheme/>
+                            <URL: http://www.amwa.tv/projects/rules/01/term/DM%20Scheme/>
                             [T] Descriptive Metadata
                                 Generic term used for descriptive data whose purpose is to describe <Essence> data.
-                                <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Descriptive%20Metadata/>
+                                <URL: http://www.amwa.tv/projects/rules/01/term/Descriptive%20Metadata/>
                                 [T] Essence
                                     A bitstream comprising picture, sound or data.
-                                    <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Essence/>
+                                    <URL: http://www.amwa.tv/projects/rules/01/term/Essence/>
                         [T] DM Framework
                             A <Descriptive Metadata> Class that is a Subclass of Descriptive Framework.
-                            <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/DM%20Framework/>
+                            <URL: http://www.amwa.tv/projects/rules/01/term/DM%20Framework/>
                             [T] Descriptive Metadata
                                 Generic term used for descriptive data whose purpose is to describe <Essence> data.
-                                <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Descriptive%20Metadata/>
+                                <URL: http://www.amwa.tv/projects/rules/01/term/Descriptive%20Metadata/>
                                 [T] Essence
                                     A bitstream comprising picture, sound or data.
-                                    <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Essence/>
+                                    <URL: http://www.amwa.tv/projects/rules/01/term/Essence/>
         [N] Repetition of Header Metadata
-            <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/note/051/>
+            <URL: http://www.amwa.tv/projects/rules/01/note/051/>
             [A] Repetition of Header Metadata in the Footer Partition is not considered to be another instance of any of the components of that Header Metadata.
-                <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/note/051/artefacts/1.md>
+                <URL: http://www.amwa.tv/projects/rules/01/note/051/artefacts/1.md>
     [B] AS-11 Segmentation DM
         Conformance: mandatory
-        <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/530/>
+        <URL: http://www.amwa.tv/projects/rules/01/block/530/>
         [A] The file contains exactly one <Program Segmentation Track>.
-            <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/530/artefacts/530.md>
+            <URL: http://www.amwa.tv/projects/rules/01/block/530/artefacts/530.md>
             [B] Program Segmentation Track
-                <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/532/>
+                <URL: http://www.amwa.tv/projects/rules/01/block/532/>
                 [A] A <Program Segmentation Track> is a <Timeline Track> that contains a <Sequence> that is composed of zero or more <Filler> objects and one or more <DM Segment> objects.
-                    <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/532/artefacts/532.md>
+                    <URL: http://www.amwa.tv/projects/rules/01/block/532/artefacts/532.md>
                     [T] Timeline Track
                         A specialized MXF <Track> that describes a timeline by specifying an origin and rate.
-                        <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Timeline%20Track/>
+                        <URL: http://www.amwa.tv/projects/rules/01/term/Timeline%20Track/>
                         [T] Track
                             MXF data structure used to describe the content structure.
-                            <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Track/>
+                            <URL: http://www.amwa.tv/projects/rules/01/term/Track/>
                     [T] Sequence
                         A Structural Metadata Class that is a Subclass of Structural Component.
-                        <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Sequence/>
+                        <URL: http://www.amwa.tv/projects/rules/01/term/Sequence/>
                     [T] Filler
                         An MXF structure used to describe empty space on a <Timeline Track>.
-                        <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Filler/>
+                        <URL: http://www.amwa.tv/projects/rules/01/term/Filler/>
                     [T] DM Segment
                         An MXF structure used to generically contain <Descriptive Metadata> on a <Track>.
-                        <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/DM%20Segment/>
+                        <URL: http://www.amwa.tv/projects/rules/01/term/DM%20Segment/>
                         [T] Descriptive Metadata
                             Generic term used for descriptive data whose purpose is to describe <Essence> data.
-                            <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Descriptive%20Metadata/>
+                            <URL: http://www.amwa.tv/projects/rules/01/term/Descriptive%20Metadata/>
                             [T] Essence
                                 A bitstream comprising picture, sound or data.
-                                <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Essence/>
+                                <URL: http://www.amwa.tv/projects/rules/01/term/Essence/>
                         [T] Track
                             MXF data structure used to describe the content structure.
-                            <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Track/>
+                            <URL: http://www.amwa.tv/projects/rules/01/term/Track/>
                 [A] Each <DM Segment> object in the <Program Segmentation Track> represents, and aligns with, a region of program content in the <Source Essence>.
-                    <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/532/artefacts/534.md>
+                    <URL: http://www.amwa.tv/projects/rules/01/block/532/artefacts/534.md>
                     [T] DM Segment
                         An MXF structure used to generically contain <Descriptive Metadata> on a <Track>.
-                        <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/DM%20Segment/>
+                        <URL: http://www.amwa.tv/projects/rules/01/term/DM%20Segment/>
                         [T] Descriptive Metadata
                             Generic term used for descriptive data whose purpose is to describe <Essence> data.
-                            <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Descriptive%20Metadata/>
+                            <URL: http://www.amwa.tv/projects/rules/01/term/Descriptive%20Metadata/>
                             [T] Essence
                                 A bitstream comprising picture, sound or data.
-                                <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Essence/>
+                                <URL: http://www.amwa.tv/projects/rules/01/term/Essence/>
                         [T] Track
                             MXF data structure used to describe the content structure.
-                            <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Track/>
+                            <URL: http://www.amwa.tv/projects/rules/01/term/Track/>
                     [T] Source Essence
                         <Essence> data referenced by a <Source Package>.
-                        <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Source%20Essence/>
+                        <URL: http://www.amwa.tv/projects/rules/01/term/Source%20Essence/>
                         [T] Essence
                             A bitstream comprising picture, sound or data.
-                            <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Essence/>
+                            <URL: http://www.amwa.tv/projects/rules/01/term/Essence/>
                         [T] Source Package
                             MXF data structure that describes source <Essence>.
-                            <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Source%20Package/>
+                            <URL: http://www.amwa.tv/projects/rules/01/term/Source%20Package/>
                 [A] Each <Filler> object in the <Program Segmentation Track> represents, and aligns with, a region of non-program content in the <Source Essence>.
-                    <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/532/artefacts/536.md>
+                    <URL: http://www.amwa.tv/projects/rules/01/block/532/artefacts/536.md>
                     [T] Filler
                         An MXF structure used to describe empty space on a <Timeline Track>.
-                        <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Filler/>
+                        <URL: http://www.amwa.tv/projects/rules/01/term/Filler/>
                         [T] Timeline Track
                             A specialized MXF <Track> that describes a timeline by specifying an origin and rate.
-                            <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Timeline%20Track/>
+                            <URL: http://www.amwa.tv/projects/rules/01/term/Timeline%20Track/>
                             [T] Track
                                 MXF data structure used to describe the content structure.
-                                <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Track/>
+                                <URL: http://www.amwa.tv/projects/rules/01/term/Track/>
                     [T] Source Essence
                         <Essence> data referenced by a <Source Package>.
-                        <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Source%20Essence/>
+                        <URL: http://www.amwa.tv/projects/rules/01/term/Source%20Essence/>
                         [T] Essence
                             A bitstream comprising picture, sound or data.
-                            <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Essence/>
+                            <URL: http://www.amwa.tv/projects/rules/01/term/Essence/>
                         [T] Source Package
                             MXF data structure that describes source <Essence>.
-                            <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Source%20Package/>
+                            <URL: http://www.amwa.tv/projects/rules/01/term/Source%20Package/>
                 [N] Track Name
-                    <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/note/038/>
+                    <URL: http://www.amwa.tv/projects/rules/01/note/038/>
                     [A] The "Track Name" property of the <Program Segmentation Track> does not identify the segmentation metadata scheme. In the absence of other requirements for "Track Name", it is suggested that files use a value corresponding to the <DM Scheme> used in the track, e.g.  "AS_11_Segmentation".
-                        <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/note/038/artefacts/1.md>
+                        <URL: http://www.amwa.tv/projects/rules/01/note/038/artefacts/1.md>
                         [T] DM Scheme
                             A mechanism for defining collections of <Descriptive Metadata>.
-                            <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/DM%20Scheme/>
+                            <URL: http://www.amwa.tv/projects/rules/01/term/DM%20Scheme/>
                             [T] Descriptive Metadata
                                 Generic term used for descriptive data whose purpose is to describe <Essence> data.
-                                <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Descriptive%20Metadata/>
+                                <URL: http://www.amwa.tv/projects/rules/01/term/Descriptive%20Metadata/>
                                 [T] Essence
                                     A bitstream comprising picture, sound or data.
-                                    <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Essence/>
+                                    <URL: http://www.amwa.tv/projects/rules/01/term/Essence/>
                 [N] Determining SOM and EOM
-                    <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/note/040/>
+                    <URL: http://www.amwa.tv/projects/rules/01/note/040/>
                     [A] The start and end timecodes for program regions, commonly referred to as "start of material" (som) and "end of material" (eom), can be determined based on the location of <DM Segment> objects on the <Program Segmentation Track> relative to the adjacent <Timecode Track> in the <Material Package> that contains the <Program Segmentation Track>.
-                        <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/note/040/artefacts/1.md>
+                        <URL: http://www.amwa.tv/projects/rules/01/note/040/artefacts/1.md>
                         [T] DM Segment
                             An MXF structure used to generically contain <Descriptive Metadata> on a <Track>.
-                            <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/DM%20Segment/>
+                            <URL: http://www.amwa.tv/projects/rules/01/term/DM%20Segment/>
                             [T] Descriptive Metadata
                                 Generic term used for descriptive data whose purpose is to describe <Essence> data.
-                                <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Descriptive%20Metadata/>
+                                <URL: http://www.amwa.tv/projects/rules/01/term/Descriptive%20Metadata/>
                                 [T] Essence
                                     A bitstream comprising picture, sound or data.
-                                    <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Essence/>
+                                    <URL: http://www.amwa.tv/projects/rules/01/term/Essence/>
                             [T] Track
                                 MXF data structure used to describe the content structure.
-                                <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Track/>
+                                <URL: http://www.amwa.tv/projects/rules/01/term/Track/>
                         [T] Timecode Track
                             An MXF <Track> that stores one or more <Timecode Component>s.
-                            <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Timecode%20Track/>
+                            <URL: http://www.amwa.tv/projects/rules/01/term/Timecode%20Track/>
                             [T] Track
                                 MXF data structure used to describe the content structure.
-                                <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Track/>
+                                <URL: http://www.amwa.tv/projects/rules/01/term/Track/>
                             [T] Timecode Component
                                 An MXF structure that stores <Timecode> information.
-                                <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Timecode%20Component/>
+                                <URL: http://www.amwa.tv/projects/rules/01/term/Timecode%20Component/>
                                 [T] Timecode
                                     An annotation of elapsed time along a <Track>.
-                                    <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Timecode/>
+                                    <URL: http://www.amwa.tv/projects/rules/01/term/Timecode/>
                         [T] Material Package
                             An MXF data structure that describe an output timeline of the file.
-                            <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Material%20Package/>
+                            <URL: http://www.amwa.tv/projects/rules/01/term/Material%20Package/>
                 [N] Non-Programme Content
-                    <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/note/048/>
+                    <URL: http://www.amwa.tv/projects/rules/01/note/048/>
                     [A] Examples of non-programme content include: black, ident, clock.
-                        <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/note/048/artefacts/1.md>
+                        <URL: http://www.amwa.tv/projects/rules/01/note/048/artefacts/1.md>
                 [N] Track Composition
-                    <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/note/050/>
+                    <URL: http://www.amwa.tv/projects/rules/01/note/050/>
                     [A] Constraints set out in <SMPTE ST 377-1:2011> and <SMPTE ST 378:2004> mean that the <Program Segmentation Track> is necessarily full from start to finish and is the same length as all other <Timeline Track>s in the <Material Package>.
-                        <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/note/050/artefacts/1.md>
+                        <URL: http://www.amwa.tv/projects/rules/01/note/050/artefacts/1.md>
                         [R] SMPTE ST 377-1:2011
-                            <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/external_reference_revision/SMPTE%20ST%20377-1-2011/>
+                            <URL: http://www.amwa.tv/projects/rules/01/external_reference_revision/SMPTE%20ST%20377-1-2011/>
                         [R] SMPTE ST 378:2004
-                            <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/external_reference_revision/SMPTE%20ST%20378-2004/>
+                            <URL: http://www.amwa.tv/projects/rules/01/external_reference_revision/SMPTE%20ST%20378-2004/>
                         [T] Timeline Track
                             A specialized MXF <Track> that describes a timeline by specifying an origin and rate.
-                            <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Timeline%20Track/>
+                            <URL: http://www.amwa.tv/projects/rules/01/term/Timeline%20Track/>
                             [T] Track
                                 MXF data structure used to describe the content structure.
-                                <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Track/>
+                                <URL: http://www.amwa.tv/projects/rules/01/term/Track/>
                         [T] Material Package
                             An MXF data structure that describe an output timeline of the file.
-                            <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Material%20Package/>
+                            <URL: http://www.amwa.tv/projects/rules/01/term/Material%20Package/>
         [A] This <Track> is in the <Material Package>.
-            <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/530/artefacts/531.md>
+            <URL: http://www.amwa.tv/projects/rules/01/block/530/artefacts/531.md>
             [T] Track
                 MXF data structure used to describe the content structure.
-                <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Track/>
+                <URL: http://www.amwa.tv/projects/rules/01/term/Track/>
             [T] Material Package
                 An MXF data structure that describe an output timeline of the file.
-                <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Material%20Package/>
+                <URL: http://www.amwa.tv/projects/rules/01/term/Material%20Package/>
         [A] Each <DM Segment> object in the <Track> strongly references an instance of <DM_AS_11_Segmentation>.
-            <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/530/artefacts/538.md>
+            <URL: http://www.amwa.tv/projects/rules/01/block/530/artefacts/538.md>
             [T] DM Segment
                 An MXF structure used to generically contain <Descriptive Metadata> on a <Track>.
-                <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/DM%20Segment/>
+                <URL: http://www.amwa.tv/projects/rules/01/term/DM%20Segment/>
                 [T] Descriptive Metadata
                     Generic term used for descriptive data whose purpose is to describe <Essence> data.
-                    <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Descriptive%20Metadata/>
+                    <URL: http://www.amwa.tv/projects/rules/01/term/Descriptive%20Metadata/>
                     [T] Essence
                         A bitstream comprising picture, sound or data.
-                        <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Essence/>
+                        <URL: http://www.amwa.tv/projects/rules/01/term/Essence/>
                 [T] Track
                     MXF data structure used to describe the content structure.
-                    <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Track/>
+                    <URL: http://www.amwa.tv/projects/rules/01/term/Track/>
             [T] Track
                 MXF data structure used to describe the content structure.
-                <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Track/>
+                <URL: http://www.amwa.tv/projects/rules/01/term/Track/>
             [B] DM_AS_11_Segmentation
-                <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/505S/>
+                <URL: http://www.amwa.tv/projects/rules/01/block/505S/>
                 [A] This <DM Scheme> is identified by <DM_AS_11_Segmentation> (the <DM Scheme Label>) and has the following members: <DM_AS_11_Segmentation_Framework> (the <DM Framework>).
-                    <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/505S/artefacts/1.md>
+                    <URL: http://www.amwa.tv/projects/rules/01/block/505S/artefacts/1.md>
                     [T] DM Scheme
                         A mechanism for defining collections of <Descriptive Metadata>.
-                        <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/DM%20Scheme/>
+                        <URL: http://www.amwa.tv/projects/rules/01/term/DM%20Scheme/>
                         [T] Descriptive Metadata
                             Generic term used for descriptive data whose purpose is to describe <Essence> data.
-                            <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Descriptive%20Metadata/>
+                            <URL: http://www.amwa.tv/projects/rules/01/term/Descriptive%20Metadata/>
                             [T] Essence
                                 A bitstream comprising picture, sound or data.
-                                <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Essence/>
+                                <URL: http://www.amwa.tv/projects/rules/01/term/Essence/>
                     [B] DM_AS_11_Segmentation
-                        <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/505L/>
-                        [A] http://vm-1274-user.virt.ch.bbc.co.uk/as/block/505L/artefacts/Labels.xml
-                            <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/505L/artefacts/Labels.xml>
+                        <URL: http://www.amwa.tv/projects/rules/01/block/505L/>
+                        [A] http://www.amwa.tv/projects/rules/01/block/505L/artefacts/Labels.xml
+                            <URL: http://www.amwa.tv/projects/rules/01/block/505L/artefacts/Labels.xml>
                     [T] DM Scheme Label
                         An identifier for a <DM Scheme>. It is stored in an MXF file's Preface::DMSchemes property to signify the use of that <DM Scheme> in the file.
-                        <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/DM%20Scheme%20Label/>
+                        <URL: http://www.amwa.tv/projects/rules/01/term/DM%20Scheme%20Label/>
                     [B] DM_AS_11_Segmentation_Framework
-                        <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/505F/>
-                        [A] http://vm-1274-user.virt.ch.bbc.co.uk/as/block/505F/artefacts/Groups.xml
-                            <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/505F/artefacts/Groups.xml>
-                        [A] http://vm-1274-user.virt.ch.bbc.co.uk/as/block/505F/artefacts/Elements.xml
-                            <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/505F/artefacts/Elements.xml>
-                        [A] http://vm-1274-user.virt.ch.bbc.co.uk/as/block/505F/artefacts/Types.xml
-                            <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/505F/artefacts/Types.xml>
+                        <URL: http://www.amwa.tv/projects/rules/01/block/505F/>
+                        [A] http://www.amwa.tv/projects/rules/01/block/505F/artefacts/Groups.xml
+                            <URL: http://www.amwa.tv/projects/rules/01/block/505F/artefacts/Groups.xml>
+                        [A] http://www.amwa.tv/projects/rules/01/block/505F/artefacts/Elements.xml
+                            <URL: http://www.amwa.tv/projects/rules/01/block/505F/artefacts/Elements.xml>
+                        [A] http://www.amwa.tv/projects/rules/01/block/505F/artefacts/Types.xml
+                            <URL: http://www.amwa.tv/projects/rules/01/block/505F/artefacts/Types.xml>
                     [T] DM Framework
                         A <Descriptive Metadata> Class that is a Subclass of Descriptive Framework.
-                        <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/DM%20Framework/>
+                        <URL: http://www.amwa.tv/projects/rules/01/term/DM%20Framework/>
                         [T] Descriptive Metadata
                             Generic term used for descriptive data whose purpose is to describe <Essence> data.
-                            <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Descriptive%20Metadata/>
+                            <URL: http://www.amwa.tv/projects/rules/01/term/Descriptive%20Metadata/>
                             [T] Essence
                                 A bitstream comprising picture, sound or data.
-                                <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Essence/>
+                                <URL: http://www.amwa.tv/projects/rules/01/term/Essence/>
         [N] Implementation Notes
-            <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/note/049/>
+            <URL: http://www.amwa.tv/projects/rules/01/note/049/>
             [A] The <Track> can be identified by an MXF reader by the presence of <DM Segment> objects that each strongly reference an instance of the "DM_AS_11_Segmentation_Framework" <DM Framework>.
-                <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/note/049/artefacts/1.md>
+                <URL: http://www.amwa.tv/projects/rules/01/note/049/artefacts/1.md>
                 [T] Track
                     MXF data structure used to describe the content structure.
-                    <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Track/>
+                    <URL: http://www.amwa.tv/projects/rules/01/term/Track/>
                 [T] DM Segment
                     An MXF structure used to generically contain <Descriptive Metadata> on a <Track>.
-                    <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/DM%20Segment/>
+                    <URL: http://www.amwa.tv/projects/rules/01/term/DM%20Segment/>
                     [T] Descriptive Metadata
                         Generic term used for descriptive data whose purpose is to describe <Essence> data.
-                        <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Descriptive%20Metadata/>
+                        <URL: http://www.amwa.tv/projects/rules/01/term/Descriptive%20Metadata/>
                         [T] Essence
                             A bitstream comprising picture, sound or data.
-                            <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Essence/>
+                            <URL: http://www.amwa.tv/projects/rules/01/term/Essence/>
                 [T] DM Framework
                     A <Descriptive Metadata> Class that is a Subclass of Descriptive Framework.
-                    <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/DM%20Framework/>
+                    <URL: http://www.amwa.tv/projects/rules/01/term/DM%20Framework/>
                     [T] Descriptive Metadata
                         Generic term used for descriptive data whose purpose is to describe <Essence> data.
-                        <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Descriptive%20Metadata/>
+                        <URL: http://www.amwa.tv/projects/rules/01/term/Descriptive%20Metadata/>
                         [T] Essence
                             A bitstream comprising picture, sound or data.
-                            <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Essence/>
+                            <URL: http://www.amwa.tv/projects/rules/01/term/Essence/>
         [N] Repetition of Header Metadata
-            <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/note/051/>
+            <URL: http://www.amwa.tv/projects/rules/01/note/051/>
             [A] Repetition of Header Metadata in the Footer Partition is not considered to be another instance of any of the components of that Header Metadata.
-                <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/note/051/artefacts/1.md>
+                <URL: http://www.amwa.tv/projects/rules/01/note/051/artefacts/1.md>
     [B] Dolby Audio Metadata
         Conformance: optional
-        <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/DAM/>
+        <URL: http://www.amwa.tv/projects/rules/01/block/DAM/>
         [A] The <Dolby E Audio Metadata Serial Bitstream> that describes an <Audio Program> is included in the file using <Dolby E Audio Metadata Serial Bitstream Carriage>.
-            <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/DAM/artefacts/1.md>
+            <URL: http://www.amwa.tv/projects/rules/01/block/DAM/artefacts/1.md>
             [T] Dolby E Audio Metadata Serial Bitstream
                 A serial communication protocol that is used to transfer audio metadata between various products manufactured by Dolby.
-                <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Dolby%20E%20Audio%20Metadata%20Serial%20Bitstream/>
+                <URL: http://www.amwa.tv/projects/rules/01/term/Dolby%20E%20Audio%20Metadata%20Serial%20Bitstream/>
             [T] Audio Program
                 A collection of one or more audio channels.
-                <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Audio%20Program/>
+                <URL: http://www.amwa.tv/projects/rules/01/term/Audio%20Program/>
             [B] Dolby E Audio Metadata Serial Bitstream Carriage
-                <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/400/>
+                <URL: http://www.amwa.tv/projects/rules/01/block/400/>
                 [A] The mapping of a <Dolby E Audio Metadata Serial Bitstream> into <VANC Data Packet>s conforms to <SMPTE 2020-B>.
-                    <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/400/artefacts/401.md>
+                    <URL: http://www.amwa.tv/projects/rules/01/block/400/artefacts/401.md>
                     [T] VANC Data Packet
                         An ancillary data packet in the vertical ancillary data space (VANC).
-                        <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/VANC%20Data%20Packet/>
+                        <URL: http://www.amwa.tv/projects/rules/01/term/VANC%20Data%20Packet/>
                     [T] SMPTE 2020-B
                         A method (sometimes known as "Method B") for mapping audio metadata into vertical ancillary data.
-                        <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/SMPTE%202020-B/>
+                        <URL: http://www.amwa.tv/projects/rules/01/term/SMPTE%202020-B/>
                 [A] The mapping of <VANC Data Packet>s into <ANC Frame Element>s is as specified in <Constrained Ancillary Data Mapping>.
-                    <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/400/artefacts/402.md>
+                    <URL: http://www.amwa.tv/projects/rules/01/block/400/artefacts/402.md>
                     [T] VANC Data Packet
                         An ancillary data packet in the vertical ancillary data space (VANC).
-                        <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/VANC%20Data%20Packet/>
+                        <URL: http://www.amwa.tv/projects/rules/01/term/VANC%20Data%20Packet/>
                     [T] ANC Frame Element
                         A KLV triplet containing one frame's worth of an <Essence Element> carrying ANC packets such as <VANC Data Packet>s.
-                        <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/ANC%20Frame%20Element/>
+                        <URL: http://www.amwa.tv/projects/rules/01/term/ANC%20Frame%20Element/>
                         [T] Essence Element
                             The entire essence stream of a single <Track>.
-                            <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Essence%20Element/>
+                            <URL: http://www.amwa.tv/projects/rules/01/term/Essence%20Element/>
                             [T] Track
                                 MXF data structure used to describe the content structure.
-                                <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Track/>
+                                <URL: http://www.amwa.tv/projects/rules/01/term/Track/>
                     [B] Constrained Ancillary Data Mapping
-                        <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/402/>
+                        <URL: http://www.amwa.tv/projects/rules/01/block/402/>
                         [A] The mapping of <VANC Data Packet>s into <ANC Frame Element>s is as specified in <SMPTE ST 436-1:2013> where "Payload Sample Coding" is "8-bit luma samples" (04h) and "Wrapping Type" is: "VANC Frame" (01h) (for interlaced or segmented progressive <Picture Essence>) or "VANC Progressive Frame" (04h) (for full-frame progressive <Picture Essence>).
-                            <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/402/artefacts/402.md>
+                            <URL: http://www.amwa.tv/projects/rules/01/block/402/artefacts/402.md>
                             [R] SMPTE ST 436-1:2013
-                                <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/external_reference_revision/SMPTE%20ST%20436-1-2013/>
+                                <URL: http://www.amwa.tv/projects/rules/01/external_reference_revision/SMPTE%20ST%20436-1-2013/>
                             [T] Picture Essence
                                 A type of <Essence> containing predominantly picture data.
-                                <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Picture%20Essence/>
+                                <URL: http://www.amwa.tv/projects/rules/01/term/Picture%20Essence/>
                                 [T] Essence
                                     A bitstream comprising picture, sound or data.
-                                    <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Essence/>
+                                    <URL: http://www.amwa.tv/projects/rules/01/term/Essence/>
                 [A] The "Line Number" used for each field's <VANC Data Packet> in the <ANC Frame Element> is the same for all <VANC Data Packet>s for that field for the identified <Audio Program>.
-                    <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/400/artefacts/403.md>
+                    <URL: http://www.amwa.tv/projects/rules/01/block/400/artefacts/403.md>
                     [T] VANC Data Packet
                         An ancillary data packet in the vertical ancillary data space (VANC).
-                        <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/VANC%20Data%20Packet/>
+                        <URL: http://www.amwa.tv/projects/rules/01/term/VANC%20Data%20Packet/>
                     [T] ANC Frame Element
                         A KLV triplet containing one frame's worth of an <Essence Element> carrying ANC packets such as <VANC Data Packet>s.
-                        <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/ANC%20Frame%20Element/>
+                        <URL: http://www.amwa.tv/projects/rules/01/term/ANC%20Frame%20Element/>
                         [T] Essence Element
                             The entire essence stream of a single <Track>.
-                            <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Essence%20Element/>
+                            <URL: http://www.amwa.tv/projects/rules/01/term/Essence%20Element/>
                             [T] Track
                                 MXF data structure used to describe the content structure.
-                                <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Track/>
+                                <URL: http://www.amwa.tv/projects/rules/01/term/Track/>
                 [N] Implementation Notes
-                    <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/note/E2/>
+                    <URL: http://www.amwa.tv/projects/rules/01/note/E2/>
                     [A] # Use of Dolby E Audio Metadata Serial Bitstream Carriage
                         
                         The file can use Dolby E Audio Metadata Serial Bitstream Carriage to carry audio presentation metadata for zero, one or more than one SoundfieldGroups / Audio Programs.
@@ -1121,163 +1121,163 @@ There are two special types of Block which allow the value of one Block to be se
                         
                         The ANC Frame Element can also contain HANC Data Packets and other VANC Data Packets in addition to those carrying Dolby E Audio Metadata Serial Bitstreams. Irrespective of what data is carried in the ANC Frame Element, there is only ever one Track (in each of the Material Package and Top-Level File Package), one Data Element, and one associated Essence Descriptor in the MXF file.
                         
-                        <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/note/E2/artefacts/1.md>
+                        <URL: http://www.amwa.tv/projects/rules/01/note/E2/artefacts/1.md>
     [B] Timecode constraints
         Conformance: mandatory
-        <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/TT0/>
+        <URL: http://www.amwa.tv/projects/rules/01/block/TT0/>
         [B] Timecode Track Presence
             Conformance: mandatory
-            <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/280/>
+            <URL: http://www.amwa.tv/projects/rules/01/block/280/>
             [A] The <Material Package> contains exactly one <Timecode Track>.
-                <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/280/artefacts/280.md>
+                <URL: http://www.amwa.tv/projects/rules/01/block/280/artefacts/280.md>
                 [T] Material Package
                     An MXF data structure that describe an output timeline of the file.
-                    <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Material%20Package/>
+                    <URL: http://www.amwa.tv/projects/rules/01/term/Material%20Package/>
                 [T] Timecode Track
                     An MXF <Track> that stores one or more <Timecode Component>s.
-                    <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Timecode%20Track/>
+                    <URL: http://www.amwa.tv/projects/rules/01/term/Timecode%20Track/>
                     [T] Track
                         MXF data structure used to describe the content structure.
-                        <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Track/>
+                        <URL: http://www.amwa.tv/projects/rules/01/term/Track/>
                     [T] Timecode Component
                         An MXF structure that stores <Timecode> information.
-                        <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Timecode%20Component/>
+                        <URL: http://www.amwa.tv/projects/rules/01/term/Timecode%20Component/>
                         [T] Timecode
                             An annotation of elapsed time along a <Track>.
-                            <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Timecode/>
+                            <URL: http://www.amwa.tv/projects/rules/01/term/Timecode/>
             [N] Implementation Notes
-                <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/note/021/>
+                <URL: http://www.amwa.tv/projects/rules/01/note/021/>
                 [A] This Timecode Track provides "Synthetic Timecode" because its Timecode is "generated" from a single "Start Timecode" value that is associated with the beginning of the Material Package. This means that the Timecode is necessarily continuous throughout the entire playback of the MXF file.
-                    <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/note/021/artefacts/1.md>
+                    <URL: http://www.amwa.tv/projects/rules/01/note/021/artefacts/1.md>
         [B] Constrained Timecode Track in Material Package
             Conformance: mandatory
-            <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/TTC_MP/>
+            <URL: http://www.amwa.tv/projects/rules/01/block/TTC_MP/>
             [A] The <Timecode Track> in the <Material Package> is a <Constrained Timecode Track>.
-                <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/TTC_MP/artefacts/1.md>
+                <URL: http://www.amwa.tv/projects/rules/01/block/TTC_MP/artefacts/1.md>
                 [T] Timecode Track
                     An MXF <Track> that stores one or more <Timecode Component>s.
-                    <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Timecode%20Track/>
+                    <URL: http://www.amwa.tv/projects/rules/01/term/Timecode%20Track/>
                     [T] Track
                         MXF data structure used to describe the content structure.
-                        <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Track/>
+                        <URL: http://www.amwa.tv/projects/rules/01/term/Track/>
                     [T] Timecode Component
                         An MXF structure that stores <Timecode> information.
-                        <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Timecode%20Component/>
+                        <URL: http://www.amwa.tv/projects/rules/01/term/Timecode%20Component/>
                         [T] Timecode
                             An annotation of elapsed time along a <Track>.
-                            <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Timecode/>
+                            <URL: http://www.amwa.tv/projects/rules/01/term/Timecode/>
                 [T] Material Package
                     An MXF data structure that describe an output timeline of the file.
-                    <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Material%20Package/>
+                    <URL: http://www.amwa.tv/projects/rules/01/term/Material%20Package/>
                 [B] Constrained Timecode Track
-                    <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/TTC/>
+                    <URL: http://www.amwa.tv/projects/rules/01/block/TTC/>
                     [A] A <Constrained Timecode Track> is a <Timecode Track>.
-                        <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/TTC/artefacts/0.md>
+                        <URL: http://www.amwa.tv/projects/rules/01/block/TTC/artefacts/0.md>
                     [A] The value of the "Edit Rate" property of this <Timecode Track> is the same as the value of the "Edit Rate" property of the <Picture Track> in the same <Package>.
-                        <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/TTC/artefacts/1.md>
+                        <URL: http://www.amwa.tv/projects/rules/01/block/TTC/artefacts/1.md>
                         [T] Picture Track
                             A type of <Essence Track> that references <Picture Essence>.
-                            <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Picture%20Track/>
+                            <URL: http://www.amwa.tv/projects/rules/01/term/Picture%20Track/>
                             [T] Essence Track
                                 A type of <Track> that references <Essence>.
-                                <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Essence%20Track/>
+                                <URL: http://www.amwa.tv/projects/rules/01/term/Essence%20Track/>
                                 [T] Track
                                     MXF data structure used to describe the content structure.
-                                    <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Track/>
+                                    <URL: http://www.amwa.tv/projects/rules/01/term/Track/>
                                 [T] Essence
                                     A bitstream comprising picture, sound or data.
-                                    <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Essence/>
+                                    <URL: http://www.amwa.tv/projects/rules/01/term/Essence/>
                             [T] Picture Essence
                                 A type of <Essence> containing predominantly picture data.
-                                <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Picture%20Essence/>
+                                <URL: http://www.amwa.tv/projects/rules/01/term/Picture%20Essence/>
                                 [T] Essence
                                     A bitstream comprising picture, sound or data.
-                                    <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Essence/>
+                                    <URL: http://www.amwa.tv/projects/rules/01/term/Essence/>
                         [T] Package
                             An MXF structure that aggregates one or more <Track>s.
                             
-                            <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Package/>
+                            <URL: http://www.amwa.tv/projects/rules/01/term/Package/>
                             [T] Track
                                 MXF data structure used to describe the content structure.
-                                <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Track/>
+                                <URL: http://www.amwa.tv/projects/rules/01/term/Track/>
                     [A] There is exactly one <Timecode Component> in this <Timecode Track>.
-                        <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/TTC/artefacts/2.md>
+                        <URL: http://www.amwa.tv/projects/rules/01/block/TTC/artefacts/2.md>
                         [T] Timecode Component
                             An MXF structure that stores <Timecode> information.
-                            <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Timecode%20Component/>
+                            <URL: http://www.amwa.tv/projects/rules/01/term/Timecode%20Component/>
                             [T] Timecode
                                 An annotation of elapsed time along a <Track>.
-                                <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Timecode/>
+                                <URL: http://www.amwa.tv/projects/rules/01/term/Timecode/>
                                 [T] Track
                                     MXF data structure used to describe the content structure.
-                                    <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Track/>
+                                    <URL: http://www.amwa.tv/projects/rules/01/term/Track/>
                     [A] The value of the "Rounded Timecode Base" property of the <Timecode Component> is the "Edit Rate" of this <Timecode Track> rounded to the nearest integer.
-                        <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/TTC/artefacts/3.md>
+                        <URL: http://www.amwa.tv/projects/rules/01/block/TTC/artefacts/3.md>
                         [T] Timecode Component
                             An MXF structure that stores <Timecode> information.
-                            <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Timecode%20Component/>
+                            <URL: http://www.amwa.tv/projects/rules/01/term/Timecode%20Component/>
                             [T] Timecode
                                 An annotation of elapsed time along a <Track>.
-                                <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Timecode/>
+                                <URL: http://www.amwa.tv/projects/rules/01/term/Timecode/>
                                 [T] Track
                                     MXF data structure used to describe the content structure.
-                                    <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Track/>
+                                    <URL: http://www.amwa.tv/projects/rules/01/term/Track/>
         [B] Drop Frame Timecode
             Conformance: recommended
-            <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/DF/>
+            <URL: http://www.amwa.tv/projects/rules/01/block/DF/>
             [A] The value of the "Drop Frame" property of the <Timecode Component> in the <Timecode Track> in the <Material Package> is "False" except in any of the following scenarios (in which case it is "True"):
                 
                 * The "Rounded Timecode Base" property of the <Timecode Component> is `60` and the "Edit Rate" of the <Timecode Track> is mathematically equal to `60000/1001`
                 * The "Rounded Timecode Base" property of the <Timecode Component> is `30` and the "Edit Rate" of the <Timecode Track> is mathematically equal to `30000/1001`
-                <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/DF/artefacts/1.md>
+                <URL: http://www.amwa.tv/projects/rules/01/block/DF/artefacts/1.md>
                 [T] Timecode Component
                     An MXF structure that stores <Timecode> information.
-                    <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Timecode%20Component/>
+                    <URL: http://www.amwa.tv/projects/rules/01/term/Timecode%20Component/>
                     [T] Timecode
                         An annotation of elapsed time along a <Track>.
-                        <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Timecode/>
+                        <URL: http://www.amwa.tv/projects/rules/01/term/Timecode/>
                         [T] Track
                             MXF data structure used to describe the content structure.
-                            <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Track/>
+                            <URL: http://www.amwa.tv/projects/rules/01/term/Track/>
                 [T] Timecode Track
                     An MXF <Track> that stores one or more <Timecode Component>s.
-                    <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Timecode%20Track/>
+                    <URL: http://www.amwa.tv/projects/rules/01/term/Timecode%20Track/>
                     [T] Track
                         MXF data structure used to describe the content structure.
-                        <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Track/>
+                        <URL: http://www.amwa.tv/projects/rules/01/term/Track/>
                 [T] Material Package
                     An MXF data structure that describe an output timeline of the file.
-                    <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Material%20Package/>
+                    <URL: http://www.amwa.tv/projects/rules/01/term/Material%20Package/>
             [N] Rational Numbers
-                <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/note/E69/>
+                <URL: http://www.amwa.tv/projects/rules/01/note/E69/>
                 [A] Care must be taken when dealing with numbers expressed as a ratio of two integers ("rationals"). They are often used to represent temporal rates or image aspect ratios.
                     
                     When making comparisons of these values, it is insufficient to simply compare each of the numerators and each of the denominators. For example, `7/5` is mathematically equal to `14/10`.
-                    <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/note/E69/artefacts/1.md>
+                    <URL: http://www.amwa.tv/projects/rules/01/note/E69/artefacts/1.md>
         [B] Timecode Track Precedence
             Conformance: mandatory
-            <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/290/>
+            <URL: http://www.amwa.tv/projects/rules/01/block/290/>
             [A] The <Timecode Track> in the <Material Package> defines the authoritative program timecode.
-                <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/290/artefacts/290.md>
+                <URL: http://www.amwa.tv/projects/rules/01/block/290/artefacts/290.md>
                 [T] Timecode Track
                     An MXF <Track> that stores one or more <Timecode Component>s.
-                    <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Timecode%20Track/>
+                    <URL: http://www.amwa.tv/projects/rules/01/term/Timecode%20Track/>
                     [T] Track
                         MXF data structure used to describe the content structure.
-                        <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Track/>
+                        <URL: http://www.amwa.tv/projects/rules/01/term/Track/>
                     [T] Timecode Component
                         An MXF structure that stores <Timecode> information.
-                        <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Timecode%20Component/>
+                        <URL: http://www.amwa.tv/projects/rules/01/term/Timecode%20Component/>
                         [T] Timecode
                             An annotation of elapsed time along a <Track>.
-                            <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Timecode/>
+                            <URL: http://www.amwa.tv/projects/rules/01/term/Timecode/>
                 [T] Material Package
                     An MXF data structure that describe an output timeline of the file.
-                    <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Material%20Package/>
+                    <URL: http://www.amwa.tv/projects/rules/01/term/Material%20Package/>
             [N] Implementation Notes
-                <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/note/022/>
+                <URL: http://www.amwa.tv/projects/rules/01/note/022/>
                 [A] The authority of the Timecode Track in the Material Package needs to be respected by all components of a system that handles the file.
-                    <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/note/022/artefacts/1.md>
+                    <URL: http://www.amwa.tv/projects/rules/01/note/022/artefacts/1.md>
     [B] Miscellaneous Content Constraints
         Conformance: mandatory
         <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/999/>
@@ -1288,13 +1288,13 @@ There are two special types of Block which allow the value of one Block to be se
                 <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/350/artefacts/1.md>
                 [T] Picture Essence Descriptor
                     MXF technical metadata that describes the <Picture Essence>.
-                    <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Picture%20Essence%20Descriptor/>
+                    <URL: http://www.amwa.tv/projects/rules/01/term/Picture%20Essence%20Descriptor/>
                     [T] Picture Essence
                         A type of <Essence> containing predominantly picture data.
-                        <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Picture%20Essence/>
+                        <URL: http://www.amwa.tv/projects/rules/01/term/Picture%20Essence/>
                         [T] Essence
                             A bitstream comprising picture, sound or data.
-                            <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Essence/>
+                            <URL: http://www.amwa.tv/projects/rules/01/term/Essence/>
             [N] Implementation Notes
                 <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/note/036/>
                 [A] Section G.2.5 of SMPTE ST 377-1:2011 describes compliant encoder and decoder behavior with respect to SMPTE ST 2016-1:2009.
@@ -1306,13 +1306,13 @@ There are two special types of Block which allow the value of one Block to be se
                 <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/351/artefacts/1.md>
                 [T] Picture Essence Descriptor
                     MXF technical metadata that describes the <Picture Essence>.
-                    <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Picture%20Essence%20Descriptor/>
+                    <URL: http://www.amwa.tv/projects/rules/01/term/Picture%20Essence%20Descriptor/>
                     [T] Picture Essence
                         A type of <Essence> containing predominantly picture data.
-                        <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Picture%20Essence/>
+                        <URL: http://www.amwa.tv/projects/rules/01/term/Picture%20Essence/>
                         [T] Essence
                             A bitstream comprising picture, sound or data.
-                            <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Essence/>
+                            <URL: http://www.amwa.tv/projects/rules/01/term/Essence/>
             [N] Implementation Notes
                 <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/note/037/>
                 [A] Section G.2.5 of SMPTE ST 377-1:2011 requires that the value of the "Active Format Descriptor" property be constant for the duration of the associated Picture Track.
@@ -1326,7 +1326,7 @@ There are two special types of Block which allow the value of one Block to be se
                 <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/210/artefacts/1.md>
                 [T] Audio Channel
                     A distinct collection of sequenced audio samples that are intended for delivery to a single loudspeaker or other reproduction device.
-                    <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Audio%20Channel/>
+                    <URL: http://www.amwa.tv/projects/rules/01/term/Audio%20Channel/>
         [B] R48 2a customisation
             Conformance: mandatory
             <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/270/>
@@ -1334,31 +1334,31 @@ There are two special types of Block which allow the value of one Block to be se
                 <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/270/artefacts/1.md>
                 [T] Sound Track
                     A type of <Essence Track> that references <Sound Essence>.
-                    <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Sound%20Track/>
+                    <URL: http://www.amwa.tv/projects/rules/01/term/Sound%20Track/>
                     [T] Essence Track
                         A type of <Track> that references <Essence>.
-                        <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Essence%20Track/>
+                        <URL: http://www.amwa.tv/projects/rules/01/term/Essence%20Track/>
                         [T] Track
                             MXF data structure used to describe the content structure.
-                            <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Track/>
+                            <URL: http://www.amwa.tv/projects/rules/01/term/Track/>
                         [T] Essence
                             A bitstream comprising picture, sound or data.
-                            <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Essence/>
+                            <URL: http://www.amwa.tv/projects/rules/01/term/Essence/>
                     [T] Sound Essence
                         A type of <Essence> containing sound data.
-                        <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Sound%20Essence/>
+                        <URL: http://www.amwa.tv/projects/rules/01/term/Sound%20Essence/>
                         [T] Essence
                             A bitstream comprising picture, sound or data.
-                            <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Essence/>
+                            <URL: http://www.amwa.tv/projects/rules/01/term/Essence/>
                 [T] Material Package
                     An MXF data structure that describe an output timeline of the file.
-                    <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Material%20Package/>
+                    <URL: http://www.amwa.tv/projects/rules/01/term/Material%20Package/>
                 [T] Sound Essence
                     A type of <Essence> containing sound data.
-                    <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Sound%20Essence/>
+                    <URL: http://www.amwa.tv/projects/rules/01/term/Sound%20Essence/>
                     [T] Essence
                         A bitstream comprising picture, sound or data.
-                        <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/term/Essence/>
+                        <URL: http://www.amwa.tv/projects/rules/01/term/Essence/>
             [N] Implementation Notes
                 <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/note/019/>
                 [A] MXF Filler cannot be used here to represent silence.

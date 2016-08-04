@@ -249,11 +249,11 @@ There are two special types of Block which allow the value of one Block to be se
             [B] DM_AS_11_Segmentation
                 [A] This <DM Scheme> is identified by <DM_AS_11_Segmentation> (the <DM Scheme Label>) and has the following members: <DM_AS_11_Segmentation_Framework> (the <DM Framework>).
                     [B] DM_AS_11_Segmentation
-                        [A] http://vm-1274-user.virt.ch.bbc.co.uk/as/block/505L/artefacts/Labels.xml
+                        [A] http://www.amwa.tv/projects/rules/01/block/505L/artefacts/Labels.xml
                     [B] DM_AS_11_Segmentation_Framework
-                        [A] http://vm-1274-user.virt.ch.bbc.co.uk/as/block/505F/artefacts/Groups.xml
-                        [A] http://vm-1274-user.virt.ch.bbc.co.uk/as/block/505F/artefacts/Elements.xml
-                        [A] http://vm-1274-user.virt.ch.bbc.co.uk/as/block/505F/artefacts/Types.xml
+                        [A] http://www.amwa.tv/projects/rules/01/block/505F/artefacts/Groups.xml
+                        [A] http://www.amwa.tv/projects/rules/01/block/505F/artefacts/Elements.xml
+                        [A] http://www.amwa.tv/projects/rules/01/block/505F/artefacts/Types.xml
         [N] Implementation Notes
             [A] The <Track> can be identified by an MXF reader by the presence of <DM Segment> objects that each strongly reference an instance of the "DM_AS_11_Segmentation_Framework" <DM Framework>.
         [N] Repetition of Header Metadata

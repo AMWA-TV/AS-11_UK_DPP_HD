@@ -1,20 +1,20 @@
 {
     "githashes": [
         {
-            "repo_url": "git@gitlab.com:mglanville/rules-revision-ideas.git", 
-            "commit": "1f9e005bd6f0641bd868722b0e5aff9c3c55607a"
-        }, 
-        {
             "repo_url": "git@gitlab.com:thomas.heritage/rules-processor.git", 
-            "commit": "a2d03533312578c8219f801e876e27d9d3103080"
-        }, 
-        {
-            "repo_url": "git@gitlab.com:mglanville/amwa-specs.git", 
-            "commit": "ab3a7e46ea8c7d57c46e83e636e97ed401295bac"
+            "commit": "166376bf137355d62ce224b027a833230b3c0529"
         }, 
         {
             "repo_url": "git@gitlab.com:thomas.heritage/rules-components-amwa-01.git", 
-            "commit": "f3236dc6c7ed3452cae56508d6878de6d3b564f5"
+            "commit": "2e8bc3ea9606bcc27a0a5dd444a15f4d1d5cfa8d"
+        }, 
+        {
+            "repo_url": "git@gitlab.com:mglanville/amwa-specs.git", 
+            "commit": "950291efc23bca8acec6c143d8058170138cd513"
+        }, 
+        {
+            "repo_url": "git@gitlab.com:mglanville/rules-revision-ideas.git", 
+            "commit": "a40b590de61dc5fc0b5c044f6a6d2dd5e8b81c6c"
         }
     ]
 }

@@ -6,7 +6,7 @@
         }, 
         {
             "repo_url": "git@gitlab.com:thomas.heritage/rules-components-amwa-01.git", 
-            "commit": "5f284806e8da870a4bd5105aef1128aa43c9ff66"
+            "commit": "78f0b70049abdceb4bf189ed914613c90e4a8d12"
         }, 
         {
             "repo_url": "git@gitlab.com:mglanville/amwa-specs.git", 

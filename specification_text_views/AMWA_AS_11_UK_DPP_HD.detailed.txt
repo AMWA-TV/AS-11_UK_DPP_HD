@@ -377,7 +377,11 @@ There are two special types of Block which allow the value of one Block to be se
                         With these encoding parameters the coded frame size will be 568832 bytes, including the coded frame, sequence parameter set, picture parameter set, SEI messages and/or padding for SEI messages.
                         
                         The decoded video always has 1080 lines, regardless of any MXF Descriptor property values.
+                        
+                        The term "Frame Frequency" is used as a heading in Table 5.2 in <SMPTE RP 2027:2012>, but for "50i" it is the "Field Frequency". This term is used later on in Section 5.3.
                         <URL: http://www.amwa.tv/projects/rules/01/note/003/artefacts/1.md>
+                        [R] SMPTE RP 2027:2012
+                            <URL: http://www.amwa.tv/projects/rules/01/external_reference_revision/SMPTE%20RP%202027-2012/>
             [R] SMPTE RP 2008:2008
                 <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/external_reference_revision/SMPTE%20RP%202008-2008/>
         [A] The <Material Package> contains exactly one <Picture Track>.

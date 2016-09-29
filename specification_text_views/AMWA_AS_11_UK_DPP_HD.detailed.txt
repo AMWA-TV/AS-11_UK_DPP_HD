@@ -1309,9 +1309,9 @@ There are two special types of Block which allow the value of one Block to be se
         <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/999/>
         [B] AFD present
             Conformance: mandatory
-            <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/350/>
+            <URL: http://www.amwa.tv/projects/rules/01/block/350/>
             [A] The "Active Format Descriptor" property of the <Picture Essence Descriptor> is present in the file.
-                <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/350/artefacts/1.md>
+                <URL: http://www.amwa.tv/projects/rules/01/block/350/artefacts/1.md>
                 [T] Picture Essence Descriptor
                     MXF technical metadata that describes the <Picture Essence>.
                     <URL: http://www.amwa.tv/projects/rules/01/term/Picture%20Essence%20Descriptor/>
@@ -1322,14 +1322,14 @@ There are two special types of Block which allow the value of one Block to be se
                             A bitstream comprising picture, sound or data.
                             <URL: http://www.amwa.tv/projects/rules/01/term/Essence/>
             [N] Implementation Notes
-                <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/note/036/>
+                <URL: http://www.amwa.tv/projects/rules/01/note/036/>
                 [A] Section G.2.5 of SMPTE ST 377-1:2011 describes compliant encoder and decoder behavior with respect to SMPTE ST 2016-1:2009.
-                    <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/note/036/artefacts/1.md>
+                    <URL: http://www.amwa.tv/projects/rules/01/note/036/artefacts/1.md>
         [B] AFD 9 10 14
             Conformance: mandatory
-            <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/351/>
+            <URL: http://www.amwa.tv/projects/rules/01/block/351/>
             [A] The 4-bit AFD encoded in the "Active Format Descriptor" property of the <Picture Essence Descriptor> is one of the following decimal values: 9 or 10 or 14.
-                <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/351/artefacts/1.md>
+                <URL: http://www.amwa.tv/projects/rules/01/block/351/artefacts/1.md>
                 [T] Picture Essence Descriptor
                     MXF technical metadata that describes the <Picture Essence>.
                     <URL: http://www.amwa.tv/projects/rules/01/term/Picture%20Essence%20Descriptor/>
@@ -1340,11 +1340,11 @@ There are two special types of Block which allow the value of one Block to be se
                             A bitstream comprising picture, sound or data.
                             <URL: http://www.amwa.tv/projects/rules/01/term/Essence/>
             [N] Implementation Notes
-                <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/note/037/>
+                <URL: http://www.amwa.tv/projects/rules/01/note/037/>
                 [A] Section G.2.5 of SMPTE ST 377-1:2011 requires that the value of the "Active Format Descriptor" property be constant for the duration of the associated Picture Track.
                     
                     The AFD (as it is used here, where only a very restricted set of values are permitted) can be considered as telling the decoder what video transformations it can reasonably make when displaying the video. For example when displaying the video on a "problematic" screen the decoder could wish to "zoom and crop" or "pillarbox" or "letterbox" the video as appropriate (where a "problematic" screen could be one where the dimensions of the screen mean that if the video is displayed full-screen it does not have the stated "aspect ratio").
-                    <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/note/037/artefacts/1.md>
+                    <URL: http://www.amwa.tv/projects/rules/01/note/037/artefacts/1.md>
         [B] 4 or 16 audio channels
             Conformance: mandatory
             <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/210/>

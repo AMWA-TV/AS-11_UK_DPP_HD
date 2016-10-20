@@ -577,7 +577,7 @@ An implementation complies with this Specification if it complies with the Compo
                             <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/500F/artefacts/Elements.xml>
                         [A] http://vm-1274-user.virt.ch.bbc.co.uk/as/block/500F/artefacts/Types.xml
                             <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/500F/artefacts/Types.xml>
-                        [A] http://vm-1274-user.virt.ch.bbc.co.uk/as/block/500F/artefacts/dm_extras.py
+                        [A] Metadata Constraints as Python (refer to the 'Specification Format Definition'): http://vm-1274-user.virt.ch.bbc.co.uk/as/block/500F/artefacts/dm_extras.py
                             <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/500F/artefacts/dm_extras.py>
                     [T] DM Framework
                         A <Descriptive Metadata> Class that is a Subclass of Descriptive Framework.
@@ -683,7 +683,7 @@ An implementation complies with this Specification if it complies with the Compo
                             <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/510F/artefacts/Elements.xml>
                         [A] http://vm-1274-user.virt.ch.bbc.co.uk/as/block/510F/artefacts/Types.xml
                             <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/510F/artefacts/Types.xml>
-                        [A] http://vm-1274-user.virt.ch.bbc.co.uk/as/block/510F/artefacts/dm_extras.py
+                        [A] Metadata Constraints as Python (refer to the 'Specification Format Definition'): http://vm-1274-user.virt.ch.bbc.co.uk/as/block/510F/artefacts/dm_extras.py
                             <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/510F/artefacts/dm_extras.py>
                     [T] DM Framework
                         A <Descriptive Metadata> Class that is a Subclass of Descriptive Framework.
@@ -1353,13 +1353,85 @@ An implementation complies with this Specification if it complies with the Compo
     [B] Miscellaneous DM constraints (UKDPP HD)
         Conformance: mandatory
         <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/989/>
-        [A] http://vm-1274-user.virt.ch.bbc.co.uk/as/block/989/artefacts/audio_track_layout.py
+        [A] Metadata Constraints as Python (refer to the 'Specification Format Definition'): http://vm-1274-user.virt.ch.bbc.co.uk/as/block/989/artefacts/audio_track_layout.py
             <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/989/artefacts/audio_track_layout.py>
-        [A] http://vm-1274-user.virt.ch.bbc.co.uk/as/block/989/artefacts/shim.py
+        [A] Metadata Constraints as Python (refer to the 'Specification Format Definition'): http://vm-1274-user.virt.ch.bbc.co.uk/as/block/989/artefacts/shim.py
             <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/989/artefacts/shim.py>
-        [A] http://vm-1274-user.virt.ch.bbc.co.uk/as/block/989/artefacts/picture_ratio.py
+        [A] Metadata Constraints as Python (refer to the 'Specification Format Definition'): http://vm-1274-user.virt.ch.bbc.co.uk/as/block/989/artefacts/picture_ratio.py
             <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/989/artefacts/picture_ratio.py>
 
+
+
+# Metadata Constraints as Python Artefacts: Specification Format Definition
+
+This Section defines how Python Artefacts (expressing metadata constraints) in this Specification are to be interpreted.
+
+Each Python Artefact defines checks / tests using [Python](https://www.python.org/) version 2.7. An implementation complies with a Python Artefact if it passes all of the checks / tests that the Artefact specifies. Note that the code has been designed to enhance the clarity of the test definitions rather than for efficient or compact code.
+
+Each relevant MXF Element / property is represented as a Python variable:
+
+* The name of the variable is set as the `Symbol` of the Element / property.
+* The value of the variable must be `None` (i.e. the special Python object) if the Element / property is considered to be "absent" from the relevant KLV set in the MXF file (an Element / property is considered to be "present" in the MXF file if its 2-byte tag is present in the relevant KLV set in the MXF file and it is considered to be "absent" otherwise). Otherwise the value stored in the MXF file must be converted into the relevant Python data type (see below).
+
+## Data Types
+
+### UTF16String
+Values of Type `UTF16String` are stored as Python Unicode strings. `UTF16String` values are assumed to have been read from the MXF file according to Section 4.3 of SMPTE ST 377-1:2011, terminating before (and discarding) any null character. Note that no other characters appearing before the null character (such as whitespace or non-printable characters) are removed. If an Element / property of type `UTF16String` is considered "present" but the above processing of the value stored in the MXF file results in zero characters in the string, the corresponding variable shall be assigned the value `""` (the empty string).
+
+### Integers
+All signed and unsigned integer types used in MXF are represented as Python integers.
+
+### Booleans
+The values of MXF Booleans are represented by the Python values `True` and `False`.
+
+### Record Types
+Any value of a "Record" Type (a Type with `TypeKind` of `Record`) is represented as a Python Dictionary. For each `Facet` (constituent part) an item is added to the Python Dictionary with a key equal to that of the `Symbol` of the `Facet`. The value for this key is set to the parsed value of the relevant portion of the Element / property value.
+
+### Enumerations
+For each `Facet` (allowed value) of an "Enumeration" Type (a Type with `TypeKind` of `Enumeration`) a Python variable is defined with:
+
+* a name equal to that of the `Facet` `Symbol`
+* a value equal to that of the `Facet` `Value`
+
+## Helper Functions
+
+The following helper functions are used in the Python Artefacts. They have been designed to enhance clarity rather than for efficient or compact code.
+
+```
+def CHECK(condition):
+    """
+    Check that the provided 'condition' (Boolean) is True.
+
+    If the provided 'condition' is False this is a 'Fail' -- the implementation
+    does not comply with the constraint.
+   
+    """
+
+    try:
+        assert condition == True
+    except AssertionError:
+        print "Check failed -- compliance has not been achieved"
+
+```
+
+```
+def PRESENT(variable):
+    """
+    Return a Boolean to indicate whether the Element / property represented by
+    the 'variable' is present in the MXF file.
+    
+    'Presence' of an Element / property is determined by the presence of its
+    2-byte tag in the relevant KLV set in the MXF file. The Python variable
+    representing an MXF Element / property is assumed to be None if, and
+    only if, that Element / property is considered not present in the MXF file.
+
+    """
+
+    if variable is not None:
+        return True
+    else:
+        return False
+```
 
 
 THIS AMWA SPECIFICATION IS BEING OFFERED WITHOUT ANY WARRANTY WHATSOEVER,

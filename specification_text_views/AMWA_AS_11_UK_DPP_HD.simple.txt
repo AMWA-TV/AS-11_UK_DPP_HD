@@ -189,12 +189,7 @@ An implementation complies with this Specification if it complies with the Compo
                         [A] http://vm-1274-user.virt.ch.bbc.co.uk/as/block/500F/artefacts/Elements.xml
                         [A] http://vm-1274-user.virt.ch.bbc.co.uk/as/block/500F/artefacts/Types.xml
                         [A] http://vm-1274-user.virt.ch.bbc.co.uk/as/block/500F/artefacts/dm_extras.py
-        [A] The instance of <DM_AS_11_Core_Framework> is strongly referenced from a <Constrained Static DM Track>.
-            [B] DM_AS_11_Core_Framework
-                [A] http://vm-1274-user.virt.ch.bbc.co.uk/as/block/500F/artefacts/Groups.xml
-                [A] http://vm-1274-user.virt.ch.bbc.co.uk/as/block/500F/artefacts/Elements.xml
-                [A] http://vm-1274-user.virt.ch.bbc.co.uk/as/block/500F/artefacts/Types.xml
-                [A] http://vm-1274-user.virt.ch.bbc.co.uk/as/block/500F/artefacts/dm_extras.py
+        [A] The <DM Framework> instance is strongly referenced from a <Constrained Static DM Track>.
             [B] Constrained Static DM Track
                 [A] A <Constrained Static DM Track> is a <Static Track (DM)> in the <Material Package> that contains a <Sequence>, which contains exactly one <DM Segment>, which strongly references an instance of a <DM Framework>.
                 [N] Track Name
@@ -213,12 +208,7 @@ An implementation complies with this Specification if it complies with the Compo
                         [A] http://vm-1274-user.virt.ch.bbc.co.uk/as/block/510F/artefacts/Elements.xml
                         [A] http://vm-1274-user.virt.ch.bbc.co.uk/as/block/510F/artefacts/Types.xml
                         [A] http://vm-1274-user.virt.ch.bbc.co.uk/as/block/510F/artefacts/dm_extras.py
-        [A] The instance of <DM_AS_11_UKDPP Framework> is strongly referenced from a <Constrained Static DM Track>.
-            [B] DM_AS_11_UKDPP Framework
-                [A] http://vm-1274-user.virt.ch.bbc.co.uk/as/block/510F/artefacts/Groups.xml
-                [A] http://vm-1274-user.virt.ch.bbc.co.uk/as/block/510F/artefacts/Elements.xml
-                [A] http://vm-1274-user.virt.ch.bbc.co.uk/as/block/510F/artefacts/Types.xml
-                [A] http://vm-1274-user.virt.ch.bbc.co.uk/as/block/510F/artefacts/dm_extras.py
+        [A] The <DM Framework> instance is strongly referenced from a <Constrained Static DM Track>.
             [B] Constrained Static DM Track
                 [A] A <Constrained Static DM Track> is a <Static Track (DM)> in the <Material Package> that contains a <Sequence>, which contains exactly one <DM Segment>, which strongly references an instance of a <DM Framework>.
                 [N] Track Name

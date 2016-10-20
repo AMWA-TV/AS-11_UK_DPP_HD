@@ -5,12 +5,12 @@
             "commit": "62e021b76c890d51111ba2e481ddda74c17c761e"
         }, 
         {
-            "repo_url": "git@gitlab.com:thomas.heritage/rules-processor.git", 
-            "commit": "bcfbaec939115c75e8dc42455a59bac01dc40691"
+            "repo_url": "git@gitlab.com:mglanville/rules-revision-ideas.git", 
+            "commit": "6398697607003ff71b40f58e82f9c3da26ded2aa"
         }, 
         {
-            "repo_url": "git@gitlab.com:mglanville/rules-revision-ideas.git", 
-            "commit": "cd2c664e000168fa43a4718ccdd05da372667494"
+            "repo_url": "git@gitlab.com:thomas.heritage/rules-processor.git", 
+            "commit": "bcfbaec939115c75e8dc42455a59bac01dc40691"
         }, 
         {
             "repo_url": "git@gitlab.com:mglanville/amwa-specs.git", 

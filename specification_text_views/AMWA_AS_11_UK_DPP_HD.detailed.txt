@@ -438,9 +438,29 @@ An implementation complies with this Specification if it complies with the Compo
                     <URL: http://www.amwa.tv/projects/rules/01/term/Audio%20Channel/>
             [N] Implementation Notes
                 <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/note/005/>
-                [A] Stereo audio data must be split between two MXF Sound Tracks.
-                    
+                [A] For example, this means that in the case of stereo audio, the audio data must be split between two MXF <Sound Track>s (one <Sound Track> for each of the two <Audio Channel>s).
                     <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/note/005/artefacts/1.md>
+                    [T] Sound Track
+                        A type of <Essence Track> that references <Sound Essence>.
+                        <URL: http://www.amwa.tv/projects/rules/01/term/Sound%20Track/>
+                        [T] Essence Track
+                            A type of <Track> that references <Essence>.
+                            <URL: http://www.amwa.tv/projects/rules/01/term/Essence%20Track/>
+                            [T] Track
+                                MXF data structure used to describe the content structure.
+                                <URL: http://www.amwa.tv/projects/rules/01/term/Track/>
+                            [T] Essence
+                                A bitstream comprising picture, sound or data.
+                                <URL: http://www.amwa.tv/projects/rules/01/term/Essence/>
+                        [T] Sound Essence
+                            A type of <Essence> containing sound data.
+                            <URL: http://www.amwa.tv/projects/rules/01/term/Sound%20Essence/>
+                            [T] Essence
+                                A bitstream comprising picture, sound or data.
+                                <URL: http://www.amwa.tv/projects/rules/01/term/Essence/>
+                    [T] Audio Channel
+                        A distinct collection of sequenced audio samples that are intended for delivery to a single loudspeaker or other reproduction device.
+                        <URL: http://www.amwa.tv/projects/rules/01/term/Audio%20Channel/>
         [B] Uncompressed 24-bit PCM audio at 48 kHz
             Conformance: mandatory
             <URL: http://www.amwa.tv/projects/rules/01/block/230/>
@@ -544,7 +564,7 @@ An implementation complies with this Specification if it complies with the Compo
                 This differs from the suggestion in Annex B of SMPTE ST 377-1:2011 that the Track Number be set to zero for all Material Package Tracks.
                 
                 <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/note/010/artefacts/1.md>
-    [B] AS-11 Core DM
+    [B] AS-11 Core DM (Descriptive Metadata)
         Conformance: mandatory
         <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/550/>
         [A] The file contains exactly one instance of <DM_AS_11_Core DM Scheme>.
@@ -650,7 +670,7 @@ An implementation complies with this Specification if it complies with the Compo
             <URL: http://www.amwa.tv/projects/rules/01/note/051/>
             [A] Repetition of Header Metadata in the Footer Partition is not considered to be another instance of any of the components of that Header Metadata.
                 <URL: http://www.amwa.tv/projects/rules/01/note/051/artefacts/1.md>
-    [B] AS-11 UKDPP DM
+    [B] AS-11 UKDPP DM (Descriptive Metadata)
         Conformance: mandatory
         <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/555/>
         [A] The file contains exactly one instance of <DM_AS_11_UKDPP DM Scheme>.
@@ -756,7 +776,7 @@ An implementation complies with this Specification if it complies with the Compo
             <URL: http://www.amwa.tv/projects/rules/01/note/051/>
             [A] Repetition of Header Metadata in the Footer Partition is not considered to be another instance of any of the components of that Header Metadata.
                 <URL: http://www.amwa.tv/projects/rules/01/note/051/artefacts/1.md>
-    [B] AS-11 Segmentation DM
+    [B] AS-11 Segmentation DM (Descriptive Metadata)
         Conformance: mandatory
         <URL: http://www.amwa.tv/projects/rules/01/block/530/>
         [A] The file contains exactly one <Program Segmentation Track>.
@@ -1312,8 +1332,14 @@ An implementation complies with this Specification if it complies with the Compo
         [B] R48 2a customisation
             Conformance: mandatory
             <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/270/>
-            [A] If the value of AS_11_Audio_Track_Layout is Layout_EBU_R_48_2a then for each <Sound Track> in the <Material Package> with a "Track Number" of 3 or 4 the <Sound Essence> contains digital silence.
+            [A] The number of <Audio Channel>s described by the scheme identified by the value of AS_11_Audio_Track_Layout is equal to the number of <Audio Channel>s in the file except that a value of Layout_EBU_R_48_2a is permitted when all of the following are true:
+                
+                * there are four <Audio Channel>s in the file
+                * for each <Sound Track> in the <Material Package> with a "Track Number" of 3 or 4 the <Sound Essence> contains digital silence
                 <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/270/artefacts/1.md>
+                [T] Audio Channel
+                    A distinct collection of sequenced audio samples that are intended for delivery to a single loudspeaker or other reproduction device.
+                    <URL: http://www.amwa.tv/projects/rules/01/term/Audio%20Channel/>
                 [T] Sound Track
                     A type of <Essence Track> that references <Sound Essence>.
                     <URL: http://www.amwa.tv/projects/rules/01/term/Sound%20Track/>
@@ -1350,7 +1376,7 @@ An implementation complies with this Specification if it complies with the Compo
             <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/300/>
             [A] The file does not contain closed captions.
                 <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/300/artefacts/1.md>
-    [B] Miscellaneous DM constraints (UKDPP HD)
+    [B] Miscellaneous DM constraints (Descriptive Metadata)
         Conformance: mandatory
         <URL: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/989/>
         [A] Metadata Constraints as Python (refer to the 'Specification Format Definition'): http://vm-1274-user.virt.ch.bbc.co.uk/as/block/989/artefacts/audio_track_layout.py

@@ -812,7 +812,7 @@
                                 </li>
                                 <li data-jstree='{"icon":"include/noteartefact.png"}' id='889a3cd7921e2c29e11560958de7ba6d'>
                                     <div class='content_container clearfix'>
-<p>Stereo audio data must be split between two MXF Sound Tracks.</p>
+<p>For example, this means that in the case of stereo audio, the audio data must be split between two MXF <a class='' data-toggle='tooltip' href='#946bc574fe9636fc2326c90da8e80f43' title='A type of &lt;Essence Track&gt; that references &lt;Sound Essence&gt;.'>Sound Track</a>s (one <a class='' data-toggle='tooltip' href='#946bc574fe9636fc2326c90da8e80f43' title='A type of &lt;Essence Track&gt; that references &lt;Sound Essence&gt;.'>Sound Track</a> for each of the two <a class='' data-toggle='tooltip' href='#22dd147bbc7edf9dc85ffd2e7f560ab3' title='A distinct collection of sequenced audio samples that are intended for delivery to a single loudspeaker or other reproduction device.'>Audio Channel</a>s).</p>
                                     </div>
                                 </li>
                                 </ul>
@@ -964,7 +964,7 @@
                     </li>
                     <li data-jstree='{"icon":"include/block.png"}' id='f056055e50bf674e8fe70a17a35cd507'>
                         <div class='content_container clearfix'>
-<b>AS-11 Core DM</b>
+<b>AS-11 Core DM (Descriptive Metadata)</b>
                         </div>
                         <ul>
                         <li data-jstree='{"icon":"include/file.png"}' id='f056055e50bf674e8fe70a17a35cd507-info'>
@@ -1144,7 +1144,7 @@ if (AS_11_Closed_Captions_Present):
                     </li>
                     <li data-jstree='{"icon":"include/block.png"}' id='3512e162c18af0adb14b905cd9255da3'>
                         <div class='content_container clearfix'>
-<b>AS-11 UKDPP DM</b>
+<b>AS-11 UKDPP DM (Descriptive Metadata)</b>
                         </div>
                         <ul>
                         <li data-jstree='{"icon":"include/file.png"}' id='3512e162c18af0adb14b905cd9255da3-info'>
@@ -1343,7 +1343,7 @@ if PRESENT(UKDPP_Programme_Has_Text) and UKDPP_Programme_Has_Text:
                     </li>
                     <li data-jstree='{"icon":"include/block.png"}' id='62502537e1e5d39fabdd7b6fbf6a6f8b'>
                         <div class='content_container clearfix'>
-<b>AS-11 Segmentation DM</b>
+<b>AS-11 Segmentation DM (Descriptive Metadata)</b>
                         </div>
                         <ul>
                         <li data-jstree='{"icon":"include/file.png"}' id='62502537e1e5d39fabdd7b6fbf6a6f8b-info'>
@@ -2124,7 +2124,12 @@ if PRESENT(UKDPP_Programme_Has_Text) and UKDPP_Programme_Has_Text:
                             </li>
                             <li data-jstree='{"icon":"include/artefact.png"}' id='db890ec07a64c7b722d6b8c36ff50b22'>
                                 <div class='content_container clearfix'>
-<p>If the value of AS_11_Audio_Track_Layout is Layout_EBU_R_48_2a then for each <a class='' data-toggle='tooltip' href='#946bc574fe9636fc2326c90da8e80f43' title='A type of &lt;Essence Track&gt; that references &lt;Sound Essence&gt;.'>Sound Track</a> in the <a class='' data-toggle='tooltip' href='#2d90a6d5e37bc488b754432604d27810' title='An MXF data structure that describe an output timeline of the file.'>Material Package</a> with a "Track Number" of 3 or 4 the <a class='' data-toggle='tooltip' href='#47efcf43e040198dc7b9634190bde32a' title='A type of &lt;Essence&gt; containing sound data.'>Sound Essence</a> contains digital silence.</p>
+<p>The number of <a class='' data-toggle='tooltip' href='#22dd147bbc7edf9dc85ffd2e7f560ab3' title='A distinct collection of sequenced audio samples that are intended for delivery to a single loudspeaker or other reproduction device.'>Audio Channel</a>s described by the scheme identified by the value of AS_11_Audio_Track_Layout is equal to the number of <a class='' data-toggle='tooltip' href='#22dd147bbc7edf9dc85ffd2e7f560ab3' title='A distinct collection of sequenced audio samples that are intended for delivery to a single loudspeaker or other reproduction device.'>Audio Channel</a>s in the file except that a value of Layout_EBU_R_48_2a is permitted when all of the following are true:</p>
+
+<ul>
+<li>there are four <a class='' data-toggle='tooltip' href='#22dd147bbc7edf9dc85ffd2e7f560ab3' title='A distinct collection of sequenced audio samples that are intended for delivery to a single loudspeaker or other reproduction device.'>Audio Channel</a>s in the file</li>
+<li>for each <a class='' data-toggle='tooltip' href='#946bc574fe9636fc2326c90da8e80f43' title='A type of &lt;Essence Track&gt; that references &lt;Sound Essence&gt;.'>Sound Track</a> in the <a class='' data-toggle='tooltip' href='#2d90a6d5e37bc488b754432604d27810' title='An MXF data structure that describe an output timeline of the file.'>Material Package</a> with a "Track Number" of 3 or 4 the <a class='' data-toggle='tooltip' href='#47efcf43e040198dc7b9634190bde32a' title='A type of &lt;Essence&gt; containing sound data.'>Sound Essence</a> contains digital silence</li>
+</ul>
                                 </div>
                             </li>
                             <li data-jstree='{"icon":"include/note.png"}' id='150100ccbde32b17028b87e3026d0e2b'>
@@ -2177,7 +2182,7 @@ if PRESENT(UKDPP_Programme_Has_Text) and UKDPP_Programme_Has_Text:
                     </li>
                     <li data-jstree='{"icon":"include/block.png"}' id='338a6a406c61b47f41a3f7cb0da5a254'>
                         <div class='content_container clearfix'>
-<b>Miscellaneous DM constraints (UKDPP HD)</b>
+<b>Miscellaneous DM constraints (Descriptive Metadata)</b>
                         </div>
                         <ul>
                         <li data-jstree='{"icon":"include/file.png"}' id='338a6a406c61b47f41a3f7cb0da5a254-info'>

@@ -154,8 +154,7 @@ An implementation complies with this Specification if it complies with the Compo
             Conformance: mandatory
             [A] Each <Sound Track> represents exactly one <Audio Channel>.
             [N] Implementation Notes
-                [A] Stereo audio data must be split between two MXF Sound Tracks.
-                    
+                [A] For example, this means that in the case of stereo audio, the audio data must be split between two MXF <Sound Track>s (one <Sound Track> for each of the two <Audio Channel>s).
         [B] Uncompressed 24-bit PCM audio at 48 kHz
             Conformance: mandatory
             [A] For each <Audio Channel> the <Sound Essence> is "uncompressed PCM audio data" per <SMPTE ST 382:2007>, sampled at 48 kHz with 24 bits per sample.
@@ -177,7 +176,7 @@ An implementation complies with this Specification if it complies with the Compo
                 
                 This differs from the suggestion in Annex B of SMPTE ST 377-1:2011 that the Track Number be set to zero for all Material Package Tracks.
                 
-    [B] AS-11 Core DM
+    [B] AS-11 Core DM (Descriptive Metadata)
         Conformance: mandatory
         [A] The file contains exactly one instance of <DM_AS_11_Core DM Scheme>.
             [B] DM_AS_11_Core DM Scheme
@@ -196,7 +195,7 @@ An implementation complies with this Specification if it complies with the Compo
                     [A] The "Track Name" property of an <Constrained Static DM Track> does not identify the <DM Scheme> whose <DM Framework> it references. In the absence of other requirements for "Track Name", it is suggested that files use a value corresponding to the <DM Scheme> used in the track, e.g. "AS_11_Core", "AS_11_UKDPP".
         [N] Repetition of Header Metadata
             [A] Repetition of Header Metadata in the Footer Partition is not considered to be another instance of any of the components of that Header Metadata.
-    [B] AS-11 UKDPP DM
+    [B] AS-11 UKDPP DM (Descriptive Metadata)
         Conformance: mandatory
         [A] The file contains exactly one instance of <DM_AS_11_UKDPP DM Scheme>.
             [B] DM_AS_11_UKDPP DM Scheme
@@ -215,7 +214,7 @@ An implementation complies with this Specification if it complies with the Compo
                     [A] The "Track Name" property of an <Constrained Static DM Track> does not identify the <DM Scheme> whose <DM Framework> it references. In the absence of other requirements for "Track Name", it is suggested that files use a value corresponding to the <DM Scheme> used in the track, e.g. "AS_11_Core", "AS_11_UKDPP".
         [N] Repetition of Header Metadata
             [A] Repetition of Header Metadata in the Footer Partition is not considered to be another instance of any of the components of that Header Metadata.
-    [B] AS-11 Segmentation DM
+    [B] AS-11 Segmentation DM (Descriptive Metadata)
         Conformance: mandatory
         [A] The file contains exactly one <Program Segmentation Track>.
             [B] Program Segmentation Track
@@ -335,13 +334,16 @@ An implementation complies with this Specification if it complies with the Compo
             [A] There are either exactly 4 or exactly 16 <Audio Channel>s in the file.
         [B] R48 2a customisation
             Conformance: mandatory
-            [A] If the value of AS_11_Audio_Track_Layout is Layout_EBU_R_48_2a then for each <Sound Track> in the <Material Package> with a "Track Number" of 3 or 4 the <Sound Essence> contains digital silence.
+            [A] The number of <Audio Channel>s described by the scheme identified by the value of AS_11_Audio_Track_Layout is equal to the number of <Audio Channel>s in the file except that a value of Layout_EBU_R_48_2a is permitted when all of the following are true:
+                
+                * there are four <Audio Channel>s in the file
+                * for each <Sound Track> in the <Material Package> with a "Track Number" of 3 or 4 the <Sound Essence> contains digital silence
             [N] Implementation Notes
                 [A] MXF Filler cannot be used here to represent silence.
         [B] No Closed Captions
             Conformance: mandatory
             [A] The file does not contain closed captions.
-    [B] Miscellaneous DM constraints (UKDPP HD)
+    [B] Miscellaneous DM constraints (Descriptive Metadata)
         Conformance: mandatory
         [A] Metadata Constraints as Python (refer to the 'Specification Format Definition'): http://vm-1274-user.virt.ch.bbc.co.uk/as/block/989/artefacts/audio_track_layout.py
         [A] Metadata Constraints as Python (refer to the 'Specification Format Definition'): http://vm-1274-user.virt.ch.bbc.co.uk/as/block/989/artefacts/shim.py

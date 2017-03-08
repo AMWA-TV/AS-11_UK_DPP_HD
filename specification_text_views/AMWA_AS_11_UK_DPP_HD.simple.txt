@@ -1,6 +1,10 @@
 # **[Work In Progress]** AS-11 UK DPP HD (MXF Program Contribution - UK DPP HD)
 
-_This file is one rendering / view of this AMWA Specification and is a part of the Specification repository. Visit the AMWA [web page for this Specification](http://amwa.tv/projects/AS-11-UK-DPP.shtml) which has information about revisions and current development._
+|*Important links*| |
+|-----------------|-|
+|[Specification Repository on GitHub](https://github.com/AMWA-TV/AS-11_UK_DPP_HD/)|This repository is where the entire Specification (including this file and alternative renderings / views of the Specification) is stored and version controlled|
+|[Project Page on the AMWA Website](http://amwa.tv/projects/AS-11-UK-DPP.shtml)|The home of the Specification on the AMWA website|
+|[Development and Implementation Resources](https://github.com/AMWA-TV/AS-11_Overview/)|Provides resources such as Specification issue tracking, MXF sample files, and tools|
 
 
 # AS-11: Media Contribution File Formats
@@ -29,7 +33,7 @@ This Specification aims to define a file format for the delivery of finished HD 
 # Understanding the Specification Blocks Tree
 
 ## The Rules-Based Specification Framework
-This Specification has been written using a 'Rules-based Specification Framework'. In this framework, each 'constraint' or 'rule' is expressed as a 'Component' which can be unambiguosly identified by its ID (which is a URL). These Components assemble into 'networks' or 'webs' to form complete Specifications, with many Components being re-used across a number of Specifications. Through this approach machine processable Specifications are developed which are less ambiguous and easier to implement and test.
+This Specification has been written using a 'Rules-based Specification Framework'. In this framework, each 'constraint' or 'rule' is expressed as a 'Component' which can be unambiguously identified by its ID (the Component ID is a web address / URL; there need not be any content available at this web address). These Components assemble into 'networks' or 'webs' to form complete Specifications, with many Components being re-used across a number of Specifications. Through this approach machine processable Specifications are developed which are less ambiguous and easier to implement and test. To read a more detailed introduction to the Rules-based Specification Framework refer to [Rules-Based Specifications: Modelling and Processing](http://www.bbc.co.uk/rd/publications/whitepaper319).
 
 * **Blocks (B)** are the fundamental 'building bricks' of a Specification -- they provide its _structure_.
 * A Block can either link to **Artefacts (A)** that it 'owns' or link to other Blocks.
@@ -37,8 +41,8 @@ This Specification has been written using a 'Rules-based Specification Framework
 * Artefacts often refer to **Terms (T)** and **References (R)** as well as Blocks.
 * Blocks are sometimes described by **Notes (N)**.
 * There are two special types of Block which allow the value of one Block to be set by another Block:
-  * **Parameter Key Block (K)** -- this is a Block whose value must be set elsewhere in the Specification (it effectively defines a "variable" or an "argument").
-  * **Parameter Value Block (V)** -- this is a Block which sets the value of a specific Parameter Key Block.
+    * **Parameter Key Block (K)** -- this is a Block whose value must be set elsewhere in the Specification (it effectively defines a "variable" or an "argument").
+    * **Parameter Value Block (V)** -- this is a Block which sets the value of a specific Parameter Key Block.
 
 In this document the network of Blocks (and other Components) that form the Specification are shown as a 'tree': the Specification Blocks Tree. The letters in brackets above are used in the tree to identify the different kinds of Component.
 
@@ -182,12 +186,12 @@ An implementation complies with this Specification if it complies with the Compo
             [B] DM_AS_11_Core DM Scheme
                 [A] This <DM Scheme> is identified by <DM_AS_11_Core> (the <DM Scheme Label>) and has the following members: <DM_AS_11_Core_Framework> (the <DM Framework>).
                     [B] DM_AS_11_Core
-                        [A] http://vm-1274-user.virt.ch.bbc.co.uk/as/block/500L/artefacts/Labels.xml
+                        [A] Artefact copied to: ../specification_data_files/vm-1274-user.virt.ch.bbc.co.uk_c064c30/block/500L/artefacts/Labels.xml
                     [B] DM_AS_11_Core_Framework
-                        [A] http://vm-1274-user.virt.ch.bbc.co.uk/as/block/500F/artefacts/Groups.xml
-                        [A] http://vm-1274-user.virt.ch.bbc.co.uk/as/block/500F/artefacts/Elements.xml
-                        [A] http://vm-1274-user.virt.ch.bbc.co.uk/as/block/500F/artefacts/Types.xml
-                        [A] Metadata Constraints as Python (refer to the 'Specification Format Definition'): http://vm-1274-user.virt.ch.bbc.co.uk/as/block/500F/artefacts/dm_extras.py
+                        [A] Artefact copied to: ../specification_data_files/vm-1274-user.virt.ch.bbc.co.uk_c064c30/block/500F/artefacts/Groups.xml
+                        [A] Artefact copied to: ../specification_data_files/vm-1274-user.virt.ch.bbc.co.uk_c064c30/block/500F/artefacts/Elements.xml
+                        [A] Artefact copied to: ../specification_data_files/vm-1274-user.virt.ch.bbc.co.uk_c064c30/block/500F/artefacts/Types.xml
+                        [A] Metadata Constraints as Python (refer to the 'Specification Format Definition'): Artefact copied to: ../specification_data_files/vm-1274-user.virt.ch.bbc.co.uk_c064c30/block/500F/artefacts/dm_extras.py
         [A] The <DM Framework> instance is strongly referenced from a <Constrained Static DM Track>.
             [B] Constrained Static DM Track
                 [A] A <Constrained Static DM Track> is a <Static Track (DM)> in the <Material Package> that contains a <Sequence>, which contains exactly one <DM Segment>, which strongly references an instance of a <DM Framework>.
@@ -201,12 +205,12 @@ An implementation complies with this Specification if it complies with the Compo
             [B] DM_AS_11_UKDPP DM Scheme
                 [A] This <DM Scheme> is identified by <DM_AS_11_UKDPP> (the <DM Scheme Label>) and has the following members: <DM_AS_11_UKDPP Framework> (the <DM Framework>).
                     [B] DM_AS_11_UKDPP
-                        [A] http://vm-1274-user.virt.ch.bbc.co.uk/as/block/510L/artefacts/Labels.xml
+                        [A] Artefact copied to: ../specification_data_files/vm-1274-user.virt.ch.bbc.co.uk_c064c30/block/510L/artefacts/Labels.xml
                     [B] DM_AS_11_UKDPP Framework
-                        [A] http://vm-1274-user.virt.ch.bbc.co.uk/as/block/510F/artefacts/Groups.xml
-                        [A] http://vm-1274-user.virt.ch.bbc.co.uk/as/block/510F/artefacts/Elements.xml
-                        [A] http://vm-1274-user.virt.ch.bbc.co.uk/as/block/510F/artefacts/Types.xml
-                        [A] Metadata Constraints as Python (refer to the 'Specification Format Definition'): http://vm-1274-user.virt.ch.bbc.co.uk/as/block/510F/artefacts/dm_extras.py
+                        [A] Artefact copied to: ../specification_data_files/vm-1274-user.virt.ch.bbc.co.uk_c064c30/block/510F/artefacts/Groups.xml
+                        [A] Artefact copied to: ../specification_data_files/vm-1274-user.virt.ch.bbc.co.uk_c064c30/block/510F/artefacts/Elements.xml
+                        [A] Artefact copied to: ../specification_data_files/vm-1274-user.virt.ch.bbc.co.uk_c064c30/block/510F/artefacts/Types.xml
+                        [A] Metadata Constraints as Python (refer to the 'Specification Format Definition'): Artefact copied to: ../specification_data_files/vm-1274-user.virt.ch.bbc.co.uk_c064c30/block/510F/artefacts/dm_extras.py
         [A] The <DM Framework> instance is strongly referenced from a <Constrained Static DM Track>.
             [B] Constrained Static DM Track
                 [A] A <Constrained Static DM Track> is a <Static Track (DM)> in the <Material Package> that contains a <Sequence>, which contains exactly one <DM Segment>, which strongly references an instance of a <DM Framework>.
@@ -234,11 +238,11 @@ An implementation complies with this Specification if it complies with the Compo
             [B] DM_AS_11_Segmentation
                 [A] This <DM Scheme> is identified by <DM_AS_11_Segmentation> (the <DM Scheme Label>) and has the following members: <DM_AS_11_Segmentation_Framework> (the <DM Framework>).
                     [B] DM_AS_11_Segmentation
-                        [A] http://www.amwa.tv/projects/rules/01/block/505L/artefacts/Labels.xml
+                        [A] Artefact copied to: ../specification_data_files/www.amwa.tv_c0f7b64/block/505L/artefacts/Labels.xml
                     [B] DM_AS_11_Segmentation_Framework
-                        [A] http://www.amwa.tv/projects/rules/01/block/505F/artefacts/Groups.xml
-                        [A] http://www.amwa.tv/projects/rules/01/block/505F/artefacts/Elements.xml
-                        [A] http://www.amwa.tv/projects/rules/01/block/505F/artefacts/Types.xml
+                        [A] Artefact copied to: ../specification_data_files/www.amwa.tv_c0f7b64/block/505F/artefacts/Groups.xml
+                        [A] Artefact copied to: ../specification_data_files/www.amwa.tv_c0f7b64/block/505F/artefacts/Elements.xml
+                        [A] Artefact copied to: ../specification_data_files/www.amwa.tv_c0f7b64/block/505F/artefacts/Types.xml
         [N] Implementation Notes
             [A] The <Track> can be identified by an MXF reader by the presence of <DM Segment> objects that each strongly reference an instance of the "DM_AS_11_Segmentation_Framework" <DM Framework>.
         [N] Repetition of Header Metadata
@@ -345,9 +349,9 @@ An implementation complies with this Specification if it complies with the Compo
             [A] The file does not contain closed captions.
     [B] Miscellaneous DM constraints (Descriptive Metadata)
         Conformance: mandatory
-        [A] Metadata Constraints as Python (refer to the 'Specification Format Definition'): http://vm-1274-user.virt.ch.bbc.co.uk/as/block/989/artefacts/audio_track_layout.py
-        [A] Metadata Constraints as Python (refer to the 'Specification Format Definition'): http://vm-1274-user.virt.ch.bbc.co.uk/as/block/989/artefacts/shim.py
-        [A] Metadata Constraints as Python (refer to the 'Specification Format Definition'): http://vm-1274-user.virt.ch.bbc.co.uk/as/block/989/artefacts/picture_ratio.py
+        [A] Metadata Constraints as Python (refer to the 'Specification Format Definition'): Artefact copied to: ../specification_data_files/vm-1274-user.virt.ch.bbc.co.uk_c064c30/block/989/artefacts/audio_track_layout.py
+        [A] Metadata Constraints as Python (refer to the 'Specification Format Definition'): Artefact copied to: ../specification_data_files/vm-1274-user.virt.ch.bbc.co.uk_c064c30/block/989/artefacts/shim.py
+        [A] Metadata Constraints as Python (refer to the 'Specification Format Definition'): Artefact copied to: ../specification_data_files/vm-1274-user.virt.ch.bbc.co.uk_c064c30/block/989/artefacts/picture_ratio.py
 
 
 
@@ -435,7 +439,7 @@ Readers are advised that any IPR contribution forms associated with this
 project are available from the [AMWA](http://amwa.tv/)
 
 
-(c) AMWA 2016, Licensed under the Apache License, Version 2.0
+(c) AMWA 2017, Licensed under the Apache License, Version 2.0
 
 The following license applies to all parts of this Specification except
 as documented below:

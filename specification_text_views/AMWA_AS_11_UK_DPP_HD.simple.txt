@@ -186,12 +186,12 @@ An implementation complies with this Specification if it complies with the Compo
             [B] DM_AS_11_Core DM Scheme
                 [A] This <DM Scheme> is identified by <DM_AS_11_Core> (the <DM Scheme Label>) and has the following members: <DM_AS_11_Core_Framework> (the <DM Framework>).
                     [B] DM_AS_11_Core
-                        [A] Artefact copied to: ../specification_data_files/vm-1274-user.virt.ch.bbc.co.uk_c064c30/block/500L/artefacts/Labels.xml
+                        [A] Artefact copied to: ../specification_data_files/www.amwa.tv_c0f7b64/block/500L/artefacts/Labels.xml
                     [B] DM_AS_11_Core_Framework
-                        [A] Artefact copied to: ../specification_data_files/vm-1274-user.virt.ch.bbc.co.uk_c064c30/block/500F/artefacts/Groups.xml
-                        [A] Artefact copied to: ../specification_data_files/vm-1274-user.virt.ch.bbc.co.uk_c064c30/block/500F/artefacts/Elements.xml
-                        [A] Artefact copied to: ../specification_data_files/vm-1274-user.virt.ch.bbc.co.uk_c064c30/block/500F/artefacts/Types.xml
-                        [A] Metadata Constraints as Python (refer to the 'Specification Format Definition'): Artefact copied to: ../specification_data_files/vm-1274-user.virt.ch.bbc.co.uk_c064c30/block/500F/artefacts/dm_extras.py
+                        [A] Artefact copied to: ../specification_data_files/www.amwa.tv_c0f7b64/block/500F/artefacts/Groups.xml
+                        [A] Artefact copied to: ../specification_data_files/www.amwa.tv_c0f7b64/block/500F/artefacts/Elements.xml
+                        [A] Artefact copied to: ../specification_data_files/www.amwa.tv_c0f7b64/block/500F/artefacts/Types.xml
+                        [A] Metadata Constraints as Python (refer to the 'Specification Format Definition'): Artefact copied to: ../specification_data_files/www.amwa.tv_c0f7b64/block/500F/artefacts/dm_extras.py
         [A] The <DM Framework> instance is strongly referenced from a <Constrained Static DM Track>.
             [B] Constrained Static DM Track
                 [A] A <Constrained Static DM Track> is a <Static Track (DM)> in the <Material Package> that contains a <Sequence>, which contains exactly one <DM Segment>, which strongly references an instance of a <DM Framework>.
@@ -205,12 +205,12 @@ An implementation complies with this Specification if it complies with the Compo
             [B] DM_AS_11_UKDPP DM Scheme
                 [A] This <DM Scheme> is identified by <DM_AS_11_UKDPP> (the <DM Scheme Label>) and has the following members: <DM_AS_11_UKDPP Framework> (the <DM Framework>).
                     [B] DM_AS_11_UKDPP
-                        [A] Artefact copied to: ../specification_data_files/vm-1274-user.virt.ch.bbc.co.uk_c064c30/block/510L/artefacts/Labels.xml
+                        [A] Artefact copied to: ../specification_data_files/www.amwa.tv_c0f7b64/block/510L/artefacts/Labels.xml
                     [B] DM_AS_11_UKDPP Framework
-                        [A] Artefact copied to: ../specification_data_files/vm-1274-user.virt.ch.bbc.co.uk_c064c30/block/510F/artefacts/Groups.xml
-                        [A] Artefact copied to: ../specification_data_files/vm-1274-user.virt.ch.bbc.co.uk_c064c30/block/510F/artefacts/Elements.xml
-                        [A] Artefact copied to: ../specification_data_files/vm-1274-user.virt.ch.bbc.co.uk_c064c30/block/510F/artefacts/Types.xml
-                        [A] Metadata Constraints as Python (refer to the 'Specification Format Definition'): Artefact copied to: ../specification_data_files/vm-1274-user.virt.ch.bbc.co.uk_c064c30/block/510F/artefacts/dm_extras.py
+                        [A] Artefact copied to: ../specification_data_files/www.amwa.tv_c0f7b64/block/510F/artefacts/Groups.xml
+                        [A] Artefact copied to: ../specification_data_files/www.amwa.tv_c0f7b64/block/510F/artefacts/Elements.xml
+                        [A] Artefact copied to: ../specification_data_files/www.amwa.tv_c0f7b64/block/510F/artefacts/Types.xml
+                        [A] Metadata Constraints as Python (refer to the 'Specification Format Definition'): Artefact copied to: ../specification_data_files/www.amwa.tv_c0f7b64/block/510F/artefacts/dm_extras.py
         [A] The <DM Framework> instance is strongly referenced from a <Constrained Static DM Track>.
             [B] Constrained Static DM Track
                 [A] A <Constrained Static DM Track> is a <Static Track (DM)> in the <Material Package> that contains a <Sequence>, which contains exactly one <DM Segment>, which strongly references an instance of a <DM Framework>.

@@ -263,9 +263,9 @@ An implementation complies with this Specification if it complies with the Compo
                     <Component ID: http://www.amwa.tv/projects/rules/01/note/E19/artefacts/1.md>
     [B] Header Metadata KLV Fill
         Conformance: recommended
-        <Component ID: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/030/>
+        <Component ID: http://www.amwa.tv/projects/rules/01/block/030/>
         [A] When first created, the file includes a <KLV Fill> item of at least 8192 bytes in total length following the <Header Metadata>.
-            <Component ID: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/030/artefacts/1.md>
+            <Component ID: http://www.amwa.tv/projects/rules/01/block/030/artefacts/1.md>
             [T] KLV Fill
                 Refers to the well-defined means of inserting empty, "fill", data in an MXF file.
                 <Component ID: http://www.amwa.tv/projects/rules/01/term/KLV%20Fill/>
@@ -556,9 +556,9 @@ An implementation complies with this Specification if it complies with the Compo
                 An MXF data structure that describe an output timeline of the file.
                 <Component ID: http://www.amwa.tv/projects/rules/01/term/Material%20Package/>
             [R] EBU R 48
-                <Component ID: http://vm-1274-user.virt.ch.bbc.co.uk/as/external_reference_revision/EBU%20R%2048-2005/>
+                <Component ID: http://www.amwa.tv/projects/rules/01/external_reference_revision/EBU%20R%2048-2005/>
             [R] EBU R 123
-                <Component ID: http://vm-1274-user.virt.ch.bbc.co.uk/as/external_reference_revision/EBU%20R%20123-2009/>
+                <Component ID: http://www.amwa.tv/projects/rules/01/external_reference_revision/EBU%20R%20123-2009/>
         [N] Implementation Notes
             <Component ID: http://vm-1274-user.virt.ch.bbc.co.uk/as/note/010/>
             [A] This really does matter because of the separation of the physical from the logical in MXF files. Without this, decoders can only identify tracks by their track ID or the physical order in the file, which is not otherwise constrained in MXF.
@@ -570,13 +570,13 @@ An implementation complies with this Specification if it complies with the Compo
                 <Component ID: http://vm-1274-user.virt.ch.bbc.co.uk/as/note/010/artefacts/1.md>
     [B] AS-11 Core DM (Descriptive Metadata)
         Conformance: mandatory
-        <Component ID: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/550/>
+        <Component ID: http://www.amwa.tv/projects/rules/01/block/550/>
         [A] The file contains exactly one instance of <DM_AS_11_Core DM Scheme>.
-            <Component ID: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/550/artefacts/1.md>
+            <Component ID: http://www.amwa.tv/projects/rules/01/block/550/artefacts/1.md>
             [B] DM_AS_11_Core DM Scheme
-                <Component ID: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/500S/>
+                <Component ID: http://www.amwa.tv/projects/rules/01/block/500S/>
                 [A] This <DM Scheme> is identified by <DM_AS_11_Core> (the <DM Scheme Label>) and has the following members: <DM_AS_11_Core_Framework> (the <DM Framework>).
-                    <Component ID: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/500S/artefacts/1.md>
+                    <Component ID: http://www.amwa.tv/projects/rules/01/block/500S/artefacts/1.md>
                     [T] DM Scheme
                         A mechanism for defining collections of <Descriptive Metadata>.
                         <Component ID: http://www.amwa.tv/projects/rules/01/term/DM%20Scheme/>
@@ -587,22 +587,22 @@ An implementation complies with this Specification if it complies with the Compo
                                 A bitstream comprising picture, sound or data.
                                 <Component ID: http://www.amwa.tv/projects/rules/01/term/Essence/>
                     [B] DM_AS_11_Core
-                        <Component ID: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/500L/>
-                        [A] Artefact copied to: ../specification_data_files/vm-1274-user.virt.ch.bbc.co.uk_c064c30/block/500L/artefacts/Labels.xml
-                            <Component ID: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/500L/artefacts/Labels.xml>
+                        <Component ID: http://www.amwa.tv/projects/rules/01/block/500L/>
+                        [A] Artefact copied to: ../specification_data_files/www.amwa.tv_c0f7b64/block/500L/artefacts/Labels.xml
+                            <Component ID: http://www.amwa.tv/projects/rules/01/block/500L/artefacts/Labels.xml>
                     [T] DM Scheme Label
                         An identifier for a <DM Scheme>. It is stored in an MXF file's Preface::DMSchemes property to signify the use of that <DM Scheme> in the file.
                         <Component ID: http://www.amwa.tv/projects/rules/01/term/DM%20Scheme%20Label/>
                     [B] DM_AS_11_Core_Framework
-                        <Component ID: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/500F/>
-                        [A] Artefact copied to: ../specification_data_files/vm-1274-user.virt.ch.bbc.co.uk_c064c30/block/500F/artefacts/Groups.xml
-                            <Component ID: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/500F/artefacts/Groups.xml>
-                        [A] Artefact copied to: ../specification_data_files/vm-1274-user.virt.ch.bbc.co.uk_c064c30/block/500F/artefacts/Elements.xml
-                            <Component ID: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/500F/artefacts/Elements.xml>
-                        [A] Artefact copied to: ../specification_data_files/vm-1274-user.virt.ch.bbc.co.uk_c064c30/block/500F/artefacts/Types.xml
-                            <Component ID: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/500F/artefacts/Types.xml>
-                        [A] Metadata Constraints as Python (refer to the 'Specification Format Definition'): Artefact copied to: ../specification_data_files/vm-1274-user.virt.ch.bbc.co.uk_c064c30/block/500F/artefacts/dm_extras.py
-                            <Component ID: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/500F/artefacts/dm_extras.py>
+                        <Component ID: http://www.amwa.tv/projects/rules/01/block/500F/>
+                        [A] Artefact copied to: ../specification_data_files/www.amwa.tv_c0f7b64/block/500F/artefacts/Groups.xml
+                            <Component ID: http://www.amwa.tv/projects/rules/01/block/500F/artefacts/Groups.xml>
+                        [A] Artefact copied to: ../specification_data_files/www.amwa.tv_c0f7b64/block/500F/artefacts/Elements.xml
+                            <Component ID: http://www.amwa.tv/projects/rules/01/block/500F/artefacts/Elements.xml>
+                        [A] Artefact copied to: ../specification_data_files/www.amwa.tv_c0f7b64/block/500F/artefacts/Types.xml
+                            <Component ID: http://www.amwa.tv/projects/rules/01/block/500F/artefacts/Types.xml>
+                        [A] Metadata Constraints as Python (refer to the 'Specification Format Definition'): Artefact copied to: ../specification_data_files/www.amwa.tv_c0f7b64/block/500F/artefacts/dm_extras.py
+                            <Component ID: http://www.amwa.tv/projects/rules/01/block/500F/artefacts/dm_extras.py>
                     [T] DM Framework
                         A <Descriptive Metadata> Class that is a Subclass of Descriptive Framework.
                         <Component ID: http://www.amwa.tv/projects/rules/01/term/DM%20Framework/>
@@ -613,7 +613,7 @@ An implementation complies with this Specification if it complies with the Compo
                                 A bitstream comprising picture, sound or data.
                                 <Component ID: http://www.amwa.tv/projects/rules/01/term/Essence/>
         [A] The <DM Framework> instance is strongly referenced from a <Constrained Static DM Track>.
-            <Component ID: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/550/artefacts/2.md>
+            <Component ID: http://www.amwa.tv/projects/rules/01/block/550/artefacts/2.md>
             [T] DM Framework
                 A <Descriptive Metadata> Class that is a Subclass of Descriptive Framework.
                 <Component ID: http://www.amwa.tv/projects/rules/01/term/DM%20Framework/>
@@ -676,13 +676,13 @@ An implementation complies with this Specification if it complies with the Compo
                 <Component ID: http://www.amwa.tv/projects/rules/01/note/051/artefacts/1.md>
     [B] AS-11 UKDPP DM (Descriptive Metadata)
         Conformance: mandatory
-        <Component ID: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/555/>
+        <Component ID: http://www.amwa.tv/projects/rules/01/block/555/>
         [A] The file contains exactly one instance of <DM_AS_11_UKDPP DM Scheme>.
-            <Component ID: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/555/artefacts/1.md>
+            <Component ID: http://www.amwa.tv/projects/rules/01/block/555/artefacts/1.md>
             [B] DM_AS_11_UKDPP DM Scheme
-                <Component ID: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/510S/>
+                <Component ID: http://www.amwa.tv/projects/rules/01/block/510S/>
                 [A] This <DM Scheme> is identified by <DM_AS_11_UKDPP> (the <DM Scheme Label>) and has the following members: <DM_AS_11_UKDPP Framework> (the <DM Framework>).
-                    <Component ID: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/510S/artefacts/1.md>
+                    <Component ID: http://www.amwa.tv/projects/rules/01/block/510S/artefacts/1.md>
                     [T] DM Scheme
                         A mechanism for defining collections of <Descriptive Metadata>.
                         <Component ID: http://www.amwa.tv/projects/rules/01/term/DM%20Scheme/>
@@ -693,22 +693,22 @@ An implementation complies with this Specification if it complies with the Compo
                                 A bitstream comprising picture, sound or data.
                                 <Component ID: http://www.amwa.tv/projects/rules/01/term/Essence/>
                     [B] DM_AS_11_UKDPP
-                        <Component ID: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/510L/>
-                        [A] Artefact copied to: ../specification_data_files/vm-1274-user.virt.ch.bbc.co.uk_c064c30/block/510L/artefacts/Labels.xml
-                            <Component ID: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/510L/artefacts/Labels.xml>
+                        <Component ID: http://www.amwa.tv/projects/rules/01/block/510L/>
+                        [A] Artefact copied to: ../specification_data_files/www.amwa.tv_c0f7b64/block/510L/artefacts/Labels.xml
+                            <Component ID: http://www.amwa.tv/projects/rules/01/block/510L/artefacts/Labels.xml>
                     [T] DM Scheme Label
                         An identifier for a <DM Scheme>. It is stored in an MXF file's Preface::DMSchemes property to signify the use of that <DM Scheme> in the file.
                         <Component ID: http://www.amwa.tv/projects/rules/01/term/DM%20Scheme%20Label/>
                     [B] DM_AS_11_UKDPP Framework
-                        <Component ID: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/510F/>
-                        [A] Artefact copied to: ../specification_data_files/vm-1274-user.virt.ch.bbc.co.uk_c064c30/block/510F/artefacts/Groups.xml
-                            <Component ID: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/510F/artefacts/Groups.xml>
-                        [A] Artefact copied to: ../specification_data_files/vm-1274-user.virt.ch.bbc.co.uk_c064c30/block/510F/artefacts/Elements.xml
-                            <Component ID: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/510F/artefacts/Elements.xml>
-                        [A] Artefact copied to: ../specification_data_files/vm-1274-user.virt.ch.bbc.co.uk_c064c30/block/510F/artefacts/Types.xml
-                            <Component ID: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/510F/artefacts/Types.xml>
-                        [A] Metadata Constraints as Python (refer to the 'Specification Format Definition'): Artefact copied to: ../specification_data_files/vm-1274-user.virt.ch.bbc.co.uk_c064c30/block/510F/artefacts/dm_extras.py
-                            <Component ID: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/510F/artefacts/dm_extras.py>
+                        <Component ID: http://www.amwa.tv/projects/rules/01/block/510F/>
+                        [A] Artefact copied to: ../specification_data_files/www.amwa.tv_c0f7b64/block/510F/artefacts/Groups.xml
+                            <Component ID: http://www.amwa.tv/projects/rules/01/block/510F/artefacts/Groups.xml>
+                        [A] Artefact copied to: ../specification_data_files/www.amwa.tv_c0f7b64/block/510F/artefacts/Elements.xml
+                            <Component ID: http://www.amwa.tv/projects/rules/01/block/510F/artefacts/Elements.xml>
+                        [A] Artefact copied to: ../specification_data_files/www.amwa.tv_c0f7b64/block/510F/artefacts/Types.xml
+                            <Component ID: http://www.amwa.tv/projects/rules/01/block/510F/artefacts/Types.xml>
+                        [A] Metadata Constraints as Python (refer to the 'Specification Format Definition'): Artefact copied to: ../specification_data_files/www.amwa.tv_c0f7b64/block/510F/artefacts/dm_extras.py
+                            <Component ID: http://www.amwa.tv/projects/rules/01/block/510F/artefacts/dm_extras.py>
                     [T] DM Framework
                         A <Descriptive Metadata> Class that is a Subclass of Descriptive Framework.
                         <Component ID: http://www.amwa.tv/projects/rules/01/term/DM%20Framework/>
@@ -719,7 +719,7 @@ An implementation complies with this Specification if it complies with the Compo
                                 A bitstream comprising picture, sound or data.
                                 <Component ID: http://www.amwa.tv/projects/rules/01/term/Essence/>
         [A] The <DM Framework> instance is strongly referenced from a <Constrained Static DM Track>.
-            <Component ID: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/555/artefacts/2.md>
+            <Component ID: http://www.amwa.tv/projects/rules/01/block/555/artefacts/2.md>
             [T] DM Framework
                 A <Descriptive Metadata> Class that is a Subclass of Descriptive Framework.
                 <Component ID: http://www.amwa.tv/projects/rules/01/term/DM%20Framework/>
@@ -1377,9 +1377,9 @@ An implementation complies with this Specification if it complies with the Compo
                     <Component ID: http://vm-1274-user.virt.ch.bbc.co.uk/as/note/019/artefacts/1.md>
         [B] No Closed Captions
             Conformance: mandatory
-            <Component ID: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/300/>
+            <Component ID: http://www.amwa.tv/projects/rules/01/block/300/>
             [A] The file does not contain closed captions.
-                <Component ID: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/300/artefacts/1.md>
+                <Component ID: http://www.amwa.tv/projects/rules/01/block/300/artefacts/1.md>
     [B] Miscellaneous DM constraints (Descriptive Metadata)
         Conformance: mandatory
         <Component ID: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/989/>

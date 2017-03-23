@@ -1,4 +1,4 @@
-# **[Work In Progress]** AS-11 UK DPP HD (MXF Program Contribution - UK DPP HD)
+# **[Specification]** AS-11 UK DPP HD (MXF Program Contribution - UK DPP HD)
 
 |*Important links*| |
 |-----------------|-|
@@ -64,7 +64,7 @@ An implementation complies with this Specification if it complies with the Compo
 # The Specification Blocks Tree
 
 [B] File Format
-    <Component ID: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/FF_3/>
+    <Component ID: http://www.amwa.tv/projects/rules/01/block/FF_3/>
     [B] Core MXF constraints
         Conformance: mandatory
         <Component ID: http://www.amwa.tv/projects/rules/01/block/MXF_Core/>
@@ -343,9 +343,9 @@ An implementation complies with this Specification if it complies with the Compo
                 <Component ID: http://www.amwa.tv/projects/rules/01/note/007/artefacts/1.md>
     [B] 1080i25 Class 100 AVC mapped with RP 2008
         Conformance: mandatory
-        <Component ID: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/P001/>
+        <Component ID: http://www.amwa.tv/projects/rules/01/block/P001/>
         [A] The file includes <RP 2027 Class 100 Picture Essence at 1080i25 with 10 bit samples> and it is mapped to the file as specified in <SMPTE RP 2008:2008>.
-            <Component ID: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/P001/artefacts/1.md>
+            <Component ID: http://www.amwa.tv/projects/rules/01/block/P001/artefacts/1.md>
             [B] RP 2027 Class 100 Picture Essence at 1080i25 with 10 bit samples
                 <Component ID: http://www.amwa.tv/projects/rules/01/block/PE1/>
                 [A] The <Picture Essence> conforms to <SMPTE RP 2027:2012> where: "Class" is "100"; "Television system" is "1080 line system"; "Frame Frequency" is "50i"; "The sequence parameter set and the picture parameter set shall be placed after the access unit delimiter at the beginning of every coded frame".
@@ -381,9 +381,9 @@ An implementation complies with this Specification if it complies with the Compo
                         [R] SMPTE RP 2027:2012
                             <Component ID: http://www.amwa.tv/projects/rules/01/external_reference_revision/SMPTE%20RP%202027-2012/>
             [R] SMPTE RP 2008:2008
-                <Component ID: http://vm-1274-user.virt.ch.bbc.co.uk/as/external_reference_revision/SMPTE%20RP%202008-2008/>
+                <Component ID: http://www.amwa.tv/projects/rules/01/external_reference_revision/SMPTE%20RP%202008-2008/>
         [A] The <Material Package> contains exactly one <Picture Track>.
-            <Component ID: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/P001/artefacts/2.md>
+            <Component ID: http://www.amwa.tv/projects/rules/01/block/P001/artefacts/2.md>
             [T] Material Package
                 An MXF data structure that describe an output timeline of the file.
                 <Component ID: http://www.amwa.tv/projects/rules/01/term/Material%20Package/>
@@ -406,19 +406,19 @@ An implementation complies with this Specification if it complies with the Compo
                         A bitstream comprising picture, sound or data.
                         <Component ID: http://www.amwa.tv/projects/rules/01/term/Essence/>
         [N] Stored Height
-            <Component ID: http://vm-1274-user.virt.ch.bbc.co.uk/as/note/017/>
+            <Component ID: http://www.amwa.tv/projects/rules/01/note/017/>
             [A] Values of 540 and 544 have been observed in real files for 'Stored Height' in the 'MPEG Video Descriptor'.
                 
                 If the value for 'Display Height' in the 'MPEG Video Descriptor' is not set, the default value is that of 'Sampled Height', which in turn defaults to the value of 'Stored Height'. 'Display Height' needs to either be set to, or default to 540.
-                <Component ID: http://vm-1274-user.virt.ch.bbc.co.uk/as/note/017/artefacts/1.md>
+                <Component ID: http://www.amwa.tv/projects/rules/01/note/017/artefacts/1.md>
     [B] 24-bit, 48 kHz, uncompressed PCM, mapped with ST 382
         Conformance: mandatory
-        <Component ID: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/S001/>
+        <Component ID: http://www.amwa.tv/projects/rules/01/block/S001/>
         [B] One audio channel per Track
             Conformance: mandatory
-            <Component ID: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/220/>
+            <Component ID: http://www.amwa.tv/projects/rules/01/block/220/>
             [A] Each <Sound Track> represents exactly one <Audio Channel>.
-                <Component ID: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/220/artefacts/1.md>
+                <Component ID: http://www.amwa.tv/projects/rules/01/block/220/artefacts/1.md>
                 [T] Sound Track
                     A type of <Essence Track> that references <Sound Essence>.
                     <Component ID: http://www.amwa.tv/projects/rules/01/term/Sound%20Track/>
@@ -441,9 +441,9 @@ An implementation complies with this Specification if it complies with the Compo
                     A distinct collection of sequenced audio samples that are intended for delivery to a single loudspeaker or other reproduction device.
                     <Component ID: http://www.amwa.tv/projects/rules/01/term/Audio%20Channel/>
             [N] Implementation Notes
-                <Component ID: http://vm-1274-user.virt.ch.bbc.co.uk/as/note/005/>
+                <Component ID: http://www.amwa.tv/projects/rules/01/note/005/>
                 [A] For example, this means that in the case of stereo audio, the audio data must be split between two MXF <Sound Track>s (one <Sound Track> for each of the two <Audio Channel>s).
-                    <Component ID: http://vm-1274-user.virt.ch.bbc.co.uk/as/note/005/artefacts/1.md>
+                    <Component ID: http://www.amwa.tv/projects/rules/01/note/005/artefacts/1.md>
                     [T] Sound Track
                         A type of <Essence Track> that references <Sound Essence>.
                         <Component ID: http://www.amwa.tv/projects/rules/01/term/Sound%20Track/>
@@ -489,9 +489,9 @@ An implementation complies with this Specification if it complies with the Compo
                         <Component ID: http://www.amwa.tv/projects/rules/01/external_reference_revision/SMPTE%20ST%20382-2007/>
         [B] ST 382 mapping
             Conformance: mandatory
-            <Component ID: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/240/>
+            <Component ID: http://www.amwa.tv/projects/rules/01/block/240/>
             [A] The <Sound Essence> is mapped to the file using any applicable method from <SMPTE ST 382:2007>.
-                <Component ID: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/240/artefacts/1.md>
+                <Component ID: http://www.amwa.tv/projects/rules/01/block/240/artefacts/1.md>
                 [T] Sound Essence
                     A type of <Essence> containing sound data.
                     <Component ID: http://www.amwa.tv/projects/rules/01/term/Sound%20Essence/>
@@ -501,16 +501,16 @@ An implementation complies with this Specification if it complies with the Compo
                 [R] SMPTE ST 382:2007
                     <Component ID: http://www.amwa.tv/projects/rules/01/external_reference_revision/SMPTE%20ST%20382-2007/>
             [N] Implementation Notes
-                <Component ID: http://vm-1274-user.virt.ch.bbc.co.uk/as/note/006/>
+                <Component ID: http://www.amwa.tv/projects/rules/01/note/006/>
                 [A] <SMPTE ST 382:2007> describes mapping for AES3 and BWF. In the case of uncompressed PCM, as used here, the mapping for the audio sample data is the same for the AES3 and BWF mappings.
-                    <Component ID: http://vm-1274-user.virt.ch.bbc.co.uk/as/note/006/artefacts/1.md>
+                    <Component ID: http://www.amwa.tv/projects/rules/01/note/006/artefacts/1.md>
                     [R] SMPTE ST 382:2007
                         <Component ID: http://www.amwa.tv/projects/rules/01/external_reference_revision/SMPTE%20ST%20382-2007/>
     [B] Simple sound track numbering
         Conformance: mandatory
-        <Component ID: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/SM1/>
+        <Component ID: http://www.amwa.tv/projects/rules/01/block/SM1/>
         [A] Each <Sound Track> in the <Material Package> has a value for "Track Number" that is unique within the set of <Sound Track>s in the <Material Package>. This value meets the following constraints: minimum equal to 1; maximum equal to the count of <Sound Track>s in the <Material Package>.
-            <Component ID: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/SM1/artefacts/250.md>
+            <Component ID: http://www.amwa.tv/projects/rules/01/block/SM1/artefacts/250.md>
             [T] Sound Track
                 A type of <Essence Track> that references <Sound Essence>.
                 <Component ID: http://www.amwa.tv/projects/rules/01/term/Sound%20Track/>
@@ -533,7 +533,7 @@ An implementation complies with this Specification if it complies with the Compo
                 An MXF data structure that describe an output timeline of the file.
                 <Component ID: http://www.amwa.tv/projects/rules/01/term/Material%20Package/>
         [A] The "Track Number" of each <Sound Track> in the <Material Package> is the "Audio Track Number" defined in <EBU R 48> and <EBU R 123>.
-            <Component ID: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/SM1/artefacts/260.md>
+            <Component ID: http://www.amwa.tv/projects/rules/01/block/SM1/artefacts/260.md>
             [T] Sound Track
                 A type of <Essence Track> that references <Sound Essence>.
                 <Component ID: http://www.amwa.tv/projects/rules/01/term/Sound%20Track/>
@@ -560,14 +560,14 @@ An implementation complies with this Specification if it complies with the Compo
             [R] EBU R 123
                 <Component ID: http://www.amwa.tv/projects/rules/01/external_reference_revision/EBU%20R%20123-2009/>
         [N] Implementation Notes
-            <Component ID: http://vm-1274-user.virt.ch.bbc.co.uk/as/note/010/>
+            <Component ID: http://www.amwa.tv/projects/rules/01/note/010/>
             [A] This really does matter because of the separation of the physical from the logical in MXF files. Without this, decoders can only identify tracks by their track ID or the physical order in the file, which is not otherwise constrained in MXF.
                 
                 This applies to Material Package Sound Tracks, not those in the Source Package.
                 
                 This differs from the suggestion in Annex B of SMPTE ST 377-1:2011 that the Track Number be set to zero for all Material Package Tracks.
                 
-                <Component ID: http://vm-1274-user.virt.ch.bbc.co.uk/as/note/010/artefacts/1.md>
+                <Component ID: http://www.amwa.tv/projects/rules/01/note/010/artefacts/1.md>
     [B] AS-11 Core DM (Descriptive Metadata)
         Conformance: mandatory
         <Component ID: http://www.amwa.tv/projects/rules/01/block/550/>
@@ -1286,7 +1286,7 @@ An implementation complies with this Specification if it complies with the Compo
                         <Component ID: http://www.amwa.tv/projects/rules/01/term/Material%20Package/>
     [B] Miscellaneous Content Constraints
         Conformance: mandatory
-        <Component ID: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/999/>
+        <Component ID: http://www.amwa.tv/projects/rules/01/block/999/>
         [B] AFD present
             Conformance: mandatory
             <Component ID: http://www.amwa.tv/projects/rules/01/block/350/>
@@ -1327,20 +1327,20 @@ An implementation complies with this Specification if it complies with the Compo
                     <Component ID: http://www.amwa.tv/projects/rules/01/note/037/artefacts/1.md>
         [B] 4 or 16 audio channels
             Conformance: mandatory
-            <Component ID: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/210/>
+            <Component ID: http://www.amwa.tv/projects/rules/01/block/210/>
             [A] There are either exactly 4 or exactly 16 <Audio Channel>s in the file.
-                <Component ID: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/210/artefacts/1.md>
+                <Component ID: http://www.amwa.tv/projects/rules/01/block/210/artefacts/1.md>
                 [T] Audio Channel
                     A distinct collection of sequenced audio samples that are intended for delivery to a single loudspeaker or other reproduction device.
                     <Component ID: http://www.amwa.tv/projects/rules/01/term/Audio%20Channel/>
         [B] R48 2a customisation
             Conformance: mandatory
-            <Component ID: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/270/>
+            <Component ID: http://www.amwa.tv/projects/rules/01/block/270/>
             [A] The number of <Audio Channel>s described by the scheme identified by the value of AS_11_Audio_Track_Layout is equal to the number of <Audio Channel>s in the file except that a value of Layout_EBU_R_48_2a is permitted when all of the following are true:
                 
                 * there are four <Audio Channel>s in the file
                 * for each <Sound Track> in the <Material Package> with a "Track Number" of 3 or 4 the <Sound Essence> contains digital silence
-                <Component ID: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/270/artefacts/1.md>
+                <Component ID: http://www.amwa.tv/projects/rules/01/block/270/artefacts/1.md>
                 [T] Audio Channel
                     A distinct collection of sequenced audio samples that are intended for delivery to a single loudspeaker or other reproduction device.
                     <Component ID: http://www.amwa.tv/projects/rules/01/term/Audio%20Channel/>
@@ -1372,9 +1372,9 @@ An implementation complies with this Specification if it complies with the Compo
                         A bitstream comprising picture, sound or data.
                         <Component ID: http://www.amwa.tv/projects/rules/01/term/Essence/>
             [N] Implementation Notes
-                <Component ID: http://vm-1274-user.virt.ch.bbc.co.uk/as/note/019/>
+                <Component ID: http://www.amwa.tv/projects/rules/01/note/019/>
                 [A] MXF Filler cannot be used here to represent silence.
-                    <Component ID: http://vm-1274-user.virt.ch.bbc.co.uk/as/note/019/artefacts/1.md>
+                    <Component ID: http://www.amwa.tv/projects/rules/01/note/019/artefacts/1.md>
         [B] No Closed Captions
             Conformance: mandatory
             <Component ID: http://www.amwa.tv/projects/rules/01/block/300/>
@@ -1382,13 +1382,13 @@ An implementation complies with this Specification if it complies with the Compo
                 <Component ID: http://www.amwa.tv/projects/rules/01/block/300/artefacts/1.md>
     [B] Miscellaneous DM constraints (Descriptive Metadata)
         Conformance: mandatory
-        <Component ID: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/989/>
-        [A] Metadata Constraints as Python (refer to the 'Specification Format Definition'): Artefact copied to: ../specification_data_files/vm-1274-user.virt.ch.bbc.co.uk_c064c30/block/989/artefacts/audio_track_layout.py
-            <Component ID: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/989/artefacts/audio_track_layout.py>
-        [A] Metadata Constraints as Python (refer to the 'Specification Format Definition'): Artefact copied to: ../specification_data_files/vm-1274-user.virt.ch.bbc.co.uk_c064c30/block/989/artefacts/shim.py
-            <Component ID: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/989/artefacts/shim.py>
-        [A] Metadata Constraints as Python (refer to the 'Specification Format Definition'): Artefact copied to: ../specification_data_files/vm-1274-user.virt.ch.bbc.co.uk_c064c30/block/989/artefacts/picture_ratio.py
-            <Component ID: http://vm-1274-user.virt.ch.bbc.co.uk/as/block/989/artefacts/picture_ratio.py>
+        <Component ID: http://www.amwa.tv/projects/rules/01/block/989/>
+        [A] Metadata Constraints as Python (refer to the 'Specification Format Definition'): Artefact copied to: ../specification_data_files/www.amwa.tv_c0f7b64/block/989/artefacts/audio_track_layout.py
+            <Component ID: http://www.amwa.tv/projects/rules/01/block/989/artefacts/audio_track_layout.py>
+        [A] Metadata Constraints as Python (refer to the 'Specification Format Definition'): Artefact copied to: ../specification_data_files/www.amwa.tv_c0f7b64/block/989/artefacts/shim.py
+            <Component ID: http://www.amwa.tv/projects/rules/01/block/989/artefacts/shim.py>
+        [A] Metadata Constraints as Python (refer to the 'Specification Format Definition'): Artefact copied to: ../specification_data_files/www.amwa.tv_c0f7b64/block/989/artefacts/picture_ratio.py
+            <Component ID: http://www.amwa.tv/projects/rules/01/block/989/artefacts/picture_ratio.py>
 
 
 

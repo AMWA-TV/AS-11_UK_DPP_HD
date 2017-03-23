@@ -1,4 +1,4 @@
-# **[Work In Progress]** AS-11 UK DPP HD (MXF Program Contribution - UK DPP HD)
+# **[Specification]** AS-11 UK DPP HD (MXF Program Contribution - UK DPP HD)
 
 |*Important links*| |
 |-----------------|-|
@@ -349,9 +349,9 @@ An implementation complies with this Specification if it complies with the Compo
             [A] The file does not contain closed captions.
     [B] Miscellaneous DM constraints (Descriptive Metadata)
         Conformance: mandatory
-        [A] Metadata Constraints as Python (refer to the 'Specification Format Definition'): Artefact copied to: ../specification_data_files/vm-1274-user.virt.ch.bbc.co.uk_c064c30/block/989/artefacts/audio_track_layout.py
-        [A] Metadata Constraints as Python (refer to the 'Specification Format Definition'): Artefact copied to: ../specification_data_files/vm-1274-user.virt.ch.bbc.co.uk_c064c30/block/989/artefacts/shim.py
-        [A] Metadata Constraints as Python (refer to the 'Specification Format Definition'): Artefact copied to: ../specification_data_files/vm-1274-user.virt.ch.bbc.co.uk_c064c30/block/989/artefacts/picture_ratio.py
+        [A] Metadata Constraints as Python (refer to the 'Specification Format Definition'): Artefact copied to: ../specification_data_files/www.amwa.tv_c0f7b64/block/989/artefacts/audio_track_layout.py
+        [A] Metadata Constraints as Python (refer to the 'Specification Format Definition'): Artefact copied to: ../specification_data_files/www.amwa.tv_c0f7b64/block/989/artefacts/shim.py
+        [A] Metadata Constraints as Python (refer to the 'Specification Format Definition'): Artefact copied to: ../specification_data_files/www.amwa.tv_c0f7b64/block/989/artefacts/picture_ratio.py
 
 
 

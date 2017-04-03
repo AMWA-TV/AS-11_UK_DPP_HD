@@ -6,7 +6,7 @@
         }, 
         {
             "repo_url": "git@gitlab.com:mglanville/amwa-specs.git", 
-            "commit": "b1af76266c53df3478e46905425d66275054bdc8"
+            "commit": "1416a185c412b1ad76def67b48caa462ca80e5f9"
         }, 
         {
             "repo_url": "git@gitlab.com:thomas.heritage/rules-processor.git", 

@@ -5,7 +5,7 @@ This repository contains the full details of this AMWA Specification. For the la
 ## Getting Started
 
 The principal rendering / view of the Specification is a web page that contains contextual links to other files in this repository. To view this web page, either:
-* Visit the AMWA [web page for the Specification](http://amwa.tv/projects/AS-11-UK-DPP.shtml) to view the web page online.
+* Visit the AMWA [web page for the Specification](http://amwa.tv/projects/AS-11-UK-DPP-HD.shtml) to view the web page online.
 * Alternatively, clone or download this repository and open [AMWA_AS_11_UK_DPP_HD.html](AMWA_AS_11_UK_DPP_HD.html).
 
 ## Specification Development and Implementation

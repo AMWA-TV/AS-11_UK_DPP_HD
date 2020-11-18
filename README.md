@@ -1,6 +1,6 @@
 # **[Specification (Stable)]** AS-11 UK DPP HD (MXF Program Contribution - UK DPP HD)
 
-This repository contains the full details of this [AMWA Specification](http://amwa.tv/projects/AS-11-UK-DPP-HD/). For the latest version of this repository please refer to [its GitHub project](https://github.com/AMWA-TV/AS-11_UK_DPP_HD/).
+This repository contains the full details of this [AMWA Specification](https://www.amwa.tv/as-11-uk-dpp-hd/). For the latest version of this repository please refer to [its GitHub project](https://github.com/AMWA-TV/AS-11_UK_DPP_HD/).
 
 ## Getting Started
 
